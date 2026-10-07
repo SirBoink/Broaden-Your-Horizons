@@ -1,0 +1,109 @@
+{
+  "name": "relaxed_off_target_temporal_bands",
+  "source_candidates_json": "/home/vishnu/Documents/IITM_CNS_Lab/MultiscaleMotorChunking/data/discovery/isolated_reaches/relaxed_off_target_candidates.json",
+  "source_reaches_npz": "/home/vishnu/Documents/IITM_CNS_Lab/MultiscaleMotorChunking/data/discovery/isolated_reaches/reaches.npz",
+  "termination_radius_m": 0.02,
+  "timeout_steps": 30,
+  "options": [
+    {
+      "id": "off_target_A",
+      "choice": 1,
+      "source_trial": 0,
+      "source_cycle": 1,
+      "target_id": 0,
+      "boundary_step": 3,
+      "peak_band": 1,
+      "gamma_pair": [
+        0.393282383509073,
+        0.44307073057863544
+      ],
+      "gamma": 0.41817655704385426,
+      "xy_m": [
+        -0.01238982379436493,
+        0.4555085301399231
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "off_target_B",
+      "choice": 2,
+      "source_trial": 5,
+      "source_cycle": 1,
+      "target_id": 1,
+      "boundary_step": 6,
+      "peak_band": 10,
+      "gamma_pair": [
+        0.7612452013655745,
+        0.7882382135289385
+      ],
+      "gamma": 0.7747417074472565,
+      "xy_m": [
+        -0.0016438215970993042,
+        0.4253338575363159
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "off_target_C",
+      "choice": 3,
+      "source_trial": 17,
+      "source_cycle": 3,
+      "target_id": 3,
+      "boundary_step": 6,
+      "peak_band": 6,
+      "gamma_pair": [
+        0.6242284582403211,
+        0.6629555610485945
+      ],
+      "gamma": 0.6435920096444578,
+      "xy_m": [
+        0.049442633986473083,
+        0.46065759658813477
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "off_target_D",
+      "choice": 4,
+      "source_trial": 17,
+      "source_cycle": 3,
+      "target_id": 3,
+      "boundary_step": 9,
+      "peak_band": 33,
+      "gamma_pair": [
+        0.9882980802784407,
+        0.989785109384723
+      ],
+      "gamma": 0.9890415948315818,
+      "xy_m": [
+        -0.0024340152740478516,
+        0.45354849100112915
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "off_target_E",
+      "choice": 5,
+      "source_trial": 2,
+      "source_cycle": 1,
+      "target_id": 7,
+      "boundary_step": 9,
+      "peak_band": 6,
+      "gamma_pair": [
+        0.6242284582403211,
+        0.6629555610485945
+      ],
+      "gamma": 0.6435920096444578,
+      "xy_m": [
+        0.006046116352081299,
+        0.4983327090740204
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    }
+  ]
+}

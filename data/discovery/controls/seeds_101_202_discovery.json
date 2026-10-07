@@ -1,0 +1,2174 @@
+{
+  "seed_101": {
+    "checkpoint": ".\\checkpoints/base_policy_101\\best_model.zip",
+    "total_events": 164,
+    "off_target_count": 152,
+    "elapsed_seconds": 357.0,
+    "candidates": [
+      {
+        "trial": 0,
+        "target": 0,
+        "step": 2,
+        "time_ms": 20,
+        "phase": 0.18181818181818182,
+        "xy_m": [
+          -0.01697082817554474,
+          0.45395684242248535
+        ],
+        "nearest_target_mm": 99.99430179595947,
+        "matched_subgoal": "A",
+        "dist_to_canonical_mm": 4.824293266313168
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 713,
+        "time_ms": 7130,
+        "phase": 0.46601307189542485,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 815,
+        "time_ms": 8150,
+        "phase": 0.5326797385620915,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 930,
+        "time_ms": 9300,
+        "phase": 0.6078431372549019,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1000,
+        "time_ms": 10000,
+        "phase": 0.6535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1091,
+        "time_ms": 10910,
+        "phase": 0.7130718954248366,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1208,
+        "time_ms": 12080,
+        "phase": 0.7895424836601307,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 21,
+        "target": 1,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 842,
+        "time_ms": 8420,
+        "phase": 0.550326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 930,
+        "time_ms": 9300,
+        "phase": 0.6078431372549019,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1000,
+        "time_ms": 10000,
+        "phase": 0.6535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1091,
+        "time_ms": 10910,
+        "phase": 0.7130718954248366,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1208,
+        "time_ms": 12080,
+        "phase": 0.7895424836601307,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 22,
+        "target": 2,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 9,
+        "target": 3,
+        "step": 6,
+        "time_ms": 60,
+        "phase": 0.35294117647058826,
+        "xy_m": [
+          0.049883320927619934,
+          0.44145119190216064
+        ],
+        "nearest_target_mm": 35.42877361178398,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 19.25487502702942
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 713,
+        "time_ms": 7130,
+        "phase": 0.46601307189542485,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 815,
+        "time_ms": 8150,
+        "phase": 0.5326797385620915,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 930,
+        "time_ms": 9300,
+        "phase": 0.6078431372549019,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1000,
+        "time_ms": 10000,
+        "phase": 0.6535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1091,
+        "time_ms": 10910,
+        "phase": 0.7130718954248366,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1208,
+        "time_ms": 12080,
+        "phase": 0.7895424836601307,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 17,
+        "target": 3,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 713,
+        "time_ms": 7130,
+        "phase": 0.46601307189542485,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 815,
+        "time_ms": 8150,
+        "phase": 0.5326797385620915,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 930,
+        "time_ms": 9300,
+        "phase": 0.6078431372549019,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1000,
+        "time_ms": 10000,
+        "phase": 0.6535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1091,
+        "time_ms": 10910,
+        "phase": 0.7130718954248366,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1208,
+        "time_ms": 12080,
+        "phase": 0.7895424836601307,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 23,
+        "target": 4,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 713,
+        "time_ms": 7130,
+        "phase": 0.46601307189542485,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1097,
+        "time_ms": 10970,
+        "phase": 0.7169934640522876,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1224,
+        "time_ms": 12240,
+        "phase": 0.8,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 19,
+        "target": 5,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 713,
+        "time_ms": 7130,
+        "phase": 0.46601307189542485,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 815,
+        "time_ms": 8150,
+        "phase": 0.5326797385620915,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 930,
+        "time_ms": 9300,
+        "phase": 0.6078431372549019,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1000,
+        "time_ms": 10000,
+        "phase": 0.6535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1091,
+        "time_ms": 10910,
+        "phase": 0.7130718954248366,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1208,
+        "time_ms": 12080,
+        "phase": 0.7895424836601307,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 20,
+        "target": 6,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 713,
+        "time_ms": 7130,
+        "phase": 0.46601307189542485,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 771,
+        "time_ms": 7710,
+        "phase": 0.503921568627451,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 815,
+        "time_ms": 8150,
+        "phase": 0.5326797385620915,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 930,
+        "time_ms": 9300,
+        "phase": 0.6078431372549019,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1000,
+        "time_ms": 10000,
+        "phase": 0.6535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1091,
+        "time_ms": 10910,
+        "phase": 0.7130718954248366,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1150,
+        "time_ms": 11500,
+        "phase": 0.7516339869281046,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1202,
+        "time_ms": 12020,
+        "phase": 0.7856209150326797,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1208,
+        "time_ms": 12080,
+        "phase": 0.7895424836601307,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1247,
+        "time_ms": 12470,
+        "phase": 0.8150326797385621,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1288,
+        "time_ms": 12880,
+        "phase": 0.8418300653594771,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1293,
+        "time_ms": 12930,
+        "phase": 0.8450980392156863,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1365,
+        "time_ms": 13650,
+        "phase": 0.8921568627450981,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1416,
+        "time_ms": 14160,
+        "phase": 0.9254901960784314,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1425,
+        "time_ms": 14250,
+        "phase": 0.9313725490196079,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1436,
+        "time_ms": 14360,
+        "phase": 0.938562091503268,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1459,
+        "time_ms": 14590,
+        "phase": 0.9535947712418301,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1462,
+        "time_ms": 14620,
+        "phase": 0.9555555555555556,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1492,
+        "time_ms": 14920,
+        "phase": 0.9751633986928104,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1506,
+        "time_ms": 15060,
+        "phase": 0.984313725490196,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1515,
+        "time_ms": 15150,
+        "phase": 0.9901960784313726,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      },
+      {
+        "trial": 18,
+        "target": 7,
+        "step": 1529,
+        "time_ms": 15290,
+        "phase": 0.9993464052287582,
+        "xy_m": [
+          0.07552793622016907,
+          0.4030109643936157
+        ],
+        "nearest_target_mm": 29.413141310214996,
+        "matched_subgoal": "C",
+        "dist_to_canonical_mm": 63.33003932037225
+      }
+    ]
+  },
+  "seed_202": {
+    "checkpoint": ".\\checkpoints/base_policy_202\\best_model.zip",
+    "total_events": 9,
+    "off_target_count": 2,
+    "elapsed_seconds": 262.9,
+    "candidates": [
+      {
+        "trial": 0,
+        "target": 0,
+        "step": 4,
+        "time_ms": 40,
+        "phase": 0.3076923076923077,
+        "xy_m": [
+          -0.00888371467590332,
+          0.4542708396911621
+        ],
+        "nearest_target_mm": 91.91365540027618,
+        "matched_subgoal": "A",
+        "dist_to_canonical_mm": 3.7249292000359127
+      },
+      {
+        "trial": 6,
+        "target": 2,
+        "step": 7,
+        "time_ms": 70,
+        "phase": 0.7777777777777778,
+        "xy_m": [
+          0.008840277791023254,
+          0.5386910438537598
+        ],
+        "nearest_target_mm": 29.990307986736298,
+        "matched_subgoal": "E",
+        "dist_to_canonical_mm": 40.49078415549053
+      }
+    ]
+  }
+}

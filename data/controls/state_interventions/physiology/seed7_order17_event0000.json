@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "policy_seed": 7,
+    "order": 17,
+    "context_seed": 42,
+    "posture": 1,
+    "q": [
+      44.02579935740488,
+      89.16132867636409
+    ],
+    "invocation": 0,
+    "choice": 5,
+    "start_step": 28
+  },
+  "status": "complete",
+  "condition_names": [
+    "sham",
+    "base_activation",
+    "base_velocity"
+  ],
+  "progress_500ms_m": [
+    0.07804019004106522,
+    0.07804019004106522,
+    0.05309421569108963
+  ],
+  "outcomes": [
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 0.5,
+      "targets_completed": 2,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 50,
+      "method": "base",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 0.5,
+      "targets_completed": 2,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 50,
+      "method": "base",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 0.5,
+      "targets_completed": 1,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 50,
+      "method": "base",
+      "controller": "base"
+    }
+  ],
+  "reason": "waypoint",
+  "donor_clock": "Same elapsed time after identical invocation start",
+  "interpretation": "State-intervention sensitivity; not pure physiological mediation"
+}

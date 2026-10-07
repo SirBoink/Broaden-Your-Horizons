@@ -1,0 +1,694 @@
+[
+  {
+    "sequence": "Sequence A (Hard Chords)",
+    "seq": [
+      0,
+      1,
+      6,
+      3,
+      7,
+      4,
+      2,
+      5
+    ],
+    "num_seeds": 20,
+    "base_sac": {
+      "success_rate": 0.15,
+      "mean_steps": 731.7,
+      "runs": [
+        {
+          "seed": 0,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 1,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 2,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 3,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 4,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 5,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 6,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 7,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 8,
+          "steps": 343,
+          "success": true
+        },
+        {
+          "seed": 9,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 10,
+          "steps": 355,
+          "success": true
+        },
+        {
+          "seed": 11,
+          "steps": 336,
+          "success": true
+        },
+        {
+          "seed": 12,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 13,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 14,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 15,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 16,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 17,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 18,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 19,
+          "steps": 800,
+          "success": false
+        }
+      ]
+    },
+    "systems": {
+      "Predictive_A_E": {
+        "label": "Predictive A–E Subgoals",
+        "success_rate": 0.95,
+        "mean_steps": 453.55,
+        "gain_over_base": 0.8,
+        "gain_95ci": [
+          0.6,
+          0.95
+        ],
+        "runs": [
+          {
+            "seed": 0,
+            "steps": 375,
+            "success": true
+          },
+          {
+            "seed": 1,
+            "steps": 385,
+            "success": true
+          },
+          {
+            "seed": 2,
+            "steps": 349,
+            "success": true
+          },
+          {
+            "seed": 3,
+            "steps": 349,
+            "success": true
+          },
+          {
+            "seed": 4,
+            "steps": 377,
+            "success": true
+          },
+          {
+            "seed": 5,
+            "steps": 397,
+            "success": true
+          },
+          {
+            "seed": 6,
+            "steps": 345,
+            "success": true
+          },
+          {
+            "seed": 7,
+            "steps": 597,
+            "success": true
+          },
+          {
+            "seed": 8,
+            "steps": 394,
+            "success": true
+          },
+          {
+            "seed": 9,
+            "steps": 383,
+            "success": true
+          },
+          {
+            "seed": 10,
+            "steps": 358,
+            "success": true
+          },
+          {
+            "seed": 11,
+            "steps": 368,
+            "success": true
+          },
+          {
+            "seed": 12,
+            "steps": 800,
+            "success": false
+          },
+          {
+            "seed": 13,
+            "steps": 323,
+            "success": true
+          },
+          {
+            "seed": 14,
+            "steps": 463,
+            "success": true
+          },
+          {
+            "seed": 15,
+            "steps": 393,
+            "success": true
+          },
+          {
+            "seed": 16,
+            "steps": 786,
+            "success": true
+          },
+          {
+            "seed": 17,
+            "steps": 711,
+            "success": true
+          },
+          {
+            "seed": 18,
+            "steps": 536,
+            "success": true
+          },
+          {
+            "seed": 19,
+            "steps": 382,
+            "success": true
+          }
+        ]
+      },
+      "Spatial_Grid_Control": {
+        "label": "Spatial Grid Waypoint Control",
+        "success_rate": 1.0,
+        "mean_steps": 399.45,
+        "gain_over_base": 0.85,
+        "gain_95ci": [
+          0.7,
+          1.0
+        ],
+        "runs": [
+          {
+            "seed": 0,
+            "steps": 325,
+            "success": true
+          },
+          {
+            "seed": 1,
+            "steps": 368,
+            "success": true
+          },
+          {
+            "seed": 2,
+            "steps": 373,
+            "success": true
+          },
+          {
+            "seed": 3,
+            "steps": 384,
+            "success": true
+          },
+          {
+            "seed": 4,
+            "steps": 558,
+            "success": true
+          },
+          {
+            "seed": 5,
+            "steps": 689,
+            "success": true
+          },
+          {
+            "seed": 6,
+            "steps": 454,
+            "success": true
+          },
+          {
+            "seed": 7,
+            "steps": 332,
+            "success": true
+          },
+          {
+            "seed": 8,
+            "steps": 423,
+            "success": true
+          },
+          {
+            "seed": 9,
+            "steps": 340,
+            "success": true
+          },
+          {
+            "seed": 10,
+            "steps": 372,
+            "success": true
+          },
+          {
+            "seed": 11,
+            "steps": 315,
+            "success": true
+          },
+          {
+            "seed": 12,
+            "steps": 404,
+            "success": true
+          },
+          {
+            "seed": 13,
+            "steps": 351,
+            "success": true
+          },
+          {
+            "seed": 14,
+            "steps": 284,
+            "success": true
+          },
+          {
+            "seed": 15,
+            "steps": 271,
+            "success": true
+          },
+          {
+            "seed": 16,
+            "steps": 345,
+            "success": true
+          },
+          {
+            "seed": 17,
+            "steps": 522,
+            "success": true
+          },
+          {
+            "seed": 18,
+            "steps": 478,
+            "success": true
+          },
+          {
+            "seed": 19,
+            "steps": 401,
+            "success": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sequence": "Sequence B (Diametric Zig-Zag)",
+    "seq": [
+      0,
+      7,
+      4,
+      1,
+      6,
+      3,
+      7,
+      1
+    ],
+    "num_seeds": 20,
+    "base_sac": {
+      "success_rate": 0.1,
+      "mean_steps": 752.5,
+      "runs": [
+        {
+          "seed": 0,
+          "steps": 363,
+          "success": true
+        },
+        {
+          "seed": 1,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 2,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 3,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 4,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 5,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 6,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 7,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 8,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 9,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 10,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 11,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 12,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 13,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 14,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 15,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 16,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 17,
+          "steps": 800,
+          "success": false
+        },
+        {
+          "seed": 18,
+          "steps": 287,
+          "success": true
+        },
+        {
+          "seed": 19,
+          "steps": 800,
+          "success": false
+        }
+      ]
+    },
+    "systems": {
+      "Predictive_A_E": {
+        "label": "Predictive A–E Subgoals",
+        "success_rate": 0.9,
+        "mean_steps": 395.7,
+        "gain_over_base": 0.8,
+        "gain_95ci": [
+          0.55,
+          1.0
+        ],
+        "runs": [
+          {
+            "seed": 0,
+            "steps": 350,
+            "success": true
+          },
+          {
+            "seed": 1,
+            "steps": 318,
+            "success": true
+          },
+          {
+            "seed": 2,
+            "steps": 280,
+            "success": true
+          },
+          {
+            "seed": 3,
+            "steps": 309,
+            "success": true
+          },
+          {
+            "seed": 4,
+            "steps": 800,
+            "success": false
+          },
+          {
+            "seed": 5,
+            "steps": 311,
+            "success": true
+          },
+          {
+            "seed": 6,
+            "steps": 299,
+            "success": true
+          },
+          {
+            "seed": 7,
+            "steps": 363,
+            "success": true
+          },
+          {
+            "seed": 8,
+            "steps": 445,
+            "success": true
+          },
+          {
+            "seed": 9,
+            "steps": 276,
+            "success": true
+          },
+          {
+            "seed": 10,
+            "steps": 325,
+            "success": true
+          },
+          {
+            "seed": 11,
+            "steps": 313,
+            "success": true
+          },
+          {
+            "seed": 12,
+            "steps": 271,
+            "success": true
+          },
+          {
+            "seed": 13,
+            "steps": 319,
+            "success": true
+          },
+          {
+            "seed": 14,
+            "steps": 548,
+            "success": true
+          },
+          {
+            "seed": 15,
+            "steps": 582,
+            "success": true
+          },
+          {
+            "seed": 16,
+            "steps": 354,
+            "success": true
+          },
+          {
+            "seed": 17,
+            "steps": 337,
+            "success": true
+          },
+          {
+            "seed": 18,
+            "steps": 800,
+            "success": false
+          },
+          {
+            "seed": 19,
+            "steps": 314,
+            "success": true
+          }
+        ]
+      },
+      "Spatial_Grid_Control": {
+        "label": "Spatial Grid Waypoint Control",
+        "success_rate": 1.0,
+        "mean_steps": 301.55,
+        "gain_over_base": 0.9,
+        "gain_95ci": [
+          0.75,
+          1.0
+        ],
+        "runs": [
+          {
+            "seed": 0,
+            "steps": 240,
+            "success": true
+          },
+          {
+            "seed": 1,
+            "steps": 325,
+            "success": true
+          },
+          {
+            "seed": 2,
+            "steps": 287,
+            "success": true
+          },
+          {
+            "seed": 3,
+            "steps": 251,
+            "success": true
+          },
+          {
+            "seed": 4,
+            "steps": 292,
+            "success": true
+          },
+          {
+            "seed": 5,
+            "steps": 275,
+            "success": true
+          },
+          {
+            "seed": 6,
+            "steps": 320,
+            "success": true
+          },
+          {
+            "seed": 7,
+            "steps": 250,
+            "success": true
+          },
+          {
+            "seed": 8,
+            "steps": 351,
+            "success": true
+          },
+          {
+            "seed": 9,
+            "steps": 319,
+            "success": true
+          },
+          {
+            "seed": 10,
+            "steps": 267,
+            "success": true
+          },
+          {
+            "seed": 11,
+            "steps": 308,
+            "success": true
+          },
+          {
+            "seed": 12,
+            "steps": 316,
+            "success": true
+          },
+          {
+            "seed": 13,
+            "steps": 337,
+            "success": true
+          },
+          {
+            "seed": 14,
+            "steps": 302,
+            "success": true
+          },
+          {
+            "seed": 15,
+            "steps": 412,
+            "success": true
+          },
+          {
+            "seed": 16,
+            "steps": 276,
+            "success": true
+          },
+          {
+            "seed": 17,
+            "steps": 266,
+            "success": true
+          },
+          {
+            "seed": 18,
+            "steps": 280,
+            "success": true
+          },
+          {
+            "seed": 19,
+            "steps": 357,
+            "success": true
+          }
+        ]
+      }
+    }
+  }
+]

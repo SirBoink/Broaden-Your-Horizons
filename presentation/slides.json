@@ -1,0 +1,842 @@
+[
+  {
+    "slide": 1,
+    "title": "Broaden Your Horizons",
+    "figures": [
+      "figures/animations/title_animation.gif"
+    ],
+    "source_notes": [
+      "1. Ask whether predictive motor structure provides reusable building blocks for skill transfer.",
+      "2. We connect landmark discovery, actual physiological handoffs and learned sequence control.",
+      "3. Sources: CLAIMS_LEDGER.md R01–R03; historical_transfer/order_*.json."
+    ],
+    "data_sources": [
+      "docs/references/sequential_movements.pdf"
+    ],
+    "scripts": []
+  },
+  {
+    "slide": 2,
+    "title": "Human reaching provides behavioral evidence for hierarchical execution",
+    "figures": [
+      "figures/plots/human_paper_v14.png"
+    ],
+    "source_notes": [
+      "1. The study tests 20 participants on six sequential reaching geometries and infers planning organization from observed movement geometry.",
+      "2. The authors report evidence for hierarchical planning in at least 48% of trajectories. Individual participants mix strategies across sequences. The inferred hierarchical link is at the second intermediate target.",
+      "3. Source: docs/references/sequential_movements.pdf, Abstract, Figs.6–7, Table2, Discussion; DOI10.1038/s44271-026-00436-5. Their model-based behavioral result motivates our computational question; it is not evidence that our controller reproduces their hierarchy."
+    ],
+    "data_sources": [
+      "docs/references/sequential_movements.pdf"
+    ],
+    "scripts": []
+  },
+  {
+    "slide": 3,
+    "title": "Predictive subgoals could provide reusable building blocks for movement",
+    "figures": [],
+    "source_notes": [
+      "1. The larger question concerns compositional motor representations.",
+      "2. Falsifiable prediction: discovered landmarks improve transfer against matched controls and share structure across controllers and tasks.",
+      "3. Sources: dataset paper Discussion; CLAIMS_LEDGER.md Q01,Q02. No biological neural recordings."
+    ],
+    "data_sources": [
+      "docs/references/sequential_movements.pdf"
+    ],
+    "scripts": []
+  },
+  {
+    "slide": 4,
+    "title": "Motor predictions include the muscle state that shapes the next movement",
+    "figures": [
+      "figures/diagrams/features_explained.png"
+    ],
+    "source_notes": [
+      "1. Discovery includes hand position, velocity and six muscle activations.",
+      "2. Activation has memory. Muscle force also depends on length and velocity, so activation sums are not torque.",
+      "3. Sources: motor_chunking/extended_sf.py; docs/references/motornet/muscle.py,effector.py,skeleton.py."
+    ],
+    "data_sources": [
+      "data/mechanism/audit.json",
+      "data/mechanism/references.npz",
+      "data/discovery/isolated_reaches/reaches.npz"
+    ],
+    "scripts": [
+      "scripts/plot_discovery_and_dynamics.py",
+      "formulas.py"
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Changes across prediction timescales identify candidate subgoals",
+    "figures": [
+      "figures/diagrams/laplace_explained.png"
+    ],
+    "source_notes": [
+      "1. The return is a finite sampled future transform. The derivative identity is exact for that sum.",
+      "2. Adjacent differences approximate the derivative. Cosine change detects a directional reorganization across time.",
+      "3. Source: analysis/mechanism_math.py. Physical derivative conversion multiplies B by Δt."
+    ],
+    "data_sources": [
+      "data/mechanism/audit.json",
+      "data/mechanism/references.npz",
+      "data/discovery/isolated_reaches/reaches.npz"
+    ],
+    "scripts": [
+      "scripts/plot_discovery_and_dynamics.py",
+      "formulas.py"
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "The discovery pipeline converts trajectories into a reusable landmark library",
+    "figures": [
+      "figures/diagrams/pipeline_annotated.png"
+    ],
+    "source_notes": [
+      "1. Recorded rollouts become normalized ten-feature future returns and derivative bands.",
+      "2. Candidate detection uses connected temporal/scale events, followed by filtering and merging.",
+      "3. Sources: analysis/mechanism_math.py; off_target_band_options.json."
+    ],
+    "data_sources": [
+      "data/mechanism/audit.json",
+      "data/mechanism/references.npz",
+      "data/discovery/isolated_reaches/reaches.npz"
+    ],
+    "scripts": [
+      "scripts/plot_discovery_and_dynamics.py",
+      "formulas.py"
+    ]
+  },
+  {
+    "slide": 7,
+    "title": "Five predictive landmarks lie within the target-ring workspace",
+    "figures": [
+      "figures/plots/landmarks_ring_v14.png"
+    ],
+    "source_notes": [
+      "1. Show the actual hand-coordinate locations of all five landmarks relative to all eight task targets. Every plotted circle uses native saved target geometry.",
+      "2. The right panel separates elapsed discovery time from each option discount horizon. A–E were selected by connected high-percentile changes across adjacent prediction bands, not by comparing their raw amplitudes.",
+      "3. Sources: data/mechanism/audit.json; hierarchy_geometry/rollouts/order16_ddqn.npz; SAC/core/env.py; generate_v14_figures.py. Broad-horizon interpretation remains a hypothesis."
+    ],
+    "data_sources": [
+      "data/mechanism/audit.json",
+      "data/mechanism/references.npz",
+      "data/discovery/isolated_reaches/reaches.npz"
+    ],
+    "scripts": [
+      "scripts/plot_discovery_and_dynamics.py",
+      "formulas.py"
+    ]
+  },
+  {
+    "slide": 8,
+    "title": "Temporal changes in predictive direction identify A–E",
+    "figures": [
+      "figures/plots/selection_peaks_v14.png"
+    ],
+    "source_notes": [
+      "1. The marked source events occur at 30,60,60,90 and90ms for A–E. Every raw value reproduces the frozen catalog to numerical precision.",
+      "2. Each trace shows the temporal cosine change in its representative prediction band. Selection also requires a connected component above the empirical90th percentile across at least three adjacent bands.",
+      "3. Sources: audit.json; references.npz; data/mechanism/integration/source_*.npz; plot_subgoal_selection_clear.py and generate_v14_figures.py. Raw amplitudes across horizons do not imply hierarchical planning or a physiological mechanism."
+    ],
+    "data_sources": [
+      "data/mechanism/audit.json",
+      "data/mechanism/references.npz",
+      "data/discovery/isolated_reaches/reaches.npz"
+    ],
+    "scripts": [
+      "scripts/plot_discovery_and_dynamics.py",
+      "formulas.py"
+    ]
+  },
+  {
+    "slide": 9,
+    "title": "Distance progress and task completion shape learning",
+    "figures": [
+      "figures/diagrams/reward_equations_v14.png"
+    ],
+    "source_notes": [
+      "1. The environment rewards distance reduction, penalizes remaining distance and optional excess travel, awards20 at target acquisition and adds200 at sequence completion. Distances in the formula are metres.",
+      "2. The selector sums primitive rewards with gamma=.99 over the executed duration and subtracts the configured deliberation cost. The universal reacher has its own single-goal task.",
+      "3. Sources: SAC/changed/env.py, SAC/high_level.py, accepted_selector_config_v14.json and generate_v14_figures.py. The historical accepted checkpoint does not serialize path-penalty and deliberation coefficients. The equation documents the current implementation; it does not establish the exact historical reward coefficients or policy-invariant shaping."
+    ],
+    "data_sources": [
+      "checkpoints/selector/accepted.pt",
+      "config/protocols/selector.json"
+    ],
+    "scripts": [
+      "SAC/high_level.py",
+      "SAC/changed/env.py",
+      "scripts/plot_methods.py"
+    ]
+  },
+  {
+    "slide": 10,
+    "title": "A Double DQN selects when and where to invoke landmark options",
+    "figures": [
+      "figures/diagrams/ddqn_architecture_annotated.png"
+    ],
+    "source_notes": [
+      "1. Thirty-dimensional state feeds two 128-unit hidden layers and six Q outputs.",
+      "2. Choice zero continues base. Choices one through five call the shared universal SAC reacher.",
+      "3. Sources: SAC/high_level.py; accepted selector metadata; scripts/train_corridor_hierarchy.py."
+    ],
+    "data_sources": [
+      "checkpoints/selector/accepted.pt",
+      "config/protocols/selector.json"
+    ],
+    "scripts": [
+      "SAC/high_level.py",
+      "SAC/changed/env.py",
+      "scripts/plot_methods.py"
+    ]
+  },
+  {
+    "slide": 11,
+    "title": "Double DQN learns action values over variable option durations",
+    "figures": [
+      "figures/diagrams/ddqn_explained.png"
+    ],
+    "source_notes": [
+      "1. The online Q network selects the best eligible action at the next state.",
+      "2. The target accumulates discounted rewards over the executed duration and subtracts the deliberation cost; terminal transitions have no bootstrap.",
+      "3. Sources: SAC/high_level.py and accepted selector metadata; generate_annotated_figures.py."
+    ],
+    "data_sources": [
+      "checkpoints/selector/accepted.pt",
+      "config/protocols/selector.json"
+    ],
+    "scripts": [
+      "SAC/high_level.py",
+      "SAC/changed/env.py",
+      "scripts/plot_methods.py"
+    ]
+  },
+  {
+    "slide": 12,
+    "title": "DDQN redirects movement through an intermediate landmark",
+    "figures": [
+      "figures/diagrams/execution_annotated.png"
+    ],
+    "source_notes": [
+      "1. The hierarchy chooses an intermediate action, the reacher executes it and the base resumes.",
+      "2. This is measured computational composition. Human anticipatory planning requires the separate matched behavioral test.",
+      "3. Sources: SAC/high_level.py; beneficial_sequence_A/B/episodes.csv."
+    ],
+    "data_sources": [
+      "checkpoints/selector/accepted.pt",
+      "config/protocols/selector.json"
+    ],
+    "scripts": [
+      "SAC/high_level.py",
+      "SAC/changed/env.py",
+      "scripts/plot_methods.py"
+    ]
+  },
+  {
+    "slide": 13,
+    "title": "The arm reaches each landmark while it is still moving",
+    "figures": [
+      "figures/plots/termination_speed_lines.png"
+    ],
+    "source_notes": [
+      "1. Actual termination is spatial entry rather than a complete physiological state match.",
+      "2. All five examples reach in 40–80 ms and retain substantial hand motion.",
+      "3. Sources: data/handoffs/controlled_launch JSON/NPZ; termination_evidence.json."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 14,
+    "title": "Landmark arrival is a moving transition in state space",
+    "figures": [
+      "figures/plots/phase_planes_v15.png"
+    ],
+    "source_notes": [
+      "1. Each colored trajectory uses the saved joint and fingertip states around actual option termination. The filled marker denotes termination, the open marker denotes50ms before, and dashes show the following base-controlled motion.",
+      "2. The three phase planes connect posture, joint motion and hand motion. Position-only termination does not specify a unique physiological state.",
+      "3. Sources: data/handoffs/controlled_launch/option_termination_kinematics.npz/json; generate_v14_figures.py. These are descriptive single-invocation paths, with no invented seed variation or uncertainty bands."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 15,
+    "title": "Muscle recruitment depends on both landmark and arrival context",
+    "figures": [
+      "figures/plots/muscle_assays_v15.png"
+    ],
+    "source_notes": [
+      "1. The left panel retains exact option-termination activations from the controlled common launch. These differ across A–E, but several muscles share broad recruitment.",
+      "2. The right panel uses all1965 actual DDQN arrivals. Different entry states and invocation histories change activation; these assays must not be treated as identical repetitions. Episode counts are printed for each option.",
+      "3. Sources: option_termination_muscle_activations.npz; handoff_full_v2_20261006/actual_endpoints.json; generate_v15_figures.py; v15_figure_audit.json. All saved actual endpoints have waypoint termination; D is rare in policies101/202. Descriptive means, no fixed physiological identity claim."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 16,
+    "title": "A reaches its region with strong pectoralis recruitment",
+    "figures": [
+      "figures/plots/termination_A.png"
+    ],
+    "source_notes": [
+      "1. Observed: pectoralis .980 and hand speed 1.627 m/s. Mechanism proposed: A changes the posture and active force carried into base control, biasing the initial continuation direction. Prediction: at matched position and target, replacing activation or velocity should alter initial progress. Location-only benefit is a competing explanation.",
+      "2. Interpret the actual native coordinate signs and recruitment together. Each trace comes from one invocation, so the observed differences need replication across actual DDQN-selected events.",
+      "3. Sources: option_termination_kinematics.npz and option_termination_muscle_activations.npz; script generate_deck_evidence.py. Option A."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 17,
+    "title": "B reaches a different joint configuration with lower biceps activation",
+    "figures": [
+      "figures/plots/termination_B.png"
+    ],
+    "source_notes": [
+      "1. Observed: q = 39.16° / 96.84° and biceps .304. Mechanism proposed: B changes muscle moment arms through joint configuration; lower biceps activation may change elbow torque balance. Prediction: B should change early elbow torque and hand direction relative to matched waypoints. Activation alone cannot determine the torque sign.",
+      "2. Interpret the actual native coordinate signs and recruitment together. Each trace comes from one invocation, so the observed differences need replication across actual DDQN-selected events.",
+      "3. Sources: option_termination_kinematics.npz and option_termination_muscle_activations.npz; script generate_deck_evidence.py. Option B."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 18,
+    "title": "C shows increasing triceps activation after base control resumes",
+    "figures": [
+      "figures/plots/termination_C.png"
+    ],
+    "source_notes": [
+      "1. Observed: lateral triceps rises from .184 at −10 ms to .733 at +30 ms. Mechanism proposed: the post-C rise in lateral triceps marks a transition in elbow recruitment after base control resumes. Prediction: a reproducible torque transition should accompany the recruitment rise. Compare actual C arrivals with target- and phase-matched controls.",
+      "2. Interpret the actual native coordinate signs and recruitment together. Each trace comes from one invocation, so the observed differences need replication across actual DDQN-selected events.",
+      "3. Sources: option_termination_kinematics.npz and option_termination_muscle_activations.npz; script generate_deck_evidence.py. Option C."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 19,
+    "title": "D arrives with rapid joint motion and high pectoralis activation",
+    "figures": [
+      "figures/plots/termination_D.png"
+    ],
+    "source_notes": [
+      "1. Observed: joint velocity −3.330 / +7.435 rad/s and pectoralis .967. Mechanism proposed: D transfers substantial joint velocity into the next control segment; inherited momentum may influence early displacement. Prediction: removing incoming velocity at fixed posture should change continuation. Rare D invocations currently limit this test.",
+      "2. Interpret the actual native coordinate signs and recruitment together. Each trace comes from one invocation, so the observed differences need replication across actual DDQN-selected events.",
+      "3. Sources: option_termination_kinematics.npz and option_termination_muscle_activations.npz; script generate_deck_evidence.py. Option D."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 20,
+    "title": "E arrives with high biceps activation and a different hand velocity",
+    "figures": [
+      "figures/plots/termination_E.png"
+    ],
+    "source_notes": [
+      "1. Observed: biceps .934 and hand velocity +1.062 / −.523 m/s. Mechanism proposed: E combines biceps recruitment with a distinct hand-velocity direction, potentially changing elbow torque and subsequent heading. Prediction: physiological replacement at fixed position should change early heading beyond a location-matched control. Braking or stiffness requires direct measurement.",
+      "2. Interpret the actual native coordinate signs and recruitment together. Each trace comes from one invocation, so the observed differences need replication across actual DDQN-selected events.",
+      "3. Sources: option_termination_kinematics.npz and option_termination_muscle_activations.npz; script generate_deck_evidence.py. Option E."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 21,
+    "title": "Each option changes the state from which the base policy resumes",
+    "figures": [
+      "figures/diagrams/mechanics_explained.png"
+    ],
+    "source_notes": [
+      "1. Jacobian geometry maps joint velocity to fingertip velocity. Muscle length, velocity and activation determine force.",
+      "2. An intermediate option changes the initial conditions for subsequent base control.",
+      "3. Sources: docs/references/motornet/effector.py,skeleton.py,muscle.py; recorded endpoint NPZ."
+    ],
+    "data_sources": [
+      "data/handoffs/controlled_launch/option_termination_kinematics.npz",
+      "data/handoffs/controlled_launch/option_termination_muscle_activations.npz",
+      "data/handoffs/actual_endpoints.json"
+    ],
+    "scripts": [
+      "scripts/plot_handoff_traces.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 22,
+    "title": "Landmark utility requires a counterfactual continuation test",
+    "figures": [],
+    "source_notes": [
+      "1. DDQN chooses where and when to intervene, while the same reacher executes each spatial option.",
+      "2. Useful handoffs could redirect motion and recruitment toward states favorable for continuation.",
+      "3. Decisive test: identical saved start states, chosen option versus base and matched waypoint controls. SUBMISSION_TEST_PLAN.md B03–B04."
+    ],
+    "data_sources": [
+      "data/handoffs/branches.zip",
+      "data/handoffs/actual_endpoints.json",
+      "data/handoffs/branch_contrasts.json",
+      "data/replay/selected_states/saved_data_audit.json",
+      "data/controls/replay/replay_comparison.json"
+    ],
+    "scripts": [
+      "scripts/evaluate_landmark_handoffs.py",
+      "scripts/screen_landmark_evidence.py",
+      "scripts/plot_results.py",
+      "scripts/plot_discovery_and_dynamics.py"
+    ]
+  },
+  {
+    "slide": 23,
+    "title": "Opposing muscle torques partly cancel at landmark arrival",
+    "figures": [
+      "figures/plots/actual_torque_components_v14.png"
+    ],
+    "source_notes": [
+      "1. Reconstruct each muscle contribution as minus its native moment arm times its saved force. The sum agrees with every recorded net muscle torque within numerical tolerance.",
+      "2. Positive and negative contributions coexist at A–E arrivals. Their partial cancellation explains why activation amplitude alone does not specify the net mechanical action. It does not establish a stationary attractor or that cancellation causes transfer benefits.",
+      "3. Sources: handoff_full_v2_20261006/actual_endpoints.json; native MotorNet get_geometry; evaluate_landmark_handoffs.py; generate_v14_figures.py; v14_figure_audit.json contains option-specific invocation/episode denominators. All actual endpoint records are retained."
+    ],
+    "data_sources": [
+      "data/handoffs/branches.zip",
+      "data/handoffs/actual_endpoints.json",
+      "data/handoffs/branch_contrasts.json",
+      "data/replay/selected_states/saved_data_audit.json",
+      "data/controls/replay/replay_comparison.json"
+    ],
+    "scripts": [
+      "scripts/evaluate_landmark_handoffs.py",
+      "scripts/screen_landmark_evidence.py",
+      "scripts/plot_results.py",
+      "scripts/plot_discovery_and_dynamics.py"
+    ]
+  },
+  {
+    "slide": 24,
+    "title": "Local handoff benefit varies across base policies",
+    "figures": [
+      "figures/plots/local_completion_v15.png"
+    ],
+    "source_notes": [
+      "1. Restore the same actual invocation state and compare chosen option, continued base, other options and an eligible reflected waypoint.",
+      "2. Source-policy completion improves by 9.34 pp versus base; effects are weaker or absent in the other policies. All three comparator families are displayed.",
+      "3. Sources: handoff_full_v2_20261006/branch_contrasts.json; landmark_panel29_20261006/saved_data_audit.json; plot_landmark_evidence.py. Intervals resample complete orders within each policy; exploratory, no corrected hypothesis tests. Chosen/base: 1965 invocations in 669 episodes. Reflected controls: 1399 invocations in 556 episodes; 566 ineligible reflections retained in the exclusion denominator."
+    ],
+    "data_sources": [
+      "data/handoffs/branches.zip",
+      "data/handoffs/actual_endpoints.json",
+      "data/handoffs/branch_contrasts.json",
+      "data/replay/selected_states/saved_data_audit.json",
+      "data/controls/replay/replay_comparison.json"
+    ],
+    "scripts": [
+      "scripts/evaluate_landmark_handoffs.py",
+      "scripts/screen_landmark_evidence.py",
+      "scripts/plot_results.py",
+      "scripts/plot_discovery_and_dynamics.py"
+    ]
+  },
+  {
+    "slide": 25,
+    "title": "A landmark reach helps only some invocation states",
+    "figures": [
+      "figures/plots/handoff_outcomes_v15.png"
+    ],
+    "source_notes": [
+      "1. Restore each saved invocation state, then execute either the chosen landmark option followed by base or continued base alone. Positive differences mean the option branch moved farther toward the original target.",
+      "2. The categories use a1micrometer progress tolerance, solely to distinguish numerical ties. Counts are16better/47tied/17worse at10ms Euler and29better/38tied/13worse at0.5ms RK4. Every selected state is included.",
+      "3. Sources: overnight_claims_20261007/replay/replay_comparison.json; generate_v15_figures.py. These are selected-state descriptive counts, not independent-policy precision, whole-sequence success or physiological mediation."
+    ],
+    "data_sources": [
+      "data/handoffs/branches.zip",
+      "data/handoffs/actual_endpoints.json",
+      "data/handoffs/branch_contrasts.json",
+      "data/replay/selected_states/saved_data_audit.json",
+      "data/controls/replay/replay_comparison.json"
+    ],
+    "scripts": [
+      "scripts/evaluate_landmark_handoffs.py",
+      "scripts/screen_landmark_evidence.py",
+      "scripts/plot_results.py",
+      "scripts/plot_discovery_and_dynamics.py"
+    ]
+  },
+  {
+    "slide": 26,
+    "title": "DDQN completes 92.5% of trials in the short-transition subgroup",
+    "figures": [
+      "figures/plots/transfer_small_v15.png"
+    ],
+    "source_notes": [
+      "1. This is the defined small-transition subgroup: fewer than three transitions spanning at least three positions on the eight-target ring.",
+      "2. Learned 74/80, base 38/80 and selected single-discount 48/80. Retain every case and all eight orders.",
+      "3. Sources: historical_transfer/order_16–23*.json; coarse_single/single_transfer/order_16–23.json; panel.json."
+    ],
+    "data_sources": [
+      "data/mechanism/historical_transfer",
+      "data/single_discount/single_transfer"
+    ],
+    "scripts": [
+      "scripts/summarize_results.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 27,
+    "title": "The transfer gain spans seven orders rather than one favorable sequence",
+    "figures": [
+      "figures/plots/order_gains_v15.png"
+    ],
+    "source_notes": [
+      "1. DDQN exceeds base completion on seven of the eight retained subgroup orders; order21 is a tie at100% completion for both.",
+      "2. A spread across orders shows that the pooled effect is not driven by one sequence. Ten starts/order and a selected subgroup still limit generalization.",
+      "3. Sources: historical_transfer/order_*.json; evidence.json small.by_order_pct; generate_v15_figures.py. No subgroup or seed is removed from the plot."
+    ],
+    "data_sources": [
+      "data/mechanism/historical_transfer",
+      "data/single_discount/single_transfer"
+    ],
+    "scripts": [
+      "scripts/summarize_results.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 28,
+    "title": "DDQN reduces failure-capped completion time by 39.6%",
+    "figures": [
+      "figures/plots/completion_time_v15.png"
+    ],
+    "source_notes": [
+      "1. Time summaries preserve failures rather than selecting successful runs.",
+      "2. Learned 3.493 s versus base 5.784 s and single 5.463 s. This accompanies higher completion.",
+      "3. Sources: order_16–23 restricted_completion_s rows; generate_deck_evidence.py."
+    ],
+    "data_sources": [
+      "data/mechanism/historical_transfer",
+      "data/single_discount/single_transfer"
+    ],
+    "scripts": [
+      "scripts/summarize_results.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 29,
+    "title": "Across all 24 orders, completion rises from 63.75% to 85%",
+    "figures": [
+      "figures/plots/transfer_full_v15.png"
+    ],
+    "source_notes": [
+      "1. Full-panel results include unfavorable orders. Learned succeeds in 204 cases, base 153 and single 169.",
+      "2. Learned-minus-base effect is +21.25 percentage points with exploratory order-bootstrap uncertainty.",
+      "3. Sources: historical_transfer/order_*.json; coarse_single/single_transfer/order_*.json."
+    ],
+    "data_sources": [
+      "data/mechanism/historical_transfer",
+      "data/single_discount/single_transfer"
+    ],
+    "scripts": [
+      "scripts/summarize_results.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 30,
+    "title": "Zero-shot transfer gains persist across five evaluation seeds",
+    "figures": [
+      "figures/plots/evaluation_seed_transfer_v14.png"
+    ],
+    "source_notes": [
+      "1. All240 paired trials use the same trained base and accepted DDQN weights. Seeds42,101,202,303,404 generate initial-posture jitters, not new policies or action-noise realizations.",
+      "2. Completion improves under every seed: base30,31,32,33,28 of48; DDQN43,41,42,42,40 of48. Overall154/240 versus208/240. Failures retain the8s cap for time summaries.",
+      "3. Sources: hierarchy_geometry/rollouts/order_*_{base,ddqn}.json; protocol.json; generate_v14_figures.py. The bottom-left subplot shows all eight exploratory short-transition orders. These are initial-condition checks of one trained hierarchy, distinct from independently trained-base-policy replication."
+    ],
+    "data_sources": [
+      "data/transfer/evaluation_seeds/rollouts"
+    ],
+    "scripts": [
+      "scripts/evaluate_hierarchy_geometry.py",
+      "scripts/plot_discovery_and_dynamics.py"
+    ]
+  },
+  {
+    "slide": 31,
+    "title": "Transfer improves two base policies; the third shows little change",
+    "figures": [
+      "figures/plots/policy_transfer_v15.png"
+    ],
+    "source_notes": [
+      "1. Policy 7 completion rises from 154 to 208 successes; policy 101 from 165 to 202. Policy 202 changes from 65 to 66.",
+      "2. This replicates a positive effect in a second policy, while showing that the gain is not universal. Three policies provide limited population precision.",
+      "3. Sources: handoff_full_v2_20261006/rollouts/seed*_order*.json; plot_landmark_evidence.py. Error bars are exploratory 95% whole-order bootstrap intervals within each policy."
+    ],
+    "data_sources": [
+      "data/handoffs/rollouts"
+    ],
+    "scripts": [
+      "scripts/evaluate_landmark_handoffs.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 32,
+    "title": "DDQN also outperforms the selected single-discount pipeline",
+    "figures": [
+      "figures/plots/pipeline_comparison_v15.png"
+    ],
+    "source_notes": [
+      "1. The single head was selected on 16 calibration contexts, not chosen after the transfer result.",
+      "2. The observed comparison includes scheduler differences, so it is a pipeline advantage.",
+      "3. Sources: coarse_single calibration metadata and order rows; SUBMISSION_TEST_PLAN.md B02."
+    ],
+    "data_sources": [
+      "data/mechanism/historical_transfer",
+      "data/single_discount/single_transfer"
+    ],
+    "scripts": [
+      "scripts/summarize_results.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 33,
+    "title": "Options account for over 40% of control segments in two hard sequences",
+    "figures": [
+      "figures/plots/option_segments_v15.png"
+    ],
+    "source_notes": [
+      "1. Each option invocation counts as one bout, while adjacent base commands compress into one bout.",
+      "2. Aggregate shares are 122/262=46.56% and 127/270=47.04%. These are selected demonstrations.",
+      "3. Sources: beneficial_sequence_A/B/episodes.csv; plot_beneficial_sequences.py compress_decisions_to_bouts."
+    ],
+    "data_sources": [
+      "data/summary/revision_evidence.json"
+    ],
+    "scripts": [
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 34,
+    "title": "Human passage profiles distinguish the A–D and E candidates",
+    "figures": [
+      "figures/plots/human_passages_v15.png"
+    ],
+    "source_notes": [
+      "1. The plotted quantity is correlation across valid prediction scales. It compares profile shape, not equality of raw amplitudes, and does not manipulate the human/agent curves to produce agreement.",
+      "2. A–D correlate positively with second intermediate target entry and negatively with first; E has the opposite pattern. Every candidate, passage and participant remains visible.",
+      "3. Sources: human/ae_human_correlations.json; human/trial_signatures.json; generate_v15_figures.py. Raw amplitudes differ and valid-band support is limited; this is exploratory predictive-profile correspondence, not a matched human hierarchy assay."
+    ],
+    "data_sources": [
+      "data/mechanism/human/trial_signatures.json",
+      "data/mechanism/human/ae_human_correlations.json",
+      "data/controls/human_controls.json",
+      "data/controls/human_control_profiles"
+    ],
+    "scripts": [
+      "scripts/run_overnight_claims.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 35,
+    "title": "A and E exceed matched controls at their corresponding human passages",
+    "figures": [
+      "figures/plots/human_controls_v15.png"
+    ],
+    "source_notes": [
+      "1. The matched non-landmark controls share target, pre-acquisition phase within.1, finite-band support and profile norm within25%; they lie away from targets and allA–E. The assay retains every eligible control and every candidate/passage contrast.",
+      "2. A second passage improves correlation versus controls by.430,95%CI[.399,.460]; E first passage by.580,[.543,.615]. Other effects are mixed, including negative contrasts at the opposite passages. These are descriptive intervals, with no corrected significance claim.",
+      "3. Sources: overnight_claims_20261007/human_controls.json, human_control_profiles/*.npz, PROTOCOL.json; run_overnight_claims.py. A–E control counts11,5,3,5,8. Shared source references, matching decisions and existing human data make this exploratory correspondence, not independent confirmation of human-like hierarchical planning."
+    ],
+    "data_sources": [
+      "data/mechanism/human/trial_signatures.json",
+      "data/mechanism/human/ae_human_correlations.json",
+      "data/controls/human_controls.json",
+      "data/controls/human_control_profiles"
+    ],
+    "scripts": [
+      "scripts/run_overnight_claims.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 36,
+    "title": "Some Curvature Matches human dataset results",
+    "figures": [
+      "figures/plots/human_curvature_panel.png"
+    ],
+    "source_notes": [
+      "1. The matched non-landmark controls share target, pre-acquisition phase within.1, finite-band support and profile norm within25%; they lie away from targets and allA–E. The assay retains every eligible control and every candidate/passage contrast.",
+      "2. A second passage improves correlation versus controls by.430,95%CI[.399,.460]; E first passage by.580,[.543,.615]. Other effects are mixed, including negative contrasts at the opposite passages. These are descriptive intervals, with no corrected significance claim.",
+      "3. Sources: overnight_claims_20261007/human_controls.json, human_control_profiles/*.npz, PROTOCOL.json; run_overnight_claims.py. A–E control counts11,5,3,5,8. Shared source references, matching decisions and existing human data make this exploratory correspondence, not independent confirmation of human-like hierarchical planning."
+    ],
+    "data_sources": [
+      "data/human/curvature/aggregates.npz",
+      "data/human/curvature/results.json",
+      "data/human/published_models/all_data.csv",
+      "data/human/base_trajectories"
+    ],
+    "scripts": [
+      "scripts/plot_paper_subgoal_curvature.py"
+    ]
+  },
+  {
+    "slide": 37,
+    "title": "The evidence links predictive discovery, motor execution and transfer",
+    "figures": [
+      "figures/diagrams/evidence_link_annotated.png"
+    ],
+    "source_notes": [
+      "1. Predictive discovery supplies the option library. Recorded options reveal physiological consequences.",
+      "2. Transfer and human profile correspondence provide independent computational and behavioral evidence.",
+      "3. Sources: option library; endpoint NPZ; historical transfer; human correlation records. Local handoff utility has been measured; general physiological mediation remains unresolved."
+    ],
+    "data_sources": [
+      "data/controls/SUMMARY.json",
+      "data/transfer/fine_sequence",
+      "docs/results.md"
+    ],
+    "scripts": [
+      "scripts/run_overnight_claims.py",
+      "scripts/run_five_claim_pilots.py"
+    ]
+  },
+  {
+    "slide": 38,
+    "title": "Can predictive motor structure support compositional skill transfer?",
+    "figures": [],
+    "source_notes": [
+      "1. The scientific objective is to test whether derivatives of successor features across prediction timescales identify motor states that can be recombined across tasks.",
+      "2. Current evidence joins historical zero-shot transfer, context-dependent motor handoffs and selective correspondence with human passage profiles. It does not establish sequence-invariant biological neural identity.",
+      "3. Sources: historical_transfer; actual_endpoints; human controls; GAPS.md. The decisive next comparison is replicated transfer against budget-matched discovery and scheduling controls, with matched behavioral assays."
+    ],
+    "data_sources": [
+      "data/controls/SUMMARY.json",
+      "data/transfer/fine_sequence",
+      "docs/results.md"
+    ],
+    "scripts": [
+      "scripts/run_overnight_claims.py",
+      "scripts/run_five_claim_pilots.py"
+    ]
+  },
+  {
+    "slide": 39,
+    "title": "The transfer effect changes under finer numerical integration",
+    "figures": [
+      "figures/plots/fine_transfer_v15.png"
+    ],
+    "source_notes": [
+      "1. The pretrained system changes behavior substantially under refined integration.",
+      "2. The fine panel learned score is 76/240 versus base 17/240. Fixed A-E scores 59/240 and single discount 65/240.",
+      "3. Sources: mechanism_rk4/transfer/order_*.json; recomputed_metrics.json. No overall-best claim."
+    ],
+    "data_sources": [
+      "data/mechanism/transfer",
+      "data/summary/recomputed_metrics.json"
+    ],
+    "scripts": [
+      "analysis/mechanism_experiment.py",
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 40,
+    "title": "Options occupy more decision segments than command time",
+    "figures": [
+      "figures/plots/usage_denominators_v10.png"
+    ],
+    "source_notes": [
+      "1. Each option invocation counts once as a segment, and consecutive base commands form one base segment.",
+      "2. Option segment shares are 46.56/47.04%; option command-time shares are 11.44/14.10%. The two measures answer different questions.",
+      "3. Sources: beneficial_sequence_A/B/episodes.csv; evidence.json usage; generate_revision_figures.py. These selected demonstrations do not estimate option usage across all tasks."
+    ],
+    "data_sources": [
+      "data/summary/revision_evidence.json"
+    ],
+    "scripts": [
+      "scripts/plot_results.py"
+    ]
+  },
+  {
+    "slide": 41,
+    "title": "Limitations",
+    "figures": [],
+    "source_notes": [
+      "1. The historical trained hierarchy transfers at10ms and improves two of three base policies. The new equal-budget multiscale selectors complete1,0,56/96 against base64/96, so unique multiscale superiority is not established.",
+      "2. The completed two-order whole-sequence pilot has0/12 complete trials for both controllers under RK4 at1ms and0.5ms. State substitutions give small mixed effects. The fresh alternate-policy chance screen does not establish conserved motor identity.",
+      "3. Sources: overnight_claims_20261007; five_claim_transfer_20261007; GAPS.md. Human correspondence is exploratory and passage-dependent; matched human hierarchy, learned original40-band event recovery and biological neural identity remain open. Historical accepted metadata omits some reward coefficients. These gaps set the next validation steps, rather than changing the measured positive findings."
+    ],
+    "data_sources": [
+      "data/controls/SUMMARY.json",
+      "data/transfer/fine_sequence",
+      "docs/results.md"
+    ],
+    "scripts": [
+      "scripts/run_overnight_claims.py",
+      "scripts/run_five_claim_pilots.py"
+    ]
+  }
+]

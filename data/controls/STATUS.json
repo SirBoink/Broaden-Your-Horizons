@@ -1,0 +1,98 @@
+{
+  "human_controls": {
+    "state": "complete",
+    "seconds": 14.15705132484436,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\human_controls.log"
+  },
+  "sequence_discovery": {
+    "state": "complete",
+    "seconds": 68.63017511367798,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\sequence_discovery.log"
+  },
+  "replay": {
+    "state": "complete",
+    "seconds": 1611.263927936554,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\replay.log"
+  },
+  "physiology": {
+    "state": "complete",
+    "seconds": 44.31674551963806,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\physiology.log"
+  },
+  "multiscale_7": {
+    "state": "complete",
+    "seconds": 552.7094371318817,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\multiscale_7.log"
+  },
+  "spatial_7": {
+    "state": "complete",
+    "seconds": 453.757896900177,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\spatial_7.log"
+  },
+  "kinematic_7": {
+    "state": "complete",
+    "seconds": 499.2105886936188,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\kinematic_7.log"
+  },
+  "single_7": {
+    "state": "complete",
+    "seconds": 458.71500301361084,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\single_7.log"
+  },
+  "multiscale_101": {
+    "state": "complete",
+    "seconds": 464.0537300109863,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\multiscale_101.log"
+  },
+  "spatial_101": {
+    "state": "complete",
+    "seconds": 505.3157274723053,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\spatial_101.log"
+  },
+  "kinematic_101": {
+    "state": "complete",
+    "seconds": 489.2004885673523,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\kinematic_101.log"
+  },
+  "single_101": {
+    "state": "complete",
+    "seconds": 471.9838433265686,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\single_101.log"
+  },
+  "multiscale_202": {
+    "state": "complete",
+    "seconds": 482.1990716457367,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\multiscale_202.log"
+  },
+  "spatial_202": {
+    "state": "complete",
+    "seconds": 480.2605528831482,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\spatial_202.log"
+  },
+  "kinematic_202": {
+    "state": "complete",
+    "seconds": 501.1797161102295,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\kinematic_202.log"
+  },
+  "single_202": {
+    "state": "complete",
+    "seconds": 484.09268832206726,
+    "returncode": 0,
+    "log": ".\\data/controls\\logs\\single_202.log"
+  }
+}

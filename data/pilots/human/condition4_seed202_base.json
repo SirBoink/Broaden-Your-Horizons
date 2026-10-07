@@ -1,0 +1,21 @@
+{
+  "condition": 4,
+  "policy_seed": 202,
+  "method": "base",
+  "results": [
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 3.0,
+      "targets_completed": 0,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 300,
+      "method": "base",
+      "controller": "base"
+    }
+  ],
+  "mean_speed_mps": 0.2820888161659241,
+  "scope": "Original physical SVG geometry and radii; 3s movement budget. One-second final hold and paper speed-success criterion not enforced; not human hierarchy.",
+  "rigid_transform": "180deg rotation; translate pt_start to original controller launch endpoint; no rescaling"
+}

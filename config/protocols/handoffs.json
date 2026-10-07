@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "pilot": false,
+  "policy_seeds": [
+    7,
+    101,
+    202
+  ],
+  "orders": 24,
+  "contexts": 10,
+  "collection_steps": 800,
+  "physical_dt": 0.01,
+  "branch_horizon_steps": 800,
+  "command_dt": 0.01,
+  "option_cap": 30,
+  "termination_radius_m": 0.02,
+  "shared_reacher_and_selector": true,
+  "retrospective_existing_order_panel": true,
+  "primary_outcome": "Remaining-sequence completion within original 8s episode budget; first average invocations within episodes",
+  "secondary_outcomes": [
+    "restricted remaining completion time, failures capped at remaining budget",
+    "500ms original-target progress, acquisition absorbing",
+    "targets completed"
+  ],
+  "inference": "Exploratory summaries only; full clustered uncertainty required before slide claims",
+  "comparisons": [
+    "chosen-minus-base",
+    "chosen-minus-geometric-mirror",
+    "chosen-minus-mean-other-eligible-landmarks"
+  ],
+  "mirror_matching": "Same initial distance to waypoint and waypoint distance to current goal; pre-intervention IK/target exclusions",
+  "source_hashes": {
+    "checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+    "checkpoints/base_policy_101\\best_model.zip": "bc5b19d4a5476d2ce99f596358c468fc2fd2864d023af23afd64cf989fb7363b",
+    "checkpoints/base_policy_202\\best_model.zip": "3e4d441921cf3240a832235a6f6280c9fe1ae44d155ea58c284877083cee8894",
+    "checkpoints/option_reacher\\best_model.zip": "f73d15f817aff9e30f8539c7cac48d1b6bc2a358e5e72f1c648b7dd4792f50c2",
+    "checkpoints/selector\\accepted.pt": "00f8169b09785bb4974352e5ee501e75fe75b76ad05bbbf8c62e25bde1fadb0e",
+    "data/discovery/options\\off_target_band_options.json": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb",
+    "data/mechanism\\panel.json": "7a055261d93f826531f222528a985a8731883cc340ad04b1596a23cd936eda2c",
+    "scripts\\evaluate_landmark_handoffs.py": "9957daeb9a536f65e826df88dbafc8c27ce18e67a877c3dc45e671c068060ea5",
+    "analysis\\mechanism_experiment.py": "69de28c62b691060915ed4cb7d00e05e76c680fd51e945687ba0215061fd8da7"
+  }
+}

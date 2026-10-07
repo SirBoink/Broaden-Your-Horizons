@@ -1,0 +1,189 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "posture": 0,
+      "q": [
+        46.24424485299822,
+        87.68596636985095
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.43,
+      "restricted_completion_s": 3.43,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 42,
+      "posture": 1,
+      "q": [
+        46.222547023758985,
+        92.09613069235976
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.45,
+      "restricted_completion_s": 3.45,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 101,
+      "posture": 0,
+      "q": [
+        46.19924159550065,
+        86.98538279503009
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.43,
+      "restricted_completion_s": 3.43,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 101,
+      "posture": 1,
+      "q": [
+        46.02328697969187,
+        91.89189015361771
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.45,
+      "restricted_completion_s": 3.45,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 202,
+      "posture": 0,
+      "q": [
+        46.242683037812526,
+        87.61689084331597
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.43,
+      "restricted_completion_s": 3.43,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 202,
+      "posture": 1,
+      "q": [
+        45.53883985250498,
+        91.65631152844287
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.45,
+      "restricted_completion_s": 3.45,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 303,
+      "posture": 0,
+      "q": [
+        46.253754650850546,
+        87.48889869249811
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.43,
+      "restricted_completion_s": 3.43,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 303,
+      "posture": 1,
+      "q": [
+        45.56798716673615,
+        91.97075532678645
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.45,
+      "restricted_completion_s": 3.45,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 404,
+      "posture": 0,
+      "q": [
+        45.9221194491951,
+        87.08849928804496
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.43,
+      "restricted_completion_s": 3.43,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 404,
+      "posture": 1,
+      "q": [
+        46.00891574194484,
+        91.60864292137875
+      ],
+      "order": 12,
+      "success": true,
+      "completion_s": 3.45,
+      "restricted_completion_s": 3.45,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    }
+  ],
+  "selector_hash": null,
+  "library_hash": null,
+  "physical_dt": 0.001,
+  "historical_discretization": false,
+  "interpretation": "common fixed-rule comparison"
+}

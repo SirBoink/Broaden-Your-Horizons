@@ -1,0 +1,19 @@
+{
+  "checkpoint_sha256": "3e1d32e8f9f905a003a6d367b27626bc499e747ea593cf291cce2e5416ff2126",
+  "target": 5,
+  "postures_deg": [
+    [
+      45.66348356215031,
+      89.4751184436212
+    ],
+    [
+      47.3514982541928,
+      90.91256638183643
+    ],
+    [
+      45.66826768497124,
+      91.53675208098461
+    ]
+  ],
+  "protocol": "Fresh isolated-target assay with recorded post-acquisition tail; not a recovered historical discovery cache"
+}

@@ -1,0 +1,56 @@
+{
+  "option_bout_accounting": {
+    "A": {
+      "episodes": 20,
+      "option_bouts": 122,
+      "base_bouts": 140,
+      "option_bout_fraction": 0.46564885496183206,
+      "option_command_steps": 1038,
+      "total_commands": 9071,
+      "option_command_fraction": 0.11443060302061514
+    },
+    "B": {
+      "episodes": 20,
+      "option_bouts": 127,
+      "base_bouts": 143,
+      "option_bout_fraction": 0.4703703703703704,
+      "option_command_steps": 1116,
+      "total_commands": 7914,
+      "option_command_fraction": 0.14101592115238817
+    }
+  },
+  "policy_metadata": {
+    "CORRECT_MODEL": {
+      "seed": 7,
+      "num_timesteps": 720000,
+      "learning_rate": 0.0003,
+      "gamma": 0.99
+    },
+    "seed_101": {
+      "seed": 101,
+      "num_timesteps": 940000,
+      "learning_rate": 0.0003,
+      "gamma": 0.99
+    },
+    "seed_202": {
+      "seed": 202,
+      "num_timesteps": 1000000,
+      "learning_rate": 0.0003,
+      "gamma": 0.99
+    },
+    "seed_1001": {
+      "seed": 1001,
+      "num_timesteps": 570000,
+      "learning_rate": 0.0003,
+      "gamma": 0.99
+    }
+  },
+  "source_sha256": {
+    "figures\\output\\correct_model\\beneficial_sequence_A\\episodes.csv": "492f392f8146b6c753cdf96433f03e82c74f0e4b96e2053d440be67eb00c9813",
+    "figures\\output\\correct_model\\beneficial_sequence_B\\episodes.csv": "b273e9ae768a3f3ebc093200ce64ddd6ed9472aed028863838182752a22d39b4",
+    "checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+    "checkpoints/base_policy_101\\best_model.zip": "bc5b19d4a5476d2ce99f596358c468fc2fd2864d023af23afd64cf989fb7363b",
+    "checkpoints/base_policy_202\\best_model.zip": "3e4d441921cf3240a832235a6f6280c9fe1ae44d155ea58c284877083cee8894",
+    "checkpoints/alternate_policy\\best_model.zip": "3e1d32e8f9f905a003a6d367b27626bc499e747ea593cf291cce2e5416ff2126"
+  }
+}

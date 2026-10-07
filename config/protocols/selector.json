@@ -1,0 +1,50 @@
+{
+  "state_dim": 30,
+  "option_count": 5,
+  "action_count": 6,
+  "hidden_units": [
+    128,
+    128
+  ],
+  "timesteps": 1000000,
+  "seed": 7,
+  "device": "cpu",
+  "base_checkpoint": "checkpoints/base_policy/best_model.zip",
+  "reacher_checkpoint": "checkpoints/option_reacher/best_model.zip",
+  "options_path": "data/discovery/options/off_target_band_options.json",
+  "sequence": [
+    0,
+    3,
+    7,
+    5,
+    6,
+    1,
+    2,
+    4
+  ],
+  "discount": 0.99,
+  "replay_capacity": 100000,
+  "warmup": 1000,
+  "batch_size": 64,
+  "optimizer": "Adam 3e-4",
+  "target_sync_updates": 1000,
+  "initialization": "PyTorch Linear defaults; target copied from online",
+  "acceptance": "all eight targets completed; accepted.pt only saved on success",
+  "epsilon": {
+    "start": 1.0,
+    "end": 0.05,
+    "fraction": 0.5,
+    "exploration_family_balance": "all_available_uniform"
+  },
+  "environment": {
+    "max_episode_steps": 800,
+    "option_timeout_steps": 200,
+    "termination_radius_m": 0.02,
+    "unrestricted_options": true
+  },
+  "artifact_hashes": {
+    "best_model.zip": "f73d15f817aff9e30f8539c7cac48d1b6bc2a358e5e72f1c648b7dd4792f50c2",
+    "off_target_band_options.json": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb"
+  },
+  "historical_reward_coefficients": "Not recorded in the accepted checkpoint"
+}

@@ -1,0 +1,288 @@
+{
+  "complete": true,
+  "participants": 20,
+  "trials": 2400,
+  "not_estimable": 3,
+  "participant_effects": [
+    {
+      "participant": 401,
+      "value": -0.04523005553065986,
+      "trials": 120
+    },
+    {
+      "participant": 402,
+      "value": 0.0036821046185090927,
+      "trials": 120
+    },
+    {
+      "participant": 403,
+      "value": -0.01999303447532818,
+      "trials": 120
+    },
+    {
+      "participant": 404,
+      "value": -0.04558795155403066,
+      "trials": 120
+    },
+    {
+      "participant": 405,
+      "value": -0.01603511992836311,
+      "trials": 120
+    },
+    {
+      "participant": 406,
+      "value": 0.0017674754893060348,
+      "trials": 120
+    },
+    {
+      "participant": 407,
+      "value": -0.004948596586158382,
+      "trials": 120
+    },
+    {
+      "participant": 408,
+      "value": -0.01822738942517217,
+      "trials": 120
+    },
+    {
+      "participant": 409,
+      "value": -0.0017457167874889376,
+      "trials": 120
+    },
+    {
+      "participant": 410,
+      "value": 0.00553505291587872,
+      "trials": 120
+    },
+    {
+      "participant": 411,
+      "value": -0.040566398226579654,
+      "trials": 120
+    },
+    {
+      "participant": 412,
+      "value": -0.011995620195780272,
+      "trials": 120
+    },
+    {
+      "participant": 413,
+      "value": -0.019768888275759608,
+      "trials": 120
+    },
+    {
+      "participant": 414,
+      "value": -0.001830249555135449,
+      "trials": 120
+    },
+    {
+      "participant": 415,
+      "value": -0.009916189614703533,
+      "trials": 120
+    },
+    {
+      "participant": 416,
+      "value": -0.010666290322981713,
+      "trials": 120
+    },
+    {
+      "participant": 417,
+      "value": -0.039723703812435715,
+      "trials": 119
+    },
+    {
+      "participant": 418,
+      "value": -0.037751178233430695,
+      "trials": 120
+    },
+    {
+      "participant": 419,
+      "value": -0.018763676121912085,
+      "trials": 120
+    },
+    {
+      "participant": 420,
+      "value": -0.002840885198860322,
+      "trials": 118
+    }
+  ],
+  "second_minus_first_predictive_change": {
+    "n": 20,
+    "mean": -0.01673031554105433,
+    "ci95": [
+      -0.024582970941796622,
+      -0.008877660140312037
+    ],
+    "replication_values": [
+      -0.04523005553065986,
+      0.0036821046185090927,
+      -0.01999303447532818,
+      -0.04558795155403066,
+      -0.01603511992836311,
+      0.0017674754893060348,
+      -0.004948596586158382,
+      -0.01822738942517217,
+      -0.0017457167874889376,
+      0.00553505291587872,
+      -0.040566398226579654,
+      -0.011995620195780272,
+      -0.019768888275759608,
+      -0.001830249555135449,
+      -0.009916189614703533,
+      -0.010666290322981713,
+      -0.039723703812435715,
+      -0.037751178233430695,
+      -0.018763676121912085,
+      -0.002840885198860322
+    ]
+  },
+  "hierarchical_vs_flat_signature_similarity": {
+    "n": 20,
+    "mean": -0.01707563893070779,
+    "ci95": [
+      -0.01769704430665621,
+      -0.01645423355475937
+    ],
+    "replication_values": [
+      -0.015184521760049204,
+      -0.017376940203969973,
+      -0.01581136947889917,
+      -0.01552114248867696,
+      -0.01671782981490146,
+      -0.01703837625692519,
+      -0.01696804688547723,
+      -0.0189632422282945,
+      -0.018634718174895145,
+      -0.0188357970060696,
+      -0.01731242766201577,
+      -0.016913010051447394,
+      -0.017683987941263225,
+      -0.018712374820344522,
+      -0.018896254723437183,
+      -0.017192406097018855,
+      -0.014689750585166483,
+      -0.015086411696507821,
+      -0.017464356964171816,
+      -0.016509813774624283
+    ]
+  },
+  "participant_similarity": [
+    {
+      "participant": 401,
+      "value": -0.015184521760049204
+    },
+    {
+      "participant": 402,
+      "value": -0.017376940203969973
+    },
+    {
+      "participant": 403,
+      "value": -0.01581136947889917
+    },
+    {
+      "participant": 404,
+      "value": -0.01552114248867696
+    },
+    {
+      "participant": 405,
+      "value": -0.01671782981490146
+    },
+    {
+      "participant": 406,
+      "value": -0.01703837625692519
+    },
+    {
+      "participant": 407,
+      "value": -0.01696804688547723
+    },
+    {
+      "participant": 408,
+      "value": -0.0189632422282945
+    },
+    {
+      "participant": 409,
+      "value": -0.018634718174895145
+    },
+    {
+      "participant": 410,
+      "value": -0.0188357970060696
+    },
+    {
+      "participant": 411,
+      "value": -0.01731242766201577
+    },
+    {
+      "participant": 412,
+      "value": -0.016913010051447394
+    },
+    {
+      "participant": 413,
+      "value": -0.017683987941263225
+    },
+    {
+      "participant": 414,
+      "value": -0.018712374820344522
+    },
+    {
+      "participant": 415,
+      "value": -0.018896254723437183
+    },
+    {
+      "participant": 416,
+      "value": -0.017192406097018855
+    },
+    {
+      "participant": 417,
+      "value": -0.014689750585166483
+    },
+    {
+      "participant": 418,
+      "value": -0.015086411696507821
+    },
+    {
+      "participant": 419,
+      "value": -0.017464356964171816
+    },
+    {
+      "participant": 420,
+      "value": -0.016509813774624283
+    }
+  ],
+  "selected_single_head": 18,
+  "single_selection": "Maximal hierarchy-minus-flat passage contrast in published-model traces only; human data never used for gamma selection",
+  "multiscale_minus_single_passage_contrast": {
+    "n": 20,
+    "mean": -0.06797807376194624,
+    "ci95": [
+      -0.07639854264140722,
+      -0.05955760488248527
+    ],
+    "replication_values": [
+      -0.09803622790951035,
+      -0.04664778376033756,
+      -0.06161115553370922,
+      -0.09961624877463794,
+      -0.061007226692063155,
+      -0.03933872321119507,
+      -0.06836538305008082,
+      -0.08283506184885626,
+      -0.053290209536500904,
+      -0.04914591036011585,
+      -0.0798456285159539,
+      -0.051084187247051625,
+      -0.06563602757514092,
+      -0.06246605239922352,
+      -0.08530732644968415,
+      -0.06149515717110387,
+      -0.0784101618129961,
+      -0.08822282268096046,
+      -0.08269137257253872,
+      -0.04450880813726448
+    ]
+  },
+  "model_control": "Fixed illustrative Figure-8 controller settings; no claim of exhaustive model discrimination or a fitted reproduction",
+  "observable": "100Hz hand kinematics in physical seconds; geometric circle entry labels independent of SF score",
+  "support": "At least three eligible horizons >=50ms; <=0.5% missing band-kernel mass for both passage windows",
+  "limitation": "Successful human trials only; no muscle, EMG, force or neural recordings; compatibility is not proof of the MotorNet mechanism",
+  "relation_to_ae": "Fixed A--E projected scale-profile correlations with human first/second geometric passages; source and model-only empirical ranks; >=50ms shared support; descriptive similarity, no spatial transport or neural identity claim",
+  "smoke": false
+}

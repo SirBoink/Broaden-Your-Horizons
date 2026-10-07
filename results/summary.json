@@ -1,0 +1,142 @@
+{
+  "full": {
+    "base": {
+      "trials": 240,
+      "successes": 153,
+      "completion_pct": 63.74999999999999,
+      "restricted_completion_s": 5.242791666666666
+    },
+    "single": {
+      "trials": 240,
+      "successes": 169,
+      "completion_pct": 70.41666666666667,
+      "restricted_completion_s": 5.20375
+    },
+    "learned": {
+      "trials": 240,
+      "successes": 204,
+      "completion_pct": 85.0,
+      "restricted_completion_s": 4.268541666666667
+    },
+    "learned_minus_base": {
+      "gain_pp": 21.25,
+      "order_bootstrap_95CI_pp": [
+        6.666666666666667,
+        36.666666666666664
+      ]
+    },
+    "learned_minus_single": {
+      "gain_pp": 14.583333333333334,
+      "order_bootstrap_95CI_pp": [
+        1.6666666666666667,
+        28.75
+      ]
+    }
+  },
+  "short_transitions": {
+    "base": {
+      "trials": 80,
+      "successes": 38,
+      "completion_pct": 47.5,
+      "restricted_completion_s": 5.784000000000001
+    },
+    "single": {
+      "trials": 80,
+      "successes": 48,
+      "completion_pct": 60.0,
+      "restricted_completion_s": 5.4628749999999995
+    },
+    "learned": {
+      "trials": 80,
+      "successes": 74,
+      "completion_pct": 92.5,
+      "restricted_completion_s": 3.4926250000000003
+    },
+    "learned_minus_base": {
+      "gain_pp": 45.0,
+      "order_bootstrap_95CI_pp": [
+        21.25,
+        68.75
+      ]
+    },
+    "learned_minus_single": {
+      "gain_pp": 32.5,
+      "order_bootstrap_95CI_pp": [
+        11.25,
+        56.25
+      ]
+    }
+  },
+  "policy_replication": {
+    "7": {
+      "base": {
+        "trials": 240,
+        "successes": 154
+      },
+      "ddqn": {
+        "trials": 240,
+        "successes": 208
+      }
+    },
+    "101": {
+      "base": {
+        "trials": 240,
+        "successes": 165
+      },
+      "ddqn": {
+        "trials": 240,
+        "successes": 202
+      }
+    },
+    "202": {
+      "base": {
+        "trials": 240,
+        "successes": 65
+      },
+      "ddqn": {
+        "trials": 240,
+        "successes": 66
+      }
+    }
+  },
+  "local_replay": {
+    "0.01": {
+      "cases": 80,
+      "better": 16,
+      "tied": 47,
+      "worse": 17
+    },
+    "0.001": {
+      "cases": 80,
+      "better": 29,
+      "tied": 38,
+      "worse": 13
+    },
+    "0.0005": {
+      "cases": 80,
+      "better": 29,
+      "tied": 38,
+      "worse": 13
+    }
+  },
+  "demonstrations": {
+    "A": {
+      "episodes": 20,
+      "option_segments": 122,
+      "base_segments": 140,
+      "option_segment_share": 0.46564885496183206,
+      "option_commands": 1038,
+      "all_commands": 9071,
+      "option_command_share": 0.11443060302061514
+    },
+    "B": {
+      "episodes": 20,
+      "option_segments": 127,
+      "base_segments": 143,
+      "option_segment_share": 0.4703703703703704,
+      "option_commands": 1116,
+      "all_commands": 7914,
+      "option_command_share": 0.14101592115238817
+    }
+  }
+}

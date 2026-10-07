@@ -1,0 +1,34 @@
+[
+  {
+    "file": "seed7_order03_event0009.json",
+    "metadata": {
+      "policy_seed": 7,
+      "order": 3,
+      "context_seed": 303,
+      "posture": 0,
+      "q": [
+        47.205502667461055,
+        90.70973322382807
+      ],
+      "invocation": 9,
+      "choice": 1,
+      "start_step": 194
+    },
+    "chosen_minus_base_progress_500ms_m": {
+      "0.01": 0.0,
+      "0.001": -0.004074401070595146,
+      "0.0005": -0.004074591764242824
+    },
+    "RK4_1ms_vs_half_ms_max_position_error_m": 0.05618606407192448,
+    "common_trace_steps": 101,
+    "RK4_branch_names": [
+      "base",
+      "chosen",
+      "other_2",
+      "other_3",
+      "other_4",
+      "other_5",
+      "mirror"
+    ]
+  }
+]

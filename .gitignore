@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+*.tmp
+data/neural/episodes/
+data/handoffs/branches/
+results/*
+!results/summary.json
+!results/verification.json

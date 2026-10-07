@@ -1,0 +1,427 @@
+{
+  "discovery": {
+    "command_dt_s": 0.01,
+    "evaluation_seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "band_count": 39,
+    "minimum_horizon_s": 0.01,
+    "maximum_horizon_s": 1.8,
+    "percentile_threshold": 0.9,
+    "minimum_adjacent_bands": 3,
+    "maximum_missing_mass": 0.005,
+    "target_exclusion_m": 0.025,
+    "candidate_separation_m": 0.005,
+    "candidate_count": 5,
+    "event_phase_tolerance": 0.1
+  },
+  "statistics": {
+    "bootstrap_seed": 42,
+    "bootstrap_samples": 10000,
+    "confidence_level": 0.95,
+    "local_progress_tie_tolerance_m": 1e-06
+  },
+  "reward": {
+    "target_acquisition": 20.0,
+    "sequence_completion": 200.0
+  },
+  "modules": {
+    "analysis/mechanism_experiment.py": {
+      "SOURCE_SEQUENCE": [
+        0,
+        3,
+        7,
+        5,
+        6,
+        1,
+        2,
+        4
+      ]
+    },
+    "analysis/mechanism_validation.py": {},
+    "SAC/changed/env.py": {
+      "sequence": [
+        0,
+        3,
+        7,
+        5,
+        6,
+        1,
+        2,
+        4
+      ]
+    },
+    "SAC/changed/evaluate.py": {},
+    "SAC/changed/train.py": {},
+    "SAC/core/env.py": {
+      "sequence": [
+        0,
+        3,
+        7,
+        5,
+        6,
+        1,
+        2,
+        4
+      ],
+      "radius": 0.1,
+      "target_hit_radius": 0.02
+    },
+    "SAC/core/metadata.py": {},
+    "SAC/core/rich_progress.py": {},
+    "SAC/high_level.py": {
+      "GAMMA": 0.99,
+      "STATE_SIZE": 30,
+      "REACHER_SIZE": 22,
+      "HIDDEN_SIZE": 128,
+      "REPLAY_CAPACITY": 100000,
+      "WARMUP": 1000,
+      "BATCH_SIZE": 64,
+      "UPDATE_FREQUENCY": 1000,
+      "EVAL_FREQUENCY": 50000,
+      "DEFAULT_TIMESTEPS": 1000000,
+      "DEFAULT_SEED": 7,
+      "DEFAULT_DELIBERATION_COST": 0.1
+    },
+    "SAC/options.py": {
+      "GAMMAS": [
+        0.9,
+        0.95,
+        0.98,
+        0.99,
+        0.995
+      ],
+      "SKIP_GAMMA": 0.99875,
+      "BASE_CHOICE": 0,
+      "TERMINATION_RADIUS": 0.02,
+      "TIMEOUT_STEPS": 30
+    },
+    "SAC/reacher.py": {
+      "DT": 0.01,
+      "OBSERVATION_SIZE": 22,
+      "ACTION_SIZE": 6,
+      "WORKSPACE_RADIUS": 0.1,
+      "MIN_SEPARATION": 0.02,
+      "HIT_RADIUS": 0.02,
+      "MAX_EPISODE_STEPS": 200,
+      "DEFAULT_SEED": 7,
+      "DEFAULT_EVAL_SEED": 10007,
+      "DEFAULT_TIMESTEPS": 1000000,
+      "DEFAULT_EVAL_FREQUENCY": 10000,
+      "DEFAULT_EVAL_COUNT": 100
+    },
+    "scripts/evaluate_hierarchy_geometry.py": {},
+    "scripts/run_five_claim_pilots.py": {},
+    "scripts/screen_landmark_evidence.py": {}
+  },
+  "defaults": {
+    "analysis/mechanism_experiment.py": {
+      "make_task": {
+        "physical_dt": 0.001,
+        "max_steps": 20000
+      },
+      "stall_indices": {
+        "maximum_steps": 800
+      },
+      "branch": {
+        "direct": false,
+        "measure_probes": true
+      },
+      "branch_many": {
+        "measure_probes": true
+      },
+      "transfer_batch": {
+        "steps": 800,
+        "controller": "base"
+      },
+      "stage_transfer": {
+        "historical": false
+      }
+    },
+    "analysis/mechanism_validation.py": {
+      "load_network": {
+        "device": "cpu"
+      }
+    },
+    "SAC/changed/env.py": {
+      "StraightReachEnv.__init__": {
+        "distance_scale": 0.1,
+        "path_penalty_scale": 0.0,
+        "arrival_speed": 0.1,
+        "random_start": false,
+        "shuffle_sequence": false
+      },
+      "StraightReachEnv.get_obs": {
+        "deterministic": false
+      },
+      "StraightReachEnv.step": {
+        "deterministic": false
+      }
+    },
+    "SAC/changed/evaluate.py": {
+      "make_env": {
+        "random_start": true,
+        "path_penalty_scale": 0.0
+      },
+      "run_evaluation": {
+        "episodes": 10,
+        "save_episodes": true
+      },
+      "evaluate": {
+        "episodes": 10,
+        "algo": "sac",
+        "random_start": true
+      }
+    },
+    "SAC/changed/train.py": {
+      "make_training_env": {
+        "random_start": true,
+        "shuffle_sequence": true
+      },
+      "QualityEvalCallback.__init__": {
+        "success_threshold": 0.95,
+        "path_ratio_threshold": 1.2,
+        "deviation_threshold": 0.02,
+        "patience": 3,
+        "random_start": true
+      },
+      "train": {
+        "total_timesteps": 1000000,
+        "seed": 7,
+        "eval_freq": 10000,
+        "checkpoint_freq": 50000,
+        "eval_episodes": 10,
+        "algo": "sac",
+        "random_start": true,
+        "shuffle_sequence": true
+      }
+    },
+    "SAC/core/env.py": {
+      "SequentialReachEnv.__init__": {
+        "angular_offset_deg": 0.0,
+        "dwell": false,
+        "tolerance": 0.01,
+        "hold_steps": 20,
+        "max_episode_steps": 800,
+        "progress_reward_scale": 1.0,
+        "straight_path_reward": false,
+        "action_noise": 0.0,
+        "obs_noise": 0.0
+      },
+      "SequentialReachEnv.get_obs": {
+        "deterministic": false
+      },
+      "SequentialReachEnv.step": {
+        "deterministic": false
+      }
+    },
+    "SAC/core/metadata.py": {
+      "write_metadata": {
+        "straight_path_reward": false,
+        "algo": "ppo"
+      }
+    },
+    "SAC/core/rich_progress.py": {
+      "RichProgressCallback.__init__": {
+        "verbose": 0,
+        "algo": "ppo"
+      }
+    },
+    "SAC/high_level.py": {
+      "load_frozen_sac": {
+        "device": "cpu"
+      },
+      "QNetwork.__init__": {
+        "action_count": 1
+      },
+      "choose_action": {
+        "free_for_all": false
+      },
+      "make_env": {
+        "random_start": false,
+        "max_episode_steps": 800,
+        "action_noise": 0.0,
+        "obs_noise": 0.0,
+        "path_penalty_scale": 0.0
+      },
+      "run_episode": {
+        "step": 0,
+        "total": 1,
+        "training": false,
+        "capture_trajectory": false,
+        "free_for_all": false
+      },
+      "train": {
+        "device": "cpu",
+        "free_for_all": false,
+        "transfer_training": false,
+        "heldout_sequences": []
+      },
+      "load_checkpoint": {
+        "device": "cpu"
+      }
+    },
+    "SAC/options.py": {
+      "execute_choice": {
+        "base_deterministic": true
+      }
+    },
+    "SAC/reacher.py": {
+      "sample_pairs": {
+        "count": 100
+      },
+      "ReacherTask.get_obs": {
+        "deterministic": false
+      },
+      "ReacherTask.step": {
+        "deterministic": true
+      }
+    },
+    "scripts/evaluate_hierarchy_geometry.py": {
+      "geometry": {
+        "speed_floor": 0.02
+      }
+    },
+    "scripts/run_five_claim_pilots.py": {
+      "setup": {
+        "smoke": false
+      },
+      "transfer": {
+        "smoke": false
+      },
+      "physiology": {
+        "smoke": false
+      },
+      "selectors": {
+        "smoke": false
+      },
+      "sequence": {
+        "smoke": false
+      },
+      "human": {
+        "smoke": false
+      },
+      "plots": {
+        "smoke": false
+      }
+    },
+    "scripts/screen_landmark_evidence.py": {
+      "replay": {
+        "per_cell": 0
+      }
+    }
+  },
+  "protocol": {
+    "version": 3,
+    "seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "command_dt": 0.01,
+    "sample_dt": 0.01,
+    "record_steps": 1530,
+    "analysis_steps": 180,
+    "transfer_steps": 800,
+    "trial_count": 8,
+    "option_steps": 30,
+    "option_radius_m": 0.02,
+    "probe_excitation": 0.05,
+    "probe_steps": 5,
+    "probe_horizons": [
+      5,
+      15,
+      30
+    ],
+    "stall_steps": 10,
+    "stall_progress_m": 0.001,
+    "stall_distance_m": 0.04,
+    "association_m": 0.02,
+    "association_steps": 10,
+    "match_distance_m": 0.02,
+    "match_speed_mps": 0.01,
+    "match_phase": 0.15,
+    "convergence_position_m": 0.001,
+    "convergence_activation": 0.01,
+    "convergence_score": 0.005,
+    "meaningful_change": 0.01,
+    "integration_method": "classical RK4; force and geometry evaluated at each stage",
+    "integration_dtype": "float64",
+    "integration_grids": [
+      0.002,
+      0.001,
+      0.0005,
+      0.00025
+    ],
+    "historical_integration": "unmodified MotorNet Euler, 10ms, float32",
+    "norm_floor": "float64 epsilon; weak raw changes retained and reported",
+    "missing_mass": 0.005,
+    "single_candidate_count": 5,
+    "single_selection": "mean 500ms progress on calibration branches; ties lower gamma",
+    "training_seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "sf_epochs": 100,
+    "sf_min_epochs": 20,
+    "sf_patience": 15,
+    "sf_batch": 1024,
+    "sf_lr": 0.0003,
+    "sf_bellman_weight": 0.1
+  },
+  "training": {
+    "selector_learning_rate": 0.0003,
+    "selector_gradient_clip": 10.0,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_fraction": 0.5,
+    "sac": {
+      "learning_rate": 0.0003,
+      "buffer_size": 1000000,
+      "learning_starts": 10000,
+      "batch_size": 256,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "train_freq": 1,
+      "gradient_steps": 1,
+      "ent_coef": "auto"
+    },
+    "ppo": {
+      "n_steps": 2048,
+      "batch_size": 64
+    }
+  },
+  "neural": {
+    "input_size": 30,
+    "hidden_size": 256,
+    "expanded_size": 512,
+    "residual_blocks": 3,
+    "head_count": 23,
+    "feature_count": 10,
+    "weight_decay": 1e-05,
+    "gradient_clip": 1.0,
+    "target_ema": 0.005,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 3,
+    "scheduler_threshold": 0.0001,
+    "minimum_learning_rate": 1e-06,
+    "prediction_batch": 4096,
+    "ridge_strengths": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "readout_components": 10,
+    "normalization_floor": 1e-06
+  }
+}

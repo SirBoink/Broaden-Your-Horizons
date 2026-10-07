@@ -1,0 +1,198 @@
+{
+  "order": 6,
+  "condition": "ddqn",
+  "contexts": [
+    {
+      "context_seed": 42,
+      "posture": 0,
+      "q": [
+        44.41118115732992,
+        90.18612906215476
+      ]
+    },
+    {
+      "context_seed": 42,
+      "posture": 1,
+      "q": [
+        44.772045401752436,
+        89.98474620921735
+      ]
+    },
+    {
+      "context_seed": 101,
+      "posture": 0,
+      "q": [
+        44.36617789983235,
+        89.48554548733391
+      ]
+    },
+    {
+      "context_seed": 101,
+      "posture": 1,
+      "q": [
+        44.57278535768532,
+        89.78050567047529
+      ]
+    },
+    {
+      "context_seed": 202,
+      "posture": 0,
+      "q": [
+        44.409619342144225,
+        90.11705353561979
+      ]
+    },
+    {
+      "context_seed": 202,
+      "posture": 1,
+      "q": [
+        44.08833823049843,
+        89.54492704530045
+      ]
+    },
+    {
+      "context_seed": 303,
+      "posture": 0,
+      "q": [
+        44.420690955182245,
+        89.98906138480193
+      ]
+    },
+    {
+      "context_seed": 303,
+      "posture": 1,
+      "q": [
+        44.117485544729604,
+        89.85937084364403
+      ]
+    },
+    {
+      "context_seed": 404,
+      "posture": 0,
+      "q": [
+        44.0890557535268,
+        89.58866198034877
+      ]
+    },
+    {
+      "context_seed": 404,
+      "posture": 1,
+      "q": [
+        44.55841411993829,
+        89.49725843823633
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "success": true,
+      "completion_s": 3.56,
+      "restricted_completion_s": 3.56,
+      "targets_completed": 8,
+      "option_steps": 34,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 7.640000000000001,
+      "restricted_completion_s": 7.640000000000001,
+      "targets_completed": 8,
+      "option_steps": 52,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.87,
+      "restricted_completion_s": 3.87,
+      "targets_completed": 8,
+      "option_steps": 31,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.38,
+      "restricted_completion_s": 3.38,
+      "targets_completed": 8,
+      "option_steps": 34,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.5,
+      "restricted_completion_s": 3.5,
+      "targets_completed": 8,
+      "option_steps": 34,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.84,
+      "restricted_completion_s": 3.84,
+      "targets_completed": 8,
+      "option_steps": 31,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 2,
+      "option_steps": 11,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.75,
+      "restricted_completion_s": 4.75,
+      "targets_completed": 8,
+      "option_steps": 40,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 72,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.8200000000000003,
+      "restricted_completion_s": 3.8200000000000003,
+      "targets_completed": 8,
+      "option_steps": 22,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ]
+}

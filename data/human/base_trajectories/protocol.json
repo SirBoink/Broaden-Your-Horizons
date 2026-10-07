@@ -1,0 +1,43 @@
+{
+  "orders": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "selection": "All 24 existing held-out orders; first two predefined posture contexts per order",
+  "contexts_per_order": 2,
+  "steps": 800,
+  "dt": 0.01,
+  "alignment": "First geometric entry into second target circle while second target active",
+  "processing": "Gaussian sigma20ms; gradients100Hz; exclude curvature below0.02m/s",
+  "ranking": "Speed RMSE and log1p curvature RMSE reported separately; no fitted shifts or rescaling",
+  "source_hashes": {
+    ".\\checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+    ".\\checkpoints/base_policy_101\\best_model.zip": "bc5b19d4a5476d2ce99f596358c468fc2fd2864d023af23afd64cf989fb7363b",
+    ".\\checkpoints/base_policy_202\\best_model.zip": "3e4d441921cf3240a832235a6f6280c9fe1ae44d155ea58c284877083cee8894",
+    ".\\checkpoints/alternate_policy\\best_model.zip": "3e1d32e8f9f905a003a6d367b27626bc499e747ea593cf291cce2e5416ff2126",
+    ".\\data/mechanism\\panel.json": "7a055261d93f826531f222528a985a8731883cc340ad04b1596a23cd936eda2c",
+    ".\\scripts\\check_base_human_alignment.py": "e49f27ca0aa198a722934742d74ebc17f4f8ce9164d65d004213c874ec743cf0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "policy": 202,
+  "order": 4,
+  "result": [
+    {
+      "success": true,
+      "completion_s": 5.04,
+      "restricted_completion_s": 5.04,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.95,
+      "restricted_completion_s": 3.95,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "base"
+    }
+  ]
+}

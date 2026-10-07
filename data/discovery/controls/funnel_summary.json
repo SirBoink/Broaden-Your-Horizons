@@ -1,0 +1,28 @@
+{
+  "CORRECT_MODEL_seed42": {
+    "n_rollouts": 50,
+    "jitter_deg": 3.0,
+    "t0_pos_disp_mm": 3.27177357673645,
+    "C_step_pos_disp_mm": 4.367748737335205,
+    "C_step_pos_ratio": 1.3349789381027222,
+    "C_step_joint_ratio": 0.9234651923179626,
+    "C_step_muscle_ratio": 0.715246319770813,
+    "min_dist_to_C_mm": 7.17828999678267,
+    "min_dist_step": 5,
+    "min_dist_time_ms": 50,
+    "funnel_contraction_detected": true
+  },
+  "few_shot_seed7": {
+    "n_rollouts": 50,
+    "jitter_deg": 3.0,
+    "t0_pos_disp_mm": 4.6281280517578125,
+    "C_step_pos_disp_mm": 5.3349995613098145,
+    "C_step_pos_ratio": 1.1527338027954102,
+    "C_step_joint_ratio": 1.1081711053848267,
+    "C_step_muscle_ratio": 0.8051614761352539,
+    "min_dist_to_C_mm": 12.412506899434556,
+    "min_dist_step": 5,
+    "min_dist_time_ms": 50,
+    "funnel_contraction_detected": false
+  }
+}

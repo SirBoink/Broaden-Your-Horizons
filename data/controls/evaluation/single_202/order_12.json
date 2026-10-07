@@ -1,0 +1,97 @@
+{
+  "order": 12,
+  "sequence": [
+    0,
+    4,
+    3,
+    7,
+    1,
+    6,
+    2,
+    5
+  ],
+  "contexts": [
+    {
+      "q": [
+        46.047611712213104,
+        87.69685169898162
+      ],
+      "context": 0,
+      "rng_seed": 20261019
+    },
+    {
+      "q": [
+        45.45426164614819,
+        92.10066805615031
+      ],
+      "context": 1,
+      "rng_seed": 20261019
+    },
+    {
+      "q": [
+        46.19844095892822,
+        87.91614462129074
+      ],
+      "context": 2,
+      "rng_seed": 20261019
+    },
+    {
+      "q": [
+        46.24440722194799,
+        91.8524357516359
+      ],
+      "context": 3,
+      "rng_seed": 20261019
+    }
+  ],
+  "method": "learned",
+  "library": "single",
+  "selector_seed": 202,
+  "results": [
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 5,
+      "option_steps": 363,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 5.22,
+      "restricted_completion_s": 5.22,
+      "targets_completed": 8,
+      "option_steps": 155,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.95,
+      "restricted_completion_s": 3.95,
+      "targets_completed": 8,
+      "option_steps": 28,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 4,
+      "option_steps": 504,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "98384f2162338f963c0e487a4bf487ad9e60f363ffa6a6bdb8d1bd16bef99def"
+}

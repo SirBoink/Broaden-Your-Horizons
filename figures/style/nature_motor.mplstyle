@@ -1,0 +1,39 @@
+# Typography
+font.family: EB Garamond
+font.size: 7
+mathtext.fontset: custom
+mathtext.rm: EB Garamond
+mathtext.it: EB Garamond
+mathtext.bf: EB Garamond
+mathtext.sf: EB Garamond
+axes.labelsize: 7
+axes.titlesize: 7
+xtick.labelsize: 6
+ytick.labelsize: 6
+legend.fontsize: 6
+
+# Axes and ticks
+axes.linewidth: 0.6
+axes.grid: False
+axes.spines.top: False
+axes.spines.right: False
+xtick.direction: out
+ytick.direction: out
+xtick.major.size: 2.5
+ytick.major.size: 2.5
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+
+# Lines and legends
+lines.linewidth: 1.0
+lines.markersize: 3.0
+legend.frameon: False
+
+# Layout and export
+figure.constrained_layout.use: True
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none
+savefig.dpi: 450
+savefig.transparent: False
+text.usetex: False

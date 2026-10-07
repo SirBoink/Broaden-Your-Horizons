@@ -1,0 +1,188 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "posture": 0,
+      "q": [
+        45.40432329667366,
+        87.54436758718352
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 42,
+      "posture": 1,
+      "q": [
+        46.88483138180049,
+        90.66175674967522
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 101,
+      "posture": 0,
+      "q": [
+        45.35932003917609,
+        86.84378401236266
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 101,
+      "posture": 1,
+      "q": [
+        46.68557133773337,
+        90.45751621093316
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 202,
+      "posture": 0,
+      "q": [
+        45.402761481487964,
+        87.47529206064854
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 202,
+      "posture": 1,
+      "q": [
+        46.20112421054648,
+        90.22193758575833
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 303,
+      "posture": 0,
+      "q": [
+        45.413833094525984,
+        87.34729990983068
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 303,
+      "posture": 1,
+      "q": [
+        46.230271524777656,
+        90.5363813841019
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 404,
+      "posture": 0,
+      "q": [
+        45.08219789287054,
+        86.94690050537753
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    },
+    {
+      "seed": 404,
+      "posture": 1,
+      "q": [
+        46.67120009998634,
+        90.1742689786942
+      ],
+      "order": 7,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 7,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "single",
+      "controller": "base"
+    }
+  ],
+  "physical_dt": 0.01,
+  "solver": "Unmodified MotorNet Euler, float32",
+  "base_case_hash": "3e04ffae74bc138a34e1abcb40f034de0081e954ee4d17a17943e2ed982a95f9",
+  "selected_library_hash": "56552d8163e8928f8110810e554575c68facc8099ec51619c10fa4fe9e0c5568"
+}

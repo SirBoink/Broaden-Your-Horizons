@@ -1,0 +1,102 @@
+{
+  "protocol": {
+    "version": 3,
+    "seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "command_dt": 0.01,
+    "sample_dt": 0.01,
+    "record_steps": 1530,
+    "analysis_steps": 180,
+    "transfer_steps": 800,
+    "trial_count": 8,
+    "option_steps": 30,
+    "option_radius_m": 0.02,
+    "probe_excitation": 0.05,
+    "probe_steps": 5,
+    "probe_horizons": [
+      5,
+      15,
+      30
+    ],
+    "stall_steps": 10,
+    "stall_progress_m": 0.001,
+    "stall_distance_m": 0.04,
+    "association_m": 0.02,
+    "association_steps": 10,
+    "match_distance_m": 0.02,
+    "match_speed_mps": 0.01,
+    "match_phase": 0.15,
+    "convergence_position_m": 0.001,
+    "convergence_activation": 0.01,
+    "convergence_score": 0.005,
+    "meaningful_change": 0.01,
+    "integration_method": "classical RK4; force and geometry evaluated at each stage",
+    "integration_dtype": "float64",
+    "integration_grids": [
+      0.002,
+      0.001,
+      0.0005,
+      0.00025
+    ],
+    "historical_integration": "unmodified MotorNet Euler, 10ms, float32",
+    "norm_floor": "float64 epsilon; weak raw changes retained and reported",
+    "missing_mass": 0.005,
+    "single_candidate_count": 5,
+    "single_selection": "mean 500ms progress on calibration branches; ties lower gamma",
+    "training_seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "sf_epochs": 100,
+    "sf_min_epochs": 20,
+    "sf_patience": 15,
+    "sf_batch": 1024,
+    "sf_lr": 0.0003,
+    "sf_bellman_weight": 0.1
+  },
+  "legacy_root": ".",
+  "source_hashes": {
+    "base": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+    "reacher": "f73d15f817aff9e30f8539c7cac48d1b6bc2a358e5e72f1c648b7dd4792f50c2",
+    "library": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb",
+    "selector": "00f8169b09785bb4974352e5ee501e75fe75b76ad05bbbf8c62e25bde1fadb0e",
+    "reaches": "2e34d87a4b4342b9b84a47be8bd0f491be8b01884e47272c184cd503b4897c88",
+    "bands": "a9a68fe92ce194a3e259dfe04b6131e9d5b93b99428768c3d7e5f992887ee41e",
+    "candidates": "593cace96a698c78b99740f24a1954665c4019e3b346df13de3b72309705fa4c",
+    "normalization": "f7bceadf209a0dae39f92169f930b10d63030129f1c3bfda8af05f4579e7932a",
+    "panel": "af5058cad99158c683b4c30aee9e0fcccbcc02cf28627e31529761875de18d8d"
+  },
+  "analysis_hashes": {
+    "analysis\\mechanism_math.py": "9b533d936f9483ea3e93003e3ed0db8f47b4a2cfd18a93a47650420966cdec9b",
+    "analysis\\mechanism_physics.py": "a7d576a3db96f5affbd3bb7146f293837ab0a77d198d0ba789a5585627031e45",
+    "analysis\\mechanism_experiment.py": "4d5fe53fb217c9dcb637b527e2df9d8eff8ec5770638db531d926467f90c91fa",
+    "analysis\\mechanism_validation.py": "070f769cb42ae50a318aadf6a98fafbb4024fce8378c6bdafe6062785874f176",
+    "analysis\\mechanism_checks.py": "a2e3dc1ca0c089645ab24b5af9e4ab0c01decd20c8dd783bfcd3b6cfbb6df2fb",
+    "SAC\\changed\\env.py": "e33cba058c4a5548a6df6ac042acb8f8fc0e79aa17cc47000445949ed1d07aa0",
+    "SAC\\core\\env.py": "10c6de28bbcdb7cfcfeda2b73f6cc46a88cab70a762706058fbd672ab96edd29",
+    "SAC\\core\\ppo_env.py": "cfee7badbbce4e6b93ca4ce210577ef8b15de8a4635f0737bfe3467a3ac300c0",
+    "SAC\\options.py": "c7e240b3ce6d4ad3b7861485241f6d606cf38622405c037df06a5b38df8fcaa5",
+    "SAC\\high_level.py": "61814c05bd2c6b33fb227d5dc482616b4281534cda48f53701ec8f867b166a5b"
+  },
+  "environment": {
+    "python": "3.10.20",
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.2",
+      "torch": "2.14.0+cu126",
+      "motornet": "0.3.0",
+      "gymnasium": "1.3.0",
+      "stable-baselines3": "2.9.0"
+    }
+  },
+  "batch_size": 8,
+  "smoke_limit": null
+}

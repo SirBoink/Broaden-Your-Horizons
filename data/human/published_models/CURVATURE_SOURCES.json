@@ -1,0 +1,18 @@
+{
+  "import_data.py": {
+    "url": "https://ndownloader.figshare.com/files/61433107",
+    "sha256": "e18e399849d524d06f137f445fb7a5b3911e305ce8d9198c1d13609e48eb0806"
+  },
+  "analyses.py": {
+    "url": "https://ndownloader.figshare.com/files/61433206",
+    "sha256": "350a9c8eec451aff759f9d4c077f299db00884f42461c7d334e87d80951f64fb"
+  },
+  "statistics.py": {
+    "url": "https://ndownloader.figshare.com/files/61433209",
+    "sha256": "a3b4cafc2095fba3a908f6eca9ac541b5088e43e07bb354f1a82c49512a300a7"
+  },
+  "all_data.csv": {
+    "url": "https://ndownloader.figshare.com/files/61433242",
+    "sha256": "e02d2f98301633e64f28661c7acbc44023816a5067f19cd2575b1a6821de9936"
+  }
+}

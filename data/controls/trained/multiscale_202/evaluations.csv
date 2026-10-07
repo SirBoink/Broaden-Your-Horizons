@@ -1,0 +1,3 @@
+primitive_step,success,targets_completed,return,primitive_steps,high_level_decisions,action_frequencies,option_termination_reasons
+50014,False,3,60.49271925166249,800,525,"{""0"": 499, ""3"": 26}","{""base_step"": 499, ""subgoal_reached"": 25, ""environment_truncated"": 1}"
+60000,True,8,418.4111112523824,643,340,"{""0"": 288, ""2"": 34, ""4"": 16, ""5"": 2}","{""base_step"": 288, ""subgoal_reached"": 52}"

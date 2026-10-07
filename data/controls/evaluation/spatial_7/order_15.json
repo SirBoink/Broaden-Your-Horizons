@@ -1,0 +1,97 @@
+{
+  "order": 15,
+  "sequence": [
+    0,
+    2,
+    5,
+    6,
+    3,
+    1,
+    4,
+    7
+  ],
+  "contexts": [
+    {
+      "q": [
+        43.74701644579769,
+        88.64630570034242
+      ],
+      "context": 0,
+      "rng_seed": 20261022
+    },
+    {
+      "q": [
+        44.437170168721984,
+        92.31179471188945
+      ],
+      "context": 1,
+      "rng_seed": 20261022
+    },
+    {
+      "q": [
+        43.74682815930946,
+        88.92049009657318
+      ],
+      "context": 2,
+      "rng_seed": 20261022
+    },
+    {
+      "q": [
+        45.01878874696818,
+        92.5104537784337
+      ],
+      "context": 3,
+      "rng_seed": 20261022
+    }
+  ],
+  "method": "learned",
+  "library": "spatial",
+  "selector_seed": 7,
+  "results": [
+    {
+      "success": true,
+      "completion_s": 4.15,
+      "restricted_completion_s": 4.15,
+      "targets_completed": 8,
+      "option_steps": 39,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.0100000000000002,
+      "restricted_completion_s": 3.0100000000000002,
+      "targets_completed": 8,
+      "option_steps": 23,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.2800000000000002,
+      "restricted_completion_s": 3.2800000000000002,
+      "targets_completed": 8,
+      "option_steps": 7,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 2.88,
+      "restricted_completion_s": 2.88,
+      "targets_completed": 8,
+      "option_steps": 12,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "1ea62f4bf5a6e6062c7946678b86e7fbc7ceaca8a2d3368fb2d3c1e9a49abd82"
+}

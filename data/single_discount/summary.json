@@ -1,0 +1,178 @@
+{
+  "comparison_complete": true,
+  "exploratory": true,
+  "physical_dt": 0.01,
+  "numerically_converged": false,
+  "selected_single": {
+    "head": 6,
+    "gamma": 0.6242284582403211,
+    "cardinality": 5,
+    "progress_m": 0.02115082775708288
+  },
+  "groups": {
+    "all": {
+      "methods": {
+        "base": {
+          "n": 240,
+          "successes": 153,
+          "completion": 0.6375,
+          "restricted_completion_s": 5.242791666666666
+        },
+        "single": {
+          "n": 240,
+          "successes": 169,
+          "completion": 0.7041666666666667,
+          "restricted_completion_s": 5.20375
+        },
+        "learned": {
+          "n": 240,
+          "successes": 204,
+          "completion": 0.85,
+          "restricted_completion_s": 4.268541666666667
+        }
+      },
+      "learned_minus_control": {
+        "base": {
+          "n": 5,
+          "mean": 0.2125,
+          "ci95": [
+            0.1787722544852353,
+            0.2462277455147647
+          ],
+          "replication_values": [
+            0.22916666666666666,
+            0.20833333333333334,
+            0.22916666666666666,
+            0.16666666666666666,
+            0.22916666666666666
+          ]
+        },
+        "single": {
+          "n": 5,
+          "mean": 0.14583333333333331,
+          "ci95": [
+            0.11996533337075485,
+            0.17170133329591178
+          ],
+          "replication_values": [
+            0.14583333333333334,
+            0.16666666666666666,
+            0.125,
+            0.16666666666666666,
+            0.125
+          ]
+        }
+      }
+    },
+    "large": {
+      "methods": {
+        "base": {
+          "n": 160,
+          "successes": 115,
+          "completion": 0.71875,
+          "restricted_completion_s": 4.9721874999999995
+        },
+        "single": {
+          "n": 160,
+          "successes": 121,
+          "completion": 0.75625,
+          "restricted_completion_s": 5.0741875
+        },
+        "learned": {
+          "n": 160,
+          "successes": 130,
+          "completion": 0.8125,
+          "restricted_completion_s": 4.656499999999999
+        }
+      },
+      "learned_minus_control": {
+        "base": {
+          "n": 5,
+          "mean": 0.09375,
+          "ci95": [
+            0.046227449569011314,
+            0.14127255043098869
+          ],
+          "replication_values": [
+            0.09375,
+            0.09375,
+            0.0625,
+            0.0625,
+            0.15625
+          ]
+        },
+        "single": {
+          "n": 5,
+          "mean": 0.05625,
+          "ci95": [
+            0.02378591769738845,
+            0.08871408230261155
+          ],
+          "replication_values": [
+            0.03125,
+            0.0625,
+            0.0625,
+            0.09375,
+            0.03125
+          ]
+        }
+      }
+    },
+    "small": {
+      "methods": {
+        "base": {
+          "n": 80,
+          "successes": 38,
+          "completion": 0.475,
+          "restricted_completion_s": 5.784000000000001
+        },
+        "single": {
+          "n": 80,
+          "successes": 48,
+          "completion": 0.6,
+          "restricted_completion_s": 5.4628749999999995
+        },
+        "learned": {
+          "n": 80,
+          "successes": 74,
+          "completion": 0.925,
+          "restricted_completion_s": 3.4926250000000003
+        }
+      },
+      "learned_minus_control": {
+        "base": {
+          "n": 5,
+          "mean": 0.45,
+          "ci95": [
+            0.3488167634557059,
+            0.5511832365442941
+          ],
+          "replication_values": [
+            0.5,
+            0.4375,
+            0.5625,
+            0.375,
+            0.375
+          ]
+        },
+        "single": {
+          "n": 5,
+          "mean": 0.325,
+          "ci95": [
+            0.2600718353947769,
+            0.3899281646052231
+          ],
+          "replication_values": [
+            0.375,
+            0.375,
+            0.25,
+            0.3125,
+            0.3125
+          ]
+        }
+      }
+    }
+  },
+  "scope": "Frozen learned A--E versus baseline and calibration-selected single; historical Euler only",
+  "limitations": "Learned selector and fixed-rule single have different decision rules; no human-controller fit; seed intervals describe the fixed sequence panel"
+}

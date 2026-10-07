@@ -1,0 +1,97 @@
+{
+  "order": 2,
+  "sequence": [
+    0,
+    6,
+    2,
+    1,
+    5,
+    4,
+    7,
+    3
+  ],
+  "contexts": [
+    {
+      "q": [
+        46.25148271478069,
+        88.23384451972485
+      ],
+      "context": 0,
+      "rng_seed": 20261009
+    },
+    {
+      "q": [
+        43.39491611864025,
+        90.60460517101372
+      ],
+      "context": 1,
+      "rng_seed": 20261009
+    },
+    {
+      "q": [
+        46.73076267331966,
+        88.22604465645037
+      ],
+      "context": 2,
+      "rng_seed": 20261009
+    },
+    {
+      "q": [
+        43.71067165341374,
+        90.7491820759225
+      ],
+      "context": 3,
+      "rng_seed": 20261009
+    }
+  ],
+  "method": "learned",
+  "library": "multiscale",
+  "selector_seed": 202,
+  "results": [
+    {
+      "success": true,
+      "completion_s": 7.8500000000000005,
+      "restricted_completion_s": 7.8500000000000005,
+      "targets_completed": 8,
+      "option_steps": 226,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.38,
+      "restricted_completion_s": 4.38,
+      "targets_completed": 8,
+      "option_steps": 81,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 6.5600000000000005,
+      "restricted_completion_s": 6.5600000000000005,
+      "targets_completed": 8,
+      "option_steps": 243,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.86,
+      "restricted_completion_s": 3.86,
+      "targets_completed": 8,
+      "option_steps": 49,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "df7ea1ae5ee303c5f67734329346a8d5e40b9b2ee6df08300188c29ba7c4edb5"
+}

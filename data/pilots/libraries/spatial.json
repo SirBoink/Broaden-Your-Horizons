@@ -1,0 +1,63 @@
+{
+  "name": "spatial_grid_control_options",
+  "description": "5 matched control waypoints uniformly spaced across workspace envelope (>25mm off-target)",
+  "termination_radius_m": 0.02,
+  "timeout_steps": 30,
+  "options": [
+    {
+      "id": "spatial_control_A",
+      "choice": 1,
+      "gamma": 0.5,
+      "xy_m": [
+        -0.045,
+        0.41
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "spatial_control_B",
+      "choice": 2,
+      "gamma": 0.5,
+      "xy_m": [
+        0.045,
+        0.41
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "spatial_control_C",
+      "choice": 3,
+      "gamma": 0.5,
+      "xy_m": [
+        0.0,
+        0.45
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "spatial_control_D",
+      "choice": 4,
+      "gamma": 0.5,
+      "xy_m": [
+        -0.045,
+        0.49
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "spatial_control_E",
+      "choice": 5,
+      "gamma": 0.5,
+      "xy_m": [
+        0.045,
+        0.49
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    }
+  ]
+}

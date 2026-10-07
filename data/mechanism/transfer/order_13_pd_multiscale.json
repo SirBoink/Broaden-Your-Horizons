@@ -1,0 +1,189 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "posture": 0,
+      "q": [
+        43.211010862747926,
+        90.54366867120135
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.68,
+      "restricted_completion_s": 3.68,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 42,
+      "posture": 1,
+      "q": [
+        46.089502066658675,
+        89.05688987920573
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.7,
+      "restricted_completion_s": 3.7,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 101,
+      "posture": 0,
+      "q": [
+        43.16600760525036,
+        89.84308509638049
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.68,
+      "restricted_completion_s": 3.68,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 101,
+      "posture": 1,
+      "q": [
+        45.89024202259156,
+        88.85264934046367
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.7,
+      "restricted_completion_s": 3.7,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 202,
+      "posture": 0,
+      "q": [
+        43.20944904756223,
+        90.47459314466637
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.68,
+      "restricted_completion_s": 3.68,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 202,
+      "posture": 1,
+      "q": [
+        45.40579489540467,
+        88.61707071528883
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.7,
+      "restricted_completion_s": 3.7,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 303,
+      "posture": 0,
+      "q": [
+        43.22052066060025,
+        90.34660099384851
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.68,
+      "restricted_completion_s": 3.68,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 303,
+      "posture": 1,
+      "q": [
+        45.43494220963584,
+        88.93151451363241
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.7,
+      "restricted_completion_s": 3.7,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 404,
+      "posture": 0,
+      "q": [
+        42.888885458944806,
+        89.94620158939536
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.68,
+      "restricted_completion_s": 3.68,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    },
+    {
+      "seed": 404,
+      "posture": 1,
+      "q": [
+        45.87587078484453,
+        88.56940210822471
+      ],
+      "order": 13,
+      "success": true,
+      "completion_s": 3.7,
+      "restricted_completion_s": 3.7,
+      "targets_completed": 8,
+      "option_steps": 11,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "pd"
+    }
+  ],
+  "selector_hash": null,
+  "library_hash": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb",
+  "physical_dt": 0.001,
+  "historical_discretization": false,
+  "interpretation": "common fixed-rule comparison"
+}

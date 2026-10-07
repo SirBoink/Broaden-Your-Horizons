@@ -1,0 +1,315 @@
+{
+  "selected": {
+    "head": 13,
+    "gamma": 0.8343944619643291,
+    "cardinality": 5,
+    "progress_m": 0.020924685662336684
+  },
+  "all_heads": [
+    {
+      "head": 0,
+      "gamma": 0.3430482568229743,
+      "cardinality": 5,
+      "progress_m": -0.010477917663964378
+    },
+    {
+      "head": 1,
+      "gamma": 0.393282383509073,
+      "cardinality": 5,
+      "progress_m": -0.010477917663964378
+    },
+    {
+      "head": 2,
+      "gamma": 0.44307073057863544,
+      "cardinality": 5,
+      "progress_m": -0.010477917663964378
+    },
+    {
+      "head": 3,
+      "gamma": 0.4916196214659169,
+      "cardinality": 5,
+      "progress_m": -0.013344989398227288
+    },
+    {
+      "head": 4,
+      "gamma": 0.5382915233912712,
+      "cardinality": 5,
+      "progress_m": -0.01636091629630696
+    },
+    {
+      "head": 5,
+      "gamma": 0.5826057750277112,
+      "cardinality": 5,
+      "progress_m": -0.01636091629630696
+    },
+    {
+      "head": 6,
+      "gamma": 0.6242284582403211,
+      "cardinality": 5,
+      "progress_m": 0.017992141224334367
+    },
+    {
+      "head": 7,
+      "gamma": 0.6629555610485945,
+      "cardinality": 5,
+      "progress_m": 0.017992141224334367
+    },
+    {
+      "head": 8,
+      "gamma": 0.6986928346378921,
+      "cardinality": 5,
+      "progress_m": 0.017992141224334367
+    },
+    {
+      "head": 9,
+      "gamma": 0.7314348823441179,
+      "cardinality": 5,
+      "progress_m": 0.017992141224334367
+    },
+    {
+      "head": 10,
+      "gamma": 0.7612452013655745,
+      "cardinality": 5,
+      "progress_m": 0.017992141224334367
+    },
+    {
+      "head": 11,
+      "gamma": 0.7882382135289385,
+      "cardinality": 5,
+      "progress_m": 0.018055201097939524
+    },
+    {
+      "head": 12,
+      "gamma": 0.8125637972375429,
+      "cardinality": 5,
+      "progress_m": 0.018055201097939524
+    },
+    {
+      "head": 13,
+      "gamma": 0.8343944619643291,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 14,
+      "gamma": 0.8539150656885793,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 15,
+      "gamma": 0.8713148354786289,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 16,
+      "gamma": 0.8867813840887622,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 17,
+      "gamma": 0.9004963972970219,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 18,
+      "gamma": 0.9126326792779909,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 19,
+      "gamma": 0.9233522730574075,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 20,
+      "gamma": 0.9328054107074274,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 21,
+      "gamma": 0.9411300873666574,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 22,
+      "gamma": 0.9484520907759354,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 23,
+      "gamma": 0.9548853518627984,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 24,
+      "gamma": 0.9605325111555574,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 25,
+      "gamma": 0.9654856203311912,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 26,
+      "gamma": 0.9698269182731049,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 27,
+      "gamma": 0.9736296371142616,
+      "cardinality": 5,
+      "progress_m": 0.020924685662336684
+    },
+    {
+      "head": 28,
+      "gamma": 0.9769588064264917,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 29,
+      "gamma": 0.9798720335484185,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 30,
+      "gamma": 0.9824202455428092,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 31,
+      "gamma": 0.9846483838989412,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 32,
+      "gamma": 0.9865960472392293,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 33,
+      "gamma": 0.9882980802784407,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 34,
+      "gamma": 0.989785109384723,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 35,
+      "gamma": 0.9910840265181565,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 36,
+      "gamma": 0.9922184242438238,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 37,
+      "gamma": 0.9932089850647617,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 38,
+      "gamma": 0.99407382859793,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    },
+    {
+      "head": 39,
+      "gamma": 0.9948288202017124,
+      "cardinality": 5,
+      "progress_m": 0.01769472324297442
+    }
+  ],
+  "library": [
+    {
+      "xy_m": [
+        0.033075228333473206,
+        0.4552122950553894
+      ],
+      "score": 0.04145799478149337,
+      "trial": 17,
+      "step": 7
+    },
+    {
+      "xy_m": [
+        0.022726580500602722,
+        0.4558332860469818
+      ],
+      "score": 0.03830926645654176,
+      "trial": 1,
+      "step": 7
+    },
+    {
+      "xy_m": [
+        -0.08331659436225891,
+        0.4993588924407959
+      ],
+      "score": 0.03230282322093947,
+      "trial": 18,
+      "step": 4
+    },
+    {
+      "xy_m": [
+        -0.004180192947387695,
+        0.45791998505592346
+      ],
+      "score": 0.029629176551410508,
+      "trial": 0,
+      "step": 4
+    },
+    {
+      "xy_m": [
+        -0.06939226388931274,
+        0.5056541562080383
+      ],
+      "score": 0.025696580912678568,
+      "trial": 2,
+      "step": 4
+    }
+  ],
+  "calibration_contexts": [
+    "base_isolated_270001_0",
+    "base_isolated_270002_0",
+    "base_isolated_270001_1",
+    "base_isolated_270002_1",
+    "base_isolated_270001_2",
+    "base_isolated_270002_2",
+    "base_isolated_270001_3",
+    "base_isolated_270002_3",
+    "base_isolated_270001_4",
+    "base_isolated_270002_4",
+    "base_isolated_270001_5",
+    "base_isolated_270002_5",
+    "base_isolated_270001_6",
+    "base_isolated_270002_6",
+    "base_isolated_270001_7",
+    "base_isolated_270002_7"
+  ]
+}

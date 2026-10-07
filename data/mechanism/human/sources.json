@@ -1,0 +1,9 @@
+{
+  "dataset_sha256": "4e64e69c4b85ceccfca7e328d1971e79d8bb435281925ff34308ea6af5afd236",
+  "code_doi": "10.6084/m9.figshare.31169632",
+  "model_hashes": {
+    "single.py": "eb65737efb9524ef2719f41f7ce0c12bacd2427b30743fa3e0aa840fbf7cbc48",
+    "hierarchical.py": "d98984c1fc9774ddc7718054b60f56b2cacf76ac099b3c769a1250b481276c18",
+    "utils.py": "a2e7ee9683dbb658ef95d699073ce18a48928a2a8443fcb56c8a041a70837e4d"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "complete_orders": 72,
+  "source_hashes_verified": true,
+  "transfer": {
+    "7": {
+      "base_success": 154,
+      "ddqn_success": 208,
+      "n": 240,
+      "effect_pp": 22.5,
+      "order_bootstrap_ci95_pp": [
+        8.75,
+        37.5
+      ],
+      "restricted_s_base": 5.231916666666666,
+      "restricted_s_ddqn": 4.267124999999999,
+      "orders_better_equal_worse": [
+        14,
+        4,
+        6
+      ]
+    },
+    "101": {
+      "base_success": 165,
+      "ddqn_success": 202,
+      "n": 240,
+      "effect_pp": 15.416666666666668,
+      "order_bootstrap_ci95_pp": [
+        -1.2499999999999998,
+        33.33333333333333
+      ],
+      "restricted_s_base": 4.31875,
+      "restricted_s_ddqn": 3.6438333333333333,
+      "orders_better_equal_worse": [
+        6,
+        14,
+        4
+      ]
+    },
+    "202": {
+      "base_success": 65,
+      "ddqn_success": 66,
+      "n": 240,
+      "effect_pp": 0.41666666666666646,
+      "order_bootstrap_ci95_pp": [
+        -6.250000000000002,
+        6.666666666666667
+      ],
+      "restricted_s_base": 7.071916666666667,
+      "restricted_s_ddqn": 6.882541666666667,
+      "orders_better_equal_worse": [
+        8,
+        9,
+        7
+      ]
+    }
+  },
+  "handoffs": {
+    "101_base": {
+      "episodes": 228,
+      "invocations": 756,
+      "effect_pp": 3.6810776942355887,
+      "order_bootstrap_ci95_pp": [
+        -5.51327691270683,
+        12.633245499593732
+      ]
+    },
+    "101_other_mean": {
+      "episodes": 228,
+      "invocations": 756,
+      "effect_pp": 5.016186299081035,
+      "order_bootstrap_ci95_pp": [
+        -2.1284649383493,
+        11.307907315637578
+      ]
+    },
+    "101_mirror": {
+      "episodes": 176,
+      "invocations": 468,
+      "effect_pp": -1.799242424242424,
+      "order_bootstrap_ci95_pp": [
+        -4.166666666666666,
+        -0.14124293785310735
+      ]
+    },
+    "202_base": {
+      "episodes": 201,
+      "invocations": 430,
+      "effect_pp": -2.4745321013977732,
+      "order_bootstrap_ci95_pp": [
+        -8.399332089254004,
+        2.632835420898216
+      ]
+    },
+    "202_other_mean": {
+      "episodes": 201,
+      "invocations": 430,
+      "effect_pp": -2.8718510621495694,
+      "order_bootstrap_ci95_pp": [
+        -9.08105552583964,
+        2.584153160371429
+      ]
+    },
+    "202_mirror": {
+      "episodes": 164,
+      "invocations": 339,
+      "effect_pp": -5.7317073170731705,
+      "order_bootstrap_ci95_pp": [
+        -13.526947463768119,
+        1.2557616093736526
+      ]
+    },
+    "7_base": {
+      "episodes": 240,
+      "invocations": 779,
+      "effect_pp": 9.344742063492061,
+      "order_bootstrap_ci95_pp": [
+        4.01875,
+        15.432130456349208
+      ]
+    },
+    "7_mirror": {
+      "episodes": 216,
+      "invocations": 592,
+      "effect_pp": 5.84104938271605,
+      "order_bootstrap_ci95_pp": [
+        -5.730059118149758,
+        20.193109631439274
+      ]
+    },
+    "7_other_mean": {
+      "episodes": 240,
+      "invocations": 779,
+      "effect_pp": 5.639963624338624,
+      "order_bootstrap_ci95_pp": [
+        0.44994316302910103,
+        11.738780381944444
+      ]
+    }
+  },
+  "endpoint_reasons": {
+    "101_waypoint": 756,
+    "202_waypoint": 430,
+    "7_waypoint": 779
+  },
+  "mirror_exclusions": {
+    "mirror coincides with chosen waypoint": 77,
+    "near task target": 489
+  },
+  "scope": "Exploratory within-policy whole-order bootstrap, 10000 draws, seed42; shared selector/reacher. No training-population or corrected hypothesis test."
+}

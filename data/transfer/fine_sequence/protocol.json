@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "smoke": false,
+  "scope": "Exploratory pilots, not completed robustness/mediation/human-hierarchy validation",
+  "orders": [
+    0,
+    16
+  ],
+  "contexts": 2,
+  "policies": [
+    7,
+    101,
+    202
+  ],
+  "dynamics": [
+    0.01,
+    0.001,
+    0.0005
+  ],
+  "selector_training_steps": 6000,
+  "selector_seeds": [
+    7
+  ],
+  "selector_choice": "final.pt, no best-run selection",
+  "selector_warmup_decisions": 64,
+  "warmup_scope": "Fixed short-pilot setting for all libraries; chosen after instrumentation showed no updates at original warmup",
+  "physiology": "10ms; fixed-position activation or velocity replacement using same-clock base donor; sham resynchronization in all arms",
+  "human": "Six SVG sequences; rigid 180deg rotation and translation only; geometric compatibility, separate final-hold/speed criteria",
+  "hashes": {
+    "scripts\\run_five_claim_pilots.py": "b944d28f23337855f1eace88e07ad137b699153de54c802a4cea6d0ac0cbad30",
+    "scripts\\evaluate_landmark_handoffs.py": "9957daeb9a536f65e826df88dbafc8c27ce18e67a877c3dc45e671c068060ea5",
+    "analysis\\mechanism_experiment.py": "69de28c62b691060915ed4cb7d00e05e76c680fd51e945687ba0215061fd8da7",
+    "SAC\\high_level.py": "57a56f231e159ca3fde472bc3281fb4fe6a268a8a3f2946b6d445a569d18efae",
+    "checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+    "checkpoints/base_policy_101\\best_model.zip": "bc5b19d4a5476d2ce99f596358c468fc2fd2864d023af23afd64cf989fb7363b",
+    "checkpoints/base_policy_202\\best_model.zip": "3e4d441921cf3240a832235a6f6280c9fe1ae44d155ea58c284877083cee8894",
+    "checkpoints/option_reacher\\best_model.zip": "f73d15f817aff9e30f8539c7cac48d1b6bc2a358e5e72f1c648b7dd4792f50c2",
+    "checkpoints/selector\\accepted.pt": "00f8169b09785bb4974352e5ee501e75fe75b76ad05bbbf8c62e25bde1fadb0e",
+    "data/discovery/options\\off_target_band_options.json": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb",
+    "data/discovery/controls\\spatial_grid_options.json": "9e1346a17d7b06a83192012cbdb924fd6aede27ebcbc79a8b33a4e438e3ca44b",
+    "data/discovery/controls\\kinematic_extrema_options.json": "b9f7dc19042100218038dbd154d5a4b7bceb031a0681d62d32a822a3dfbaf7bd",
+    "data/human/published_models\\utils.py": "a2e7ee9683dbb658ef95d699073ce18a48928a2a8443fcb56c8a041a70837e4d",
+    "data/mechanism\\human\\experiment_sheet.svg": "aec70cab3399fe38857f32026445dbf0b2ea638ee72f0abacf4182aabfa0d405"
+  }
+}

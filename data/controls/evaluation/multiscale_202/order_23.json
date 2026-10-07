@@ -1,0 +1,97 @@
+{
+  "order": 23,
+  "sequence": [
+    0,
+    2,
+    1,
+    5,
+    7,
+    6,
+    3,
+    4
+  ],
+  "contexts": [
+    {
+      "q": [
+        45.70749201854912,
+        90.97931687641275
+      ],
+      "context": 0,
+      "rng_seed": 20261030
+    },
+    {
+      "q": [
+        45.198378325322125,
+        87.8147331388938
+      ],
+      "context": 1,
+      "rng_seed": 20261030
+    },
+    {
+      "q": [
+        46.22084970253833,
+        90.61873385278845
+      ],
+      "context": 2,
+      "rng_seed": 20261030
+    },
+    {
+      "q": [
+        45.906473078384344,
+        87.99429036178734
+      ],
+      "context": 3,
+      "rng_seed": 20261030
+    }
+  ],
+  "method": "learned",
+  "library": "multiscale",
+  "selector_seed": 202,
+  "results": [
+    {
+      "success": true,
+      "completion_s": 5.79,
+      "restricted_completion_s": 5.79,
+      "targets_completed": 8,
+      "option_steps": 216,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.7600000000000002,
+      "restricted_completion_s": 3.7600000000000002,
+      "targets_completed": 8,
+      "option_steps": 34,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 5.66,
+      "restricted_completion_s": 5.66,
+      "targets_completed": 8,
+      "option_steps": 171,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.41,
+      "restricted_completion_s": 4.41,
+      "targets_completed": 8,
+      "option_steps": 110,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "df7ea1ae5ee303c5f67734329346a8d5e40b9b2ee6df08300188c29ba7c4edb5"
+}

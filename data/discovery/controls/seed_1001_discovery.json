@@ -1,0 +1,73 @@
+{
+  "seed": 1001,
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "total_events": 10,
+  "off_target_count": 4,
+  "candidates": [
+    {
+      "trial": 0,
+      "target": 0,
+      "step": 1,
+      "time_ms": 10,
+      "phase": 0.04,
+      "xy_m": [
+        -0.016970574855804443,
+        0.4539625346660614
+      ],
+      "nearest_target_mm": 99.99999403953552,
+      "nearest_canonical_sg": "A",
+      "dist_to_canonical_mm": 4.822235390933834
+    },
+    {
+      "trial": 8,
+      "target": 0,
+      "step": 8,
+      "time_ms": 80,
+      "phase": 0.32,
+      "xy_m": [
+        0.028207927942276,
+        0.38752949237823486
+      ],
+      "nearest_target_mm": 25.888022035360336,
+      "nearest_canonical_sg": "B",
+      "dist_to_canonical_mm": 48.1157335413037
+    },
+    {
+      "trial": 12,
+      "target": 4,
+      "step": 7,
+      "time_ms": 70,
+      "phase": 0.7777777777777778,
+      "xy_m": [
+        -0.08830302953720093,
+        0.488045334815979
+      ],
+      "nearest_target_mm": 36.63316369056702,
+      "nearest_canonical_sg": "A",
+      "dist_to_canonical_mm": 82.58612904846292
+    },
+    {
+      "trial": 4,
+      "target": 4,
+      "step": 8,
+      "time_ms": 80,
+      "phase": 0.8888888888888888,
+      "xy_m": [
+        -0.09419563412666321,
+        0.47529512643814087
+      ],
+      "nearest_target_mm": 31.20540827512741,
+      "nearest_canonical_sg": "A",
+      "dist_to_canonical_mm": 84.15683449895756
+    }
+  ]
+}

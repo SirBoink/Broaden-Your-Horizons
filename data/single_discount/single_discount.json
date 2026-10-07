@@ -1,0 +1,316 @@
+{
+  "selected": {
+    "head": 6,
+    "gamma": 0.6242284582403211,
+    "cardinality": 5,
+    "progress_m": 0.02115082775708288
+  },
+  "all_heads": [
+    {
+      "head": 0,
+      "gamma": 0.3430482568229743,
+      "cardinality": 5,
+      "progress_m": 0.016431071562692523
+    },
+    {
+      "head": 1,
+      "gamma": 0.393282383509073,
+      "cardinality": 5,
+      "progress_m": 0.016431071562692523
+    },
+    {
+      "head": 2,
+      "gamma": 0.44307073057863544,
+      "cardinality": 5,
+      "progress_m": 0.016431071562692523
+    },
+    {
+      "head": 3,
+      "gamma": 0.4916196214659169,
+      "cardinality": 5,
+      "progress_m": -0.008855210326146334
+    },
+    {
+      "head": 4,
+      "gamma": 0.5382915233912712,
+      "cardinality": 5,
+      "progress_m": 0.00389317941153422
+    },
+    {
+      "head": 5,
+      "gamma": 0.5826057750277112,
+      "cardinality": 5,
+      "progress_m": 0.00389317941153422
+    },
+    {
+      "head": 6,
+      "gamma": 0.6242284582403211,
+      "cardinality": 5,
+      "progress_m": 0.02115082775708288
+    },
+    {
+      "head": 7,
+      "gamma": 0.6629555610485945,
+      "cardinality": 5,
+      "progress_m": 0.02115082775708288
+    },
+    {
+      "head": 8,
+      "gamma": 0.6986928346378921,
+      "cardinality": 5,
+      "progress_m": 0.015596567303873599
+    },
+    {
+      "head": 9,
+      "gamma": 0.7314348823441179,
+      "cardinality": 5,
+      "progress_m": 0.015596567303873599
+    },
+    {
+      "head": 10,
+      "gamma": 0.7612452013655745,
+      "cardinality": 5,
+      "progress_m": 0.015596567303873599
+    },
+    {
+      "head": 11,
+      "gamma": 0.7882382135289385,
+      "cardinality": 5,
+      "progress_m": 0.015596567303873599
+    },
+    {
+      "head": 12,
+      "gamma": 0.8125637972375429,
+      "cardinality": 5,
+      "progress_m": 0.015766195370815694
+    },
+    {
+      "head": 13,
+      "gamma": 0.8343944619643291,
+      "cardinality": 5,
+      "progress_m": 0.01212334877345711
+    },
+    {
+      "head": 14,
+      "gamma": 0.8539150656885793,
+      "cardinality": 5,
+      "progress_m": 0.01212334877345711
+    },
+    {
+      "head": 15,
+      "gamma": 0.8713148354786289,
+      "cardinality": 5,
+      "progress_m": 0.01212334877345711
+    },
+    {
+      "head": 16,
+      "gamma": 0.8867813840887622,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 17,
+      "gamma": 0.9004963972970219,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 18,
+      "gamma": 0.9126326792779909,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 19,
+      "gamma": 0.9233522730574075,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 20,
+      "gamma": 0.9328054107074274,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 21,
+      "gamma": 0.9411300873666574,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 22,
+      "gamma": 0.9484520907759354,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 23,
+      "gamma": 0.9548853518627984,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 24,
+      "gamma": 0.9605325111555574,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 25,
+      "gamma": 0.9654856203311912,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 26,
+      "gamma": 0.9698269182731049,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 27,
+      "gamma": 0.9736296371142616,
+      "cardinality": 5,
+      "progress_m": 0.015056166215799749
+    },
+    {
+      "head": 28,
+      "gamma": 0.9769588064264917,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 29,
+      "gamma": 0.9798720335484185,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 30,
+      "gamma": 0.9824202455428092,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 31,
+      "gamma": 0.9846483838989412,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 32,
+      "gamma": 0.9865960472392293,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 33,
+      "gamma": 0.9882980802784407,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 34,
+      "gamma": 0.989785109384723,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 35,
+      "gamma": 0.9910840265181565,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 36,
+      "gamma": 0.9922184242438238,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 37,
+      "gamma": 0.9932089850647617,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 38,
+      "gamma": 0.99407382859793,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    },
+    {
+      "head": 39,
+      "gamma": 0.9948288202017124,
+      "cardinality": 5,
+      "progress_m": 0.01507679431233555
+    }
+  ],
+  "library": [
+    {
+      "xy_m": [
+        -0.004180192947387695,
+        0.45791998505592346
+      ],
+      "score": 0.07410051413548002,
+      "trial": 0,
+      "step": 4
+    },
+    {
+      "xy_m": [
+        -0.0022797882556915283,
+        0.45016711950302124
+      ],
+      "score": 0.07155495356612385,
+      "trial": 9,
+      "step": 9
+    },
+    {
+      "xy_m": [
+        0.007007867097854614,
+        0.4585520625114441
+      ],
+      "score": 0.06552840747605904,
+      "trial": 1,
+      "step": 8
+    },
+    {
+      "xy_m": [
+        0.026911556720733643,
+        0.5261135101318359
+      ],
+      "score": 0.0617272230982725,
+      "trial": 22,
+      "step": 6
+    },
+    {
+      "xy_m": [
+        -0.0750269740819931,
+        0.49131709337234497
+      ],
+      "score": 0.055332475583659724,
+      "trial": 18,
+      "step": 5
+    }
+  ],
+  "calibration_contexts": [
+    "base_isolated_270001_0",
+    "base_isolated_270002_0",
+    "base_isolated_270001_1",
+    "base_isolated_270002_1",
+    "base_isolated_270001_2",
+    "base_isolated_270002_2",
+    "base_isolated_270001_3",
+    "base_isolated_270002_3",
+    "base_isolated_270001_4",
+    "base_isolated_270002_4",
+    "base_isolated_270001_5",
+    "base_isolated_270002_5",
+    "base_isolated_270001_6",
+    "base_isolated_270002_6",
+    "base_isolated_270001_7",
+    "base_isolated_270002_7"
+  ],
+  "selection": "Mean 500 ms original-target progress; calibration only; ties lower head"
+}

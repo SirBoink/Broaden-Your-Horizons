@@ -1,0 +1,7 @@
+{
+  "geometric_crossing": true,
+  "circle_curvature": true,
+  "failed_trial_retained": true,
+  "observer_preserves_frozen_executor": true,
+  "selector_artifact_hashes_verified": true
+}

@@ -1,0 +1,50 @@
+{
+  "trials": [
+    {
+      "option": "A",
+      "reason": "subgoal_reached",
+      "duration_steps": 7,
+      "termination_frame": 12,
+      "distance_m": 0.016550934616668858,
+      "seed": 0
+    },
+    {
+      "option": "B",
+      "reason": "subgoal_reached",
+      "duration_steps": 8,
+      "termination_frame": 13,
+      "distance_m": 0.0020202303346481217,
+      "seed": 0
+    },
+    {
+      "option": "C",
+      "reason": "subgoal_reached",
+      "duration_steps": 8,
+      "termination_frame": 13,
+      "distance_m": 0.010732332918605453,
+      "seed": 0
+    },
+    {
+      "option": "D",
+      "reason": "subgoal_reached",
+      "duration_steps": 7,
+      "termination_frame": 12,
+      "distance_m": 0.009572441952093752,
+      "seed": 0
+    },
+    {
+      "option": "E",
+      "reason": "subgoal_reached",
+      "duration_steps": 4,
+      "termination_frame": 9,
+      "distance_m": 0.015664318790345248,
+      "seed": 0
+    }
+  ],
+  "dt_s": 0.01,
+  "alignment": "Actual execute_choice termination; 20 mm region or 30-step timeout",
+  "design": "Five deterministic explicit option invocations from one common launch; not DDQN-selected trials",
+  "signals": "Recorded native cartesian vx/vy and joint q/dq; no numerical differentiation or smoothing",
+  "continuation": "Frozen base SAC for five frames after option termination",
+  "sampling": "One trial per option, eleven frames per window; not population estimates"
+}

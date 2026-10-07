@@ -1,0 +1,97 @@
+{
+  "order": 6,
+  "sequence": [
+    0,
+    5,
+    2,
+    7,
+    4,
+    1,
+    3,
+    6
+  ],
+  "contexts": [
+    {
+      "q": [
+        44.32100337850067,
+        89.69378787369364
+      ],
+      "context": 0,
+      "rng_seed": 20261013
+    },
+    {
+      "q": [
+        44.53759245825601,
+        89.56433878614511
+      ],
+      "context": 1,
+      "rng_seed": 20261013
+    },
+    {
+      "q": [
+        44.7340448091138,
+        89.84237645207045
+      ],
+      "context": 2,
+      "rng_seed": 20261013
+    },
+    {
+      "q": [
+        44.12755431847433,
+        89.5361229005407
+      ],
+      "context": 3,
+      "rng_seed": 20261013
+    }
+  ],
+  "method": "learned",
+  "library": "multiscale",
+  "selector_seed": 202,
+  "results": [
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 5,
+      "option_steps": 332,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 6,
+      "option_steps": 343,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.76,
+      "restricted_completion_s": 4.76,
+      "targets_completed": 8,
+      "option_steps": 68,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 5.0600000000000005,
+      "restricted_completion_s": 5.0600000000000005,
+      "targets_completed": 8,
+      "option_steps": 103,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "df7ea1ae5ee303c5f67734329346a8d5e40b9b2ee6df08300188c29ba7c4edb5"
+}

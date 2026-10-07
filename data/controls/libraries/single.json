@@ -1,0 +1,66 @@
+{
+  "options": [
+    {
+      "xy_m": [
+        -0.004180192947387695,
+        0.45791998505592346
+      ],
+      "score": 0.07410051413548002,
+      "trial": 0,
+      "step": 4,
+      "choice": 1,
+      "timeout_steps": 30,
+      "termination_radius_m": 0.02
+    },
+    {
+      "xy_m": [
+        -0.0022797882556915283,
+        0.45016711950302124
+      ],
+      "score": 0.07155495356612385,
+      "trial": 9,
+      "step": 9,
+      "choice": 2,
+      "timeout_steps": 30,
+      "termination_radius_m": 0.02
+    },
+    {
+      "xy_m": [
+        0.007007867097854614,
+        0.4585520625114441
+      ],
+      "score": 0.06552840747605904,
+      "trial": 1,
+      "step": 8,
+      "choice": 3,
+      "timeout_steps": 30,
+      "termination_radius_m": 0.02
+    },
+    {
+      "xy_m": [
+        0.026911556720733643,
+        0.5261135101318359
+      ],
+      "score": 0.0617272230982725,
+      "trial": 22,
+      "step": 6,
+      "choice": 4,
+      "timeout_steps": 30,
+      "termination_radius_m": 0.02
+    },
+    {
+      "xy_m": [
+        -0.0750269740819931,
+        0.49131709337234497
+      ],
+      "score": 0.055332475583659724,
+      "trial": 18,
+      "step": 5,
+      "choice": 5,
+      "timeout_steps": 30,
+      "termination_radius_m": 0.02
+    }
+  ],
+  "timeout_steps": 30,
+  "termination_radius_m": 0.02
+}

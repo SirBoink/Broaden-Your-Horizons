@@ -1,0 +1,97 @@
+{
+  "order": 12,
+  "sequence": [
+    0,
+    4,
+    3,
+    7,
+    1,
+    6,
+    2,
+    5
+  ],
+  "contexts": [
+    {
+      "q": [
+        46.047611712213104,
+        87.69685169898162
+      ],
+      "context": 0,
+      "rng_seed": 20261019
+    },
+    {
+      "q": [
+        45.45426164614819,
+        92.10066805615031
+      ],
+      "context": 1,
+      "rng_seed": 20261019
+    },
+    {
+      "q": [
+        46.19844095892822,
+        87.91614462129074
+      ],
+      "context": 2,
+      "rng_seed": 20261019
+    },
+    {
+      "q": [
+        46.24440722194799,
+        91.8524357516359
+      ],
+      "context": 3,
+      "rng_seed": 20261019
+    }
+  ],
+  "method": "learned",
+  "library": "single",
+  "selector_seed": 7,
+  "results": [
+    {
+      "success": true,
+      "completion_s": 3.7800000000000002,
+      "restricted_completion_s": 3.7800000000000002,
+      "targets_completed": 8,
+      "option_steps": 36,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.8500000000000005,
+      "restricted_completion_s": 4.8500000000000005,
+      "targets_completed": 8,
+      "option_steps": 31,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.92,
+      "restricted_completion_s": 3.92,
+      "targets_completed": 8,
+      "option_steps": 24,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.42,
+      "restricted_completion_s": 4.42,
+      "targets_completed": 8,
+      "option_steps": 20,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "e5ba9a56fab495e8f8ac020aa0d4ba9138b2f2ad59743ea56752bf92f57cc573"
+}

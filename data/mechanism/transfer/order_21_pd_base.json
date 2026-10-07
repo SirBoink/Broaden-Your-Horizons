@@ -1,0 +1,189 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "posture": 0,
+      "q": [
+        47.47274748235863,
+        92.8850080869364
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 3.92,
+      "restricted_completion_s": 3.92,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 42,
+      "posture": 1,
+      "q": [
+        45.50539162476238,
+        92.58489752144456
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 4.14,
+      "restricted_completion_s": 4.14,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 101,
+      "posture": 0,
+      "q": [
+        47.42774422486106,
+        92.18442451211554
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 3.91,
+      "restricted_completion_s": 3.91,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 101,
+      "posture": 1,
+      "q": [
+        45.306131580695265,
+        92.3806569827025
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 4.14,
+      "restricted_completion_s": 4.14,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 202,
+      "posture": 0,
+      "q": [
+        47.47118566717293,
+        92.81593256040142
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 3.92,
+      "restricted_completion_s": 3.92,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 202,
+      "posture": 1,
+      "q": [
+        44.821684453508375,
+        92.14507835752767
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 4.12,
+      "restricted_completion_s": 4.12,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 303,
+      "posture": 0,
+      "q": [
+        47.48225728021095,
+        92.68794040958356
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 3.91,
+      "restricted_completion_s": 3.91,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 303,
+      "posture": 1,
+      "q": [
+        44.85083176773955,
+        92.45952215587124
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 4.12,
+      "restricted_completion_s": 4.12,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 404,
+      "posture": 0,
+      "q": [
+        47.15062207855551,
+        92.28754100513041
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 3.87,
+      "restricted_completion_s": 3.87,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    },
+    {
+      "seed": 404,
+      "posture": 1,
+      "q": [
+        45.29176034294824,
+        92.09740975046354
+      ],
+      "order": 21,
+      "success": true,
+      "completion_s": 4.14,
+      "restricted_completion_s": 4.14,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "base",
+      "controller": "pd"
+    }
+  ],
+  "selector_hash": null,
+  "library_hash": null,
+  "physical_dt": 0.001,
+  "historical_discretization": false,
+  "interpretation": "common fixed-rule comparison"
+}

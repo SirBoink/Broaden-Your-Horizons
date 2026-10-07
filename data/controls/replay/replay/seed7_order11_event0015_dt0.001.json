@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "policy_seed": 7,
+    "order": 11,
+    "context_seed": 404,
+    "posture": 0,
+    "q": [
+      44.0382068704197,
+      90.19901672690335
+    ],
+    "invocation": 15,
+    "choice": 5,
+    "start_step": 180
+  },
+  "physical_dt": 0.001,
+  "rows": [
+    {
+      "branch": "base",
+      "choice": 0,
+      "progress_500ms_m": 0.09769957850102248,
+      "target_acquired_500ms": false,
+      "first_target_acquisition_step": -1,
+      "endpoint": null,
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 1.0,
+      "targets_completed": 5,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 100,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "branch": "chosen",
+      "choice": 5,
+      "progress_500ms_m": 0.12968380457775583,
+      "target_acquired_500ms": true,
+      "first_target_acquisition_step": 28,
+      "endpoint": {
+        "step": 13,
+        "reason": "waypoint",
+        "joint": [
+          0.7973861488158985,
+          1.4253180366175093,
+          1.7699635508089129,
+          -2.3070138602502257
+        ],
+        "cartesian": [
+          0.013828559735832469,
+          0.4858104969363489,
+          -0.24917507036302933,
+          0.4905677587650939
+        ],
+        "activation": [
+          0.33437336954375185,
+          0.5713294792337507,
+          0.5670283110505268,
+          0.9563177308758037,
+          0.885916628057635,
+          0.6054312070831633
+        ],
+        "force_N": [
+          277.1656756379767,
+          702.4815857962313,
+          823.8289728093774,
+          1393.5268483721543,
+          353.0321279493335,
+          312.4068496823228
+        ],
+        "muscle_joint_torque_Nm": [
+          -11.540718698782149,
+          -0.3090733254861693
+        ]
+      },
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 1.0,
+      "targets_completed": 7,
+      "option_steps": 13,
+      "stall_count": 0,
+      "command_budget": 100,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "branch": "other_1",
+      "choice": 1,
+      "progress_500ms_m": 0.12968380457775583,
+      "target_acquired_500ms": true,
+      "first_target_acquisition_step": 29,
+      "endpoint": {
+        "step": 12,
+        "reason": "waypoint",
+        "joint": [
+          0.7226348862116401,
+          1.6167331867251264,
+          1.8526213755265648,
+          -1.40160436254551
+        ],
+        "cartesian": [
+          0.0002989531076568741,
+          0.4437563576137375,
+          -0.4865753014622636,
+          0.32498510606582337
+        ],
+        "activation": [
+          0.38660913431189864,
+          0.5810012450734116,
+          0.4452133405950358,
+          0.86484881341681,
+          0.9200363168973628,
+          0.5910618358060988
+        ],
+        "force_N": [
+          319.87760191327595,
+          715.6989671111426,
+          624.7557720314387,
+          1295.7124903017625,
+          354.8127766185229,
+          313.28140019828425
+        ],
+        "muscle_joint_torque_Nm": [
+          -10.628699425758887,
+          -0.2889270591962827
+        ]
+      },
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 1.0,
+      "targets_completed": 7,
+      "option_steps": 12,
+      "stall_count": 0,
+      "command_budget": 100,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "branch": "other_3",
+      "choice": 3,
+      "progress_500ms_m": 0.11444246309059321,
+      "target_acquired_500ms": false,
+      "first_target_acquisition_step": 53,
+      "endpoint": {
+        "step": 8,
+        "reason": "waypoint",
+        "joint": [
+          0.6043592672867477,
+          1.6078371143878432,
+          0.9153815976603823,
+          -1.9171753098576905
+        ],
+        "cartesian": [
+          0.05502586450351982,
+          0.4424038035249367,
+          0.1065708862900756,
+          0.432347363158
+        ],
+        "activation": [
+          0.6384480733073509,
+          0.23322842110695086,
+          0.5564903027132773,
+          0.8940999083727275,
+          0.8250446591612852,
+          0.4042376052899429
+        ],
+        "force_N": [
+          528.7314780695303,
+          285.8173273744178,
+          787.7150169430688,
+          1334.7428769736805,
+          330.4364505005882,
+          202.86683370987794
+        ],
+        "muscle_joint_torque_Nm": [
+          11.114512776145958,
+          4.579387687350072
+        ]
+      },
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 1.0,
+      "targets_completed": 7,
+      "option_steps": 8,
+      "stall_count": 0,
+      "command_budget": 100,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "branch": "other_4",
+      "choice": 4,
+      "progress_500ms_m": 0.12968380457775583,
+      "target_acquired_500ms": true,
+      "first_target_acquisition_step": 29,
+      "endpoint": {
+        "step": 11,
+        "reason": "waypoint",
+        "joint": [
+          0.6885504574969087,
+          1.6353960114832389,
+          1.9162369119640437,
+          -1.579573336609205
+        ],
+        "cartesian": [
+          0.01084775939559468,
+          0.43928048337673803,
+          -0.45803001453919373,
+          0.3805380519171986
+        ],
+        "activation": [
+          0.4243982731910894,
+          0.5489765662456183,
+          0.47489063656340497,
+          0.8861561827098895,
+          0.9104521234579906,
+          0.5477139991424297
+        ],
+        "force_N": [
+          350.64549558272375,
+          676.7393867431418,
+          666.0318395473631,
+          1328.7805273078993,
+          352.24920145922164,
+          288.2217683010724
+        ],
+        "muscle_joint_torque_Nm": [
+          -7.86199356433881,
+          0.9534825346043316
+        ]
+      },
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 1.0,
+      "targets_completed": 7,
+      "option_steps": 11,
+      "stall_count": 0,
+      "command_budget": 100,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "branch": "mirror",
+      "choice": 6,
+      "progress_500ms_m": 0.1144017832310423,
+      "target_acquired_500ms": false,
+      "first_target_acquisition_step": 53,
+      "endpoint": {
+        "step": 9,
+        "reason": "waypoint",
+        "joint": [
+          0.6311175273841312,
+          1.556865334316601,
+          1.307218164151293,
+          -2.1827618440114973
+        ],
+        "cartesian": [
+          0.05675546902361489,
+          0.45388945644431283,
+          -0.0005712252350612568,
+          0.49485677287657026
+        ],
+        "activation": [
+          0.5187071710240357,
+          0.36393512463646827,
+          0.5824179890648239,
+          0.9388305892853791,
+          0.7486844514284251,
+          0.36216714822279455
+        ],
+        "force_N": [
+          429.13367521088327,
+          445.54185737479014,
+          833.4587307490476,
+          1392.0094122303658,
+          300.7792720124695,
+          181.54510979555042
+        ],
+        "muscle_joint_torque_Nm": [
+          3.0847793326401742,
+          3.2977343928816216
+        ]
+      },
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 1.0,
+      "targets_completed": 7,
+      "option_steps": 9,
+      "stall_count": 0,
+      "command_budget": 100,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "mirror_exclusion": null,
+  "original_goal_m": [
+    0.05374010652303696,
+    0.5246732234954834
+  ],
+  "initial_distance_m": 0.12968380457775583,
+  "horizon_steps": 100,
+  "estimand": "One naturally terminating option, then base continuation; no subsequent selector interventions"
+}

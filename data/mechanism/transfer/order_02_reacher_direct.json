@@ -1,0 +1,189 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "posture": 0,
+      "q": [
+        46.22794336247499,
+        88.54713120108352
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.8,
+      "restricted_completion_s": 1.8,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 42,
+      "posture": 1,
+      "q": [
+        43.69398981672851,
+        90.92536754089934
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.79,
+      "restricted_completion_s": 1.79,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 101,
+      "posture": 0,
+      "q": [
+        46.18294010497742,
+        87.84654762626266
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.8,
+      "restricted_completion_s": 1.8,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 101,
+      "posture": 1,
+      "q": [
+        43.494729772661394,
+        90.72112700215729
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.79,
+      "restricted_completion_s": 1.79,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 202,
+      "posture": 0,
+      "q": [
+        46.22638154728929,
+        88.47805567454854
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.8,
+      "restricted_completion_s": 1.8,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 202,
+      "posture": 1,
+      "q": [
+        43.010282645474504,
+        90.48554837698245
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.78,
+      "restricted_completion_s": 1.78,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 303,
+      "posture": 0,
+      "q": [
+        46.23745316032731,
+        88.35006352373068
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.8,
+      "restricted_completion_s": 1.8,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 303,
+      "posture": 1,
+      "q": [
+        43.03942995970568,
+        90.79999217532603
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.79,
+      "restricted_completion_s": 1.79,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 404,
+      "posture": 0,
+      "q": [
+        45.90581795867187,
+        87.94966411927753
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.8,
+      "restricted_completion_s": 1.8,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    },
+    {
+      "seed": 404,
+      "posture": 1,
+      "q": [
+        43.480358534914366,
+        90.43787976991833
+      ],
+      "order": 2,
+      "success": true,
+      "completion_s": 1.79,
+      "restricted_completion_s": 1.79,
+      "targets_completed": 8,
+      "option_steps": 0,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "direct",
+      "controller": "reacher"
+    }
+  ],
+  "selector_hash": null,
+  "library_hash": null,
+  "physical_dt": 0.001,
+  "historical_discretization": false,
+  "interpretation": "common fixed-rule comparison"
+}

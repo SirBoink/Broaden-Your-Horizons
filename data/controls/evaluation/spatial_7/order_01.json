@@ -1,0 +1,97 @@
+{
+  "order": 1,
+  "sequence": [
+    0,
+    6,
+    2,
+    3,
+    7,
+    1,
+    4,
+    5
+  ],
+  "contexts": [
+    {
+      "q": [
+        43.88589186528414,
+        92.00499250805068
+      ],
+      "context": 0,
+      "rng_seed": 20261008
+    },
+    {
+      "q": [
+        47.38453176185249,
+        88.2361472680359
+      ],
+      "context": 1,
+      "rng_seed": 20261008
+    },
+    {
+      "q": [
+        44.522270451525216,
+        91.14355478699132
+      ],
+      "context": 2,
+      "rng_seed": 20261008
+    },
+    {
+      "q": [
+        46.72985041409867,
+        88.0192938682978
+      ],
+      "context": 3,
+      "rng_seed": 20261008
+    }
+  ],
+  "method": "learned",
+  "library": "spatial",
+  "selector_seed": 7,
+  "results": [
+    {
+      "success": true,
+      "completion_s": 5.19,
+      "restricted_completion_s": 5.19,
+      "targets_completed": 8,
+      "option_steps": 33,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.84,
+      "restricted_completion_s": 3.84,
+      "targets_completed": 8,
+      "option_steps": 29,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.26,
+      "restricted_completion_s": 4.26,
+      "targets_completed": 8,
+      "option_steps": 30,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 6.09,
+      "restricted_completion_s": 6.09,
+      "targets_completed": 8,
+      "option_steps": 149,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "1ea62f4bf5a6e6062c7946678b86e7fbc7ceaca8a2d3368fb2d3c1e9a49abd82"
+}

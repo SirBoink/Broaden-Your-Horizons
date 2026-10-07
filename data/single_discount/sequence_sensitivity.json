@@ -1,0 +1,68 @@
+{
+  "exploratory": true,
+  "seed": 271004,
+  "resamples": 20000,
+  "sampling_unit": "target order; all its starts kept together",
+  "results": {
+    "all": {
+      "base": {
+        "mean_pp": 21.25,
+        "sequence_percentile_interval95_pp": [
+          7.083333333333333,
+          36.66666666666667
+        ],
+        "positive_orders": 14,
+        "negative_orders": 7
+      },
+      "single": {
+        "mean_pp": 14.583333333333334,
+        "sequence_percentile_interval95_pp": [
+          2.083333333333333,
+          28.749999999999996
+        ],
+        "positive_orders": 11,
+        "negative_orders": 8
+      }
+    },
+    "large": {
+      "base": {
+        "mean_pp": 9.375,
+        "sequence_percentile_interval95_pp": [
+          -5.0,
+          25.624999999999996
+        ],
+        "positive_orders": 7,
+        "negative_orders": 7
+      },
+      "single": {
+        "mean_pp": 5.624999999999999,
+        "sequence_percentile_interval95_pp": [
+          -7.500000000000001,
+          21.25
+        ],
+        "positive_orders": 5,
+        "negative_orders": 8
+      }
+    },
+    "small": {
+      "base": {
+        "mean_pp": 45.0,
+        "sequence_percentile_interval95_pp": [
+          21.250000000000004,
+          70.0
+        ],
+        "positive_orders": 7,
+        "negative_orders": 0
+      },
+      "single": {
+        "mean_pp": 32.5,
+        "sequence_percentile_interval95_pp": [
+          11.25,
+          56.25
+        ],
+        "positive_orders": 6,
+        "negative_orders": 0
+      }
+    }
+  }
+}

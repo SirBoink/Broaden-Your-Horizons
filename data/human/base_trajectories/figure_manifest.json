@@ -1,0 +1,9 @@
+{
+  "generator_sha256": "e49f27ca0aa198a722934742d74ebc17f4f8ce9164d65d004213c874ec743cf0",
+  "results_sha256": "4e1fe2f59a659aea5302b28dd1e8a879ed6cf825ee359c1d95d9a9b2473b063c",
+  "aggregates_sha256": "cc35d5112de771531b744c19ca862cfcb7f4fda550443f591771c0201d08bd5f",
+  "figures": {
+    "all_base_policies.png": "ffff7e9a7a6fd7eb7f18368b644eeb93e59153240fff70a512b74652620a1cbf",
+    "human_base_policy101.png": "aa6b87aa920a225e402e25d6007317363ddc70a3c75a91b2976e2002cd0d98db"
+  }
+}

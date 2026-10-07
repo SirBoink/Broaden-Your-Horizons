@@ -1,0 +1,63 @@
+{
+  "name": "kinematic_extrema_control_options",
+  "description": "5 matched control waypoints located at kinematic transition midpoints",
+  "termination_radius_m": 0.02,
+  "timeout_steps": 30,
+  "options": [
+    {
+      "id": "kinematic_control_A",
+      "choice": 1,
+      "gamma": 0.5,
+      "xy_m": [
+        -0.03,
+        0.435
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "kinematic_control_B",
+      "choice": 2,
+      "gamma": 0.5,
+      "xy_m": [
+        0.03,
+        0.435
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "kinematic_control_C",
+      "choice": 3,
+      "gamma": 0.5,
+      "xy_m": [
+        -0.01,
+        0.47
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "kinematic_control_D",
+      "choice": 4,
+      "gamma": 0.5,
+      "xy_m": [
+        0.02,
+        0.48
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    },
+    {
+      "id": "kinematic_control_E",
+      "choice": 5,
+      "gamma": 0.5,
+      "xy_m": [
+        0.0,
+        0.42
+      ],
+      "termination_radius_m": 0.02,
+      "timeout_steps": 30
+    }
+  ]
+}

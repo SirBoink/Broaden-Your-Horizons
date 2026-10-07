@@ -1,0 +1,44 @@
+{
+  "saved_record_summary": true,
+  "figure_generators": [
+    "plot_handoff_traces",
+    "plot_methods",
+    "plot_discovery_and_dynamics",
+    "plot_results",
+    "plot_paper_subgoal_curvature"
+  ],
+  "numerical_and_state_checks": {
+    "rk4_analytic_accuracy": true,
+    "rk4_joint_acceleration": true,
+    "synchronized_force_geometry": true,
+    "bellman_and_terminal": true,
+    "discount_tail_mass": true,
+    "event_index": true,
+    "batch_equivalence": true,
+    "command_clock": true,
+    "snapshot_replay": true,
+    "public_force_api": true,
+    "feedback_allocation": true,
+    "physical_pulses": true,
+    "legacy_neural_state_encoding": true,
+    "batched_probes": true,
+    "paired_branch_equivalence": true
+  },
+  "training_run": false,
+  "human_curvature_reconstruction": {
+    "trials": 2400,
+    "matches_within_1e_minus_6_m_inv": 2384,
+    "maximum_difference_m_inv": 65.69591560734827
+  },
+  "original_presentation_assets": 37,
+  "presentation_slides": 41,
+  "large_files_via_git_lfs": [
+    "data/discovery/isolated_reaches/reach_bands.npz",
+    "data/handoffs/branches.zip",
+    "data/human/bids_data.zip",
+    "data/human/published_models/all_data.csv",
+    "data/neural/episodes.zip",
+    "docs/references/sequential_movements.pdf",
+    "presentation/Broaden_Your_Horizons.pptx"
+  ]
+}

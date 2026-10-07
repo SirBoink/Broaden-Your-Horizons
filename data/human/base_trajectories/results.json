@@ -1,0 +1,383 @@
+{
+  "protocol": {
+    "orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "selection": "All 24 existing held-out orders; first two predefined posture contexts per order",
+    "contexts_per_order": 2,
+    "steps": 800,
+    "dt": 0.01,
+    "alignment": "First geometric entry into second target circle while second target active",
+    "processing": "Gaussian sigma20ms; gradients100Hz; exclude curvature below0.02m/s",
+    "ranking": "Speed RMSE and log1p curvature RMSE reported separately; no fitted shifts or rescaling",
+    "source_hashes": {
+      ".\\checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+      ".\\checkpoints/base_policy_101\\best_model.zip": "bc5b19d4a5476d2ce99f596358c468fc2fd2864d023af23afd64cf989fb7363b",
+      ".\\checkpoints/base_policy_202\\best_model.zip": "3e4d441921cf3240a832235a6f6280c9fe1ae44d155ea58c284877083cee8894",
+      ".\\checkpoints/alternate_policy\\best_model.zip": "3e1d32e8f9f905a003a6d367b27626bc499e747ea593cf291cce2e5416ff2126",
+      ".\\data/mechanism\\panel.json": "7a055261d93f826531f222528a985a8731883cc340ad04b1596a23cd936eda2c",
+      ".\\scripts\\check_base_human_alignment.py": "e49f27ca0aa198a722934742d74ebc17f4f8ce9164d65d004213c874ec743cf0"
+    }
+  },
+  "policies": {
+    "7": {
+      "eligible": 35,
+      "attempted": 48,
+      "orders": 20,
+      "excluded": [
+        [
+          1,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          2,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          5,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          5,
+          1,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          9,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          9,
+          1,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          10,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          10,
+          1,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          14,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          14,
+          1,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          19,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          20,
+          1,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          21,
+          1,
+          "Insufficient +/-300ms window"
+        ]
+      ],
+      "speed_RMSE": 0.5117430562101609,
+      "log1p_curvature_RMSE": 2.3990917867640342,
+      "curvature_valid_bins": 61,
+      "speed_trough": 0.06402725353837013,
+      "speed_trough_ms": 60,
+      "curvature_peak": 508.98414611816406,
+      "curvature_peak_ms": 60
+    },
+    "101": {
+      "eligible": 45,
+      "attempted": 48,
+      "orders": 24,
+      "excluded": [
+        [
+          15,
+          1,
+          "No geometric second-target entry"
+        ],
+        [
+          17,
+          0,
+          "No geometric second-target entry"
+        ],
+        [
+          22,
+          0,
+          "No geometric second-target entry"
+        ]
+      ],
+      "speed_RMSE": 0.4277937703499299,
+      "log1p_curvature_RMSE": 1.7985249373522654,
+      "curvature_valid_bins": 61,
+      "speed_trough": 0.09681827016174793,
+      "speed_trough_ms": 20,
+      "curvature_peak": 236.41596221923828,
+      "curvature_peak_ms": 20
+    },
+    "202": {
+      "eligible": 43,
+      "attempted": 48,
+      "orders": 23,
+      "excluded": [
+        [
+          0,
+          0,
+          "No geometric second-target entry"
+        ],
+        [
+          4,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          13,
+          0,
+          "No geometric second-target entry"
+        ],
+        [
+          13,
+          1,
+          "No geometric second-target entry"
+        ],
+        [
+          18,
+          1,
+          "No geometric second-target entry"
+        ]
+      ],
+      "speed_RMSE": 0.4946517986796109,
+      "log1p_curvature_RMSE": 2.4024322083331646,
+      "curvature_valid_bins": 61,
+      "speed_trough": 0.07563853450119495,
+      "speed_trough_ms": 10,
+      "curvature_peak": 364.3961944580078,
+      "curvature_peak_ms": 280
+    },
+    "1001": {
+      "eligible": 46,
+      "attempted": 48,
+      "orders": 24,
+      "excluded": [
+        [
+          13,
+          0,
+          "Insufficient +/-300ms window"
+        ],
+        [
+          16,
+          0,
+          "No geometric second-target entry"
+        ]
+      ],
+      "speed_RMSE": 0.5178844279252578,
+      "log1p_curvature_RMSE": 2.01596700434696,
+      "curvature_valid_bins": 61,
+      "speed_trough": 0.08362157363444567,
+      "speed_trough_ms": -50,
+      "curvature_peak": 307.5777053833008,
+      "curvature_peak_ms": -40
+    }
+  },
+  "common_eligible_trials": 26,
+  "common_eligible_ids": [
+    "0:1",
+    "11:0",
+    "11:1",
+    "12:0",
+    "12:1",
+    "15:0",
+    "16:1",
+    "17:1",
+    "18:0",
+    "19:1",
+    "1:1",
+    "20:0",
+    "21:0",
+    "22:1",
+    "23:0",
+    "23:1",
+    "2:1",
+    "3:0",
+    "3:1",
+    "4:1",
+    "6:0",
+    "6:1",
+    "7:0",
+    "7:1",
+    "8:0",
+    "8:1"
+  ],
+  "matched_comparison": {
+    "7": {
+      "speed_RMSE": 0.5066935053594496,
+      "log1p_curvature_RMSE": 2.2854758122766747,
+      "orders": 19
+    },
+    "101": {
+      "speed_RMSE": 0.4396361978185779,
+      "log1p_curvature_RMSE": 1.8421171502827356,
+      "orders": 19
+    },
+    "202": {
+      "speed_RMSE": 0.4873533810049213,
+      "log1p_curvature_RMSE": 2.2148411642109695,
+      "orders": 19
+    },
+    "1001": {
+      "speed_RMSE": 0.5138824327928786,
+      "log1p_curvature_RMSE": 1.912004584884604,
+      "orders": 19
+    }
+  },
+  "human_source_sha256": "4db0b8ae2304c88bdc61d4ac556fff04599b660a8ef539346fa52b0a95205170",
+  "scope": "Exploratory 24-order pilot, two postures per order; policy1001 trained on different sequence; geometry differs from humans. Candidate selection is retrospective, not confirmation.",
+  "trajectory_hashes": {
+    "seed1001_order0.npz": "59677860ad1c9f12ed218ca8bf9e0ec9609e7fcc9ef48e45df358261425e1621",
+    "seed1001_order1.npz": "efd19acc7d56ea54f92c97db385b14a57cf5cb9261ac68ac9b29cc3f7fe6dde6",
+    "seed1001_order10.npz": "41497841a9931b316e7521bc9441115a7a27267fd1f5af280a698609fae1c609",
+    "seed1001_order11.npz": "7a763a99c32c8a37124e13ba84146ce1240d8473ef9f90f3b17a83cf70474e55",
+    "seed1001_order12.npz": "db905fe3bf221b9bd0528c95a84cf4a9178fbd3193c79a97015d18a9a604d4bc",
+    "seed1001_order13.npz": "433d1f2d920a925ead809631572880aa0fc3c079ae3a13a96ccc88cf5819c6e0",
+    "seed1001_order14.npz": "3e630f2e5912938291d436dec4f4639942d51310617aa820b3b4b5b01fbe8801",
+    "seed1001_order15.npz": "d21dc94ee4ceb228f3c53bf4c032a7fcb04467228a1d605d46a9e73dd165eef5",
+    "seed1001_order16.npz": "25eab98bb5622b276d4d86ea94481ab86a5f98b4c9e8da2434606247e931715f",
+    "seed1001_order17.npz": "be59d9050036291421f54f8832ea6c4ae67d4f1ed45f8651db47c3d139aae501",
+    "seed1001_order18.npz": "6e00586e95cfe88387825fd28ba820df8417f0b3e06660abbef8ec6598bd499e",
+    "seed1001_order19.npz": "4995e760a8f4f5c5d6c819b020209e7d5c3cd33a29656098a39718c91d63d732",
+    "seed1001_order2.npz": "91707806e378c2459bc0ad6179fc8a3991edd784e09759911899e5b29fcc79fc",
+    "seed1001_order20.npz": "d787c5f8a49e8d4899677a450d2c856bfeb8dfb915de535f73d33d72b5584990",
+    "seed1001_order21.npz": "039c3eae4337d59f6021da00243ca500a234d059af3433f699efdf5534fb0491",
+    "seed1001_order22.npz": "f4b4279ad1fc1ca241537b829adab38ded16361b13f1d416718d5f0c4f16f3ff",
+    "seed1001_order23.npz": "c397ea8682d1df5007017738d33973e71b13e3a0d059c459db3efbac7fd3c93a",
+    "seed1001_order3.npz": "9294ac0b2cd78b02405cd71dcdfe2208217deb9c070e73ee21178a03bc21deeb",
+    "seed1001_order4.npz": "6cb3c8ff7ad20ebecf08824531ab7585608a5660267e3b39420c880b73c19e44",
+    "seed1001_order5.npz": "8735631102139c89b76238eadf92468f5825eff7910a1ae93abe50197d8f15ca",
+    "seed1001_order6.npz": "8452b1fd9987c0542334af3be45d6bf8a347ef6d80300af9fca7aee446e28c08",
+    "seed1001_order7.npz": "84b7f9a135d3bd8f3de36bc557d2f6fdf92f6d6753e986196553709411a71525",
+    "seed1001_order8.npz": "d5bd0baa5c3b47474cc549dcabc92f6f59f4caef1a05e2f57b321231e7724958",
+    "seed1001_order9.npz": "203114f9c871ba6dd552ee307b3c731bd34f9764488c4997cd041fc012f3e835",
+    "seed101_order0.npz": "5fbebe2d5f68f3d6f612a069e9a3b2772b9268ca0adcf828ece2cfbc52c08477",
+    "seed101_order1.npz": "576d2054e2383c99ad735418ab8228e2fe4c09fe6162ac6d62fa8abd03dab857",
+    "seed101_order10.npz": "0544a7f5eb11b9569566c2716537fe2afa0980905d7a02e8b575e055f5150cee",
+    "seed101_order11.npz": "f437061d31efbf2185689c58886dc7431ccfca95923aa0eb3f8cd510eb98aa9c",
+    "seed101_order12.npz": "043da79fc534642703e665a2ae78891dd7315af51f5ef50f1728e3cb3fa34f4d",
+    "seed101_order13.npz": "81d1b92b73011c378ba44cae5e16e77dd0a0cd4b628f28cd93abf6a31f478abd",
+    "seed101_order14.npz": "6b217087ee14659a745ebf11ac3194d8d80d1d0b43443591581ba561ca8a59db",
+    "seed101_order15.npz": "4e5a6de4825d934e5ca66dbb617ca2cdae54b132c64c591aebd0d5885f94122c",
+    "seed101_order16.npz": "a5eca7eaa18ffad8f214c63b9465b80655e121b04fb35a17e04ffda54b54e93f",
+    "seed101_order17.npz": "ca5ebafa28c7f4df73ee65e2a27f9f5889d7fc083c987948b70f939ba7e48634",
+    "seed101_order18.npz": "947ff7d25939596ff72b6b8588e8d0c49b844cb71de2967922352d16314f7a14",
+    "seed101_order19.npz": "24ca105100fd3b730c5ffb5afe003c81fa53c4c7a1cd585a9b9b4747c22fbd1e",
+    "seed101_order2.npz": "50917ec1daec79aadc04c4c1e9c4b10b0b90295692dcd247c9fddb1a0f564423",
+    "seed101_order20.npz": "c2626eb98c91655c5bc9332240bfb9f3f0ffff18ae8d682abb41235f90b91cc0",
+    "seed101_order21.npz": "4d3f4c4ef4cad6e0f36a43162af026df8acebd951de27b8cce852e093b31f4a2",
+    "seed101_order22.npz": "e1272ea69e7b77ffb3a63d7d77dd483379157106129a18a11692798ffcf0bcb6",
+    "seed101_order23.npz": "26d12f1b967a7a9b1019eb6f7abd9aa9d09c6c40f8530114b99c3f08806b6f0d",
+    "seed101_order3.npz": "500dc7b84a11050b50c5a41fe02663a1e7b4389e26d2900a1356623fbd54fece",
+    "seed101_order4.npz": "0fb972ea4c82b98d230fac7763badc91cc8a6dec94ab852c9e42322ceaef75da",
+    "seed101_order5.npz": "5367bba9ffebba9992b45e3bff076d560da5f178633109a9fdd8f71a3b7b4d45",
+    "seed101_order6.npz": "934650d76472162b4ad40da072219c9bfb0923534b5821da582ffc2e029f8f3f",
+    "seed101_order7.npz": "527e92bfbd92834d0ced4cfaef46fdadbc8935cdde4fd0d1d31f63b147409b9b",
+    "seed101_order8.npz": "e7acdef0c74c24e51d5ac57c30d2365ad571159d43eda080a24d836d43c4c2f7",
+    "seed101_order9.npz": "707a3519c79c15530c5ecae5e39a3649d6a5dcb9bfe3d2ea746b4f76e9edbf0a",
+    "seed202_order0.npz": "1a1ccc3f3f7d170e746b4b81d5874ee64035bf0aedef3aed3620120bfefe4ea8",
+    "seed202_order1.npz": "b19ba1ade5d145da3998e560790e7e2cd0d4124895b8e054768577fef55b531b",
+    "seed202_order10.npz": "f3f8cb6a161b0fe4c3999bc5e67c7bb3266235e766c6b6bb6bd912373978e92f",
+    "seed202_order11.npz": "43ff1b7051c593606cf189cae0c0dc990555a6dd9b3c77e14c9c2394faa631e5",
+    "seed202_order12.npz": "32043265edc0d90b3fc501cdfb90d584f6fdf9644d009d697450113c8fd5e554",
+    "seed202_order13.npz": "ca99e78305d4fbdd703594fe32faa4d805c599fcbec9e4dd1cc48252f871b85d",
+    "seed202_order14.npz": "c30bfa5881d9b5c2b04b897d0ef55eebac824d8c714b33f4cc9acaa49b39065b",
+    "seed202_order15.npz": "99f90070f1b37903351746018d7bcfa8fa3c9fe2b1e5d2d84e7cc1405e19347a",
+    "seed202_order16.npz": "83848ce5f799aa7df8a0939baaf44e8cd565061ef232500afa9cab77ac14bdf5",
+    "seed202_order17.npz": "7043a37e8468c72778e391b36fde6100121dad34ade8c60e8d9d18de6bafd19f",
+    "seed202_order18.npz": "73b077b41e6a168d63fd55e6bff324d7b7b0a90f776d79e0e0713d9b0ee5ae11",
+    "seed202_order19.npz": "c2e7d45654cc63926a6fe43f766ebccb3382fd90b6777e6f5dd8f004a2ede827",
+    "seed202_order2.npz": "3edeb11e6a980fd99955f4cdf4eb9128d8a17209c379b5c1d503f09caa367f66",
+    "seed202_order20.npz": "96900513325fcbda7a8ab2caef8212a3f8c3576c710b5e2d5f4bf80133930b87",
+    "seed202_order21.npz": "ee6612ee861f907367ed89fc99c62d246df2cb22f1d38e4db1b115d2ec5de0bf",
+    "seed202_order22.npz": "830af292e606b39941496d1c09682e0b113c0a2eeea1044a798b25ad108cd87e",
+    "seed202_order23.npz": "91983b5b1e8b2a06e2b707fddf504d3a63e7323a08751fa55c7221c1f39c1f29",
+    "seed202_order3.npz": "0bb9d8c5ded570bcd120095011ca34e253c492141963d17fc138f793b5129c34",
+    "seed202_order4.npz": "e9b7f764b96ff4cc45eafbce223f6564dcd896ece1f316219535c2a41002889e",
+    "seed202_order5.npz": "0d344ed005567ef09ae3e3a3fe8c8572da6964d385020b6957851e4192c5fdc0",
+    "seed202_order6.npz": "8193e5167195fc5d1da72c99e3216bc9a813116ed0574680bf2744158443490b",
+    "seed202_order7.npz": "4b9d285d04b9e7da88812f5a9e4dc23a4a969d2a4c9e1a29302e38736d576ca2",
+    "seed202_order8.npz": "a9ad2e11846bcd823257663e150d624c32d62bfe223837b3dad2b20d3074a1af",
+    "seed202_order9.npz": "c64f60ebca95103e75c46648046d89c6df8da888f4c50f76658c4dd95de3dae3",
+    "seed7_order0.npz": "2e28f4199bdee67e721d87b786c60c86abf1146bff0e7badc98fb41570651741",
+    "seed7_order1.npz": "6fbc4aba58603573655253bb0bbdef1ff8825b48b86bec20113c6c1801c32519",
+    "seed7_order10.npz": "a760aed68d961c079df9357859dbe038f28edf93d98a611312881e311cfa066d",
+    "seed7_order11.npz": "9bb9fccda8c82ca6254d66f5f70cbb5de195c4f8d2122aa85865e8e0e64a09e8",
+    "seed7_order12.npz": "a58e6e8d6c390d33b23ba305908737805c93d47857392752549705546fc877a4",
+    "seed7_order13.npz": "894dfe4a712f596466b872978708efad29ff9a680c996a9e47ecb127383fb99b",
+    "seed7_order14.npz": "ffbf2003abe01d198ddeada48fa4aef26ef1aacf8f99829a8fc7aed4ebe8f8a9",
+    "seed7_order15.npz": "8fbc426d6779f8339bd7c1950a425e7c1b8301885d9d6a06fab061877f44fe76",
+    "seed7_order16.npz": "12f0f9f4631d4f0051a4919b8e835c4fbd1b3e8a4be59b851405fdd9383a6978",
+    "seed7_order17.npz": "5132c42191959a10bc60649bb4ef0927b6095f4611f20c527a4dca98fce11721",
+    "seed7_order18.npz": "2cc89bfd26c995638304dea903afea6713169d8d503bf8d88ca6141f5a028c06",
+    "seed7_order19.npz": "e9fdd38a9aeb4e4ce6cf022928d97b2ec3c21d1a2e3ea930d127009c3aa2a364",
+    "seed7_order2.npz": "5ce4e6b70b6b1b61b1887f44237920aaf680e8bf0d3e6152bacc18e4f766f2bb",
+    "seed7_order20.npz": "d5001a4b8e60b865cf67d51268ec21ddf1b8eb229c1b72cfc367071d1ff6970e",
+    "seed7_order21.npz": "39520789ea9ebf1d3d73e186a02dbdb538679e59de7ac013754b8dc33cfc17c9",
+    "seed7_order22.npz": "01154a8d5af220827e65437b3d6824b7c855006aad91ab8aa8853f4c9f772e18",
+    "seed7_order23.npz": "efb553bf9873d5751faea68d0d2a2cc4bfab3d92d0d476b1f10a7a6052d240ae",
+    "seed7_order3.npz": "f09ed4505dafcf685eb0f23ca4c18231631202e4277b0d4697cfdc598fb1f208",
+    "seed7_order4.npz": "21384e9903d9abff836295e4674d3130148fda2842ca4a7c0bd272529708474e",
+    "seed7_order5.npz": "1b47ea8e6e5cbcea0b2b30ff7975af17c91ac248b1c7d2a2ca8c51e3760d9e71",
+    "seed7_order6.npz": "664106fd4221546560cd67f1a5c2eb1e84e671423db3c10681a5b8fd16b5268e",
+    "seed7_order7.npz": "1dbf0c0046ad37b6d01b41c687a50064cbf9acee4c676e2f00c21c465b0c2394",
+    "seed7_order8.npz": "80d789e3c0024282c750d234d3c2b098f5639c7ec6828ec61ebac4da5697cadc",
+    "seed7_order9.npz": "eb2e0779e72bf76991d4d90078be512251ecfbbd894c077733eae491da0ba4e7"
+  },
+  "rankings": {
+    "speed_RMSE": [
+      101,
+      202,
+      7,
+      1001
+    ],
+    "log1p_curvature_RMSE": [
+      101,
+      1001,
+      202,
+      7
+    ]
+  }
+}

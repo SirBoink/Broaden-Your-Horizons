@@ -1,0 +1,702 @@
+[
+  {
+    "participant": 401,
+    "candidate": "A",
+    "first_mean_correlation": -0.5910360354862756,
+    "second_mean_correlation": 0.7129622834134172,
+    "trials": 120
+  },
+  {
+    "participant": 401,
+    "candidate": "B",
+    "first_mean_correlation": -0.7709855376828733,
+    "second_mean_correlation": 0.8437626479424839,
+    "trials": 120
+  },
+  {
+    "participant": 401,
+    "candidate": "C",
+    "first_mean_correlation": -0.724691959768078,
+    "second_mean_correlation": 0.7397110525430182,
+    "trials": 120
+  },
+  {
+    "participant": 401,
+    "candidate": "D",
+    "first_mean_correlation": -0.759269507673108,
+    "second_mean_correlation": 0.8127382685874714,
+    "trials": 120
+  },
+  {
+    "participant": 401,
+    "candidate": "E",
+    "first_mean_correlation": 0.7684111647315441,
+    "second_mean_correlation": -0.9122676449322474,
+    "trials": 120
+  },
+  {
+    "participant": 402,
+    "candidate": "A",
+    "first_mean_correlation": -0.3723151467726021,
+    "second_mean_correlation": 0.7111624175840614,
+    "trials": 120
+  },
+  {
+    "participant": 402,
+    "candidate": "B",
+    "first_mean_correlation": -0.4759699335642821,
+    "second_mean_correlation": 0.8339299250870461,
+    "trials": 120
+  },
+  {
+    "participant": 402,
+    "candidate": "C",
+    "first_mean_correlation": -0.42886897375713234,
+    "second_mean_correlation": 0.7266276931022475,
+    "trials": 120
+  },
+  {
+    "participant": 402,
+    "candidate": "D",
+    "first_mean_correlation": -0.4730546140450649,
+    "second_mean_correlation": 0.7915744867727521,
+    "trials": 120
+  },
+  {
+    "participant": 402,
+    "candidate": "E",
+    "first_mean_correlation": 0.5047550650017791,
+    "second_mean_correlation": -0.9041691095234167,
+    "trials": 120
+  },
+  {
+    "participant": 403,
+    "candidate": "A",
+    "first_mean_correlation": -0.7301830102843302,
+    "second_mean_correlation": 0.6417868006140891,
+    "trials": 120
+  },
+  {
+    "participant": 403,
+    "candidate": "B",
+    "first_mean_correlation": -0.8228682311596229,
+    "second_mean_correlation": 0.7853371950079476,
+    "trials": 120
+  },
+  {
+    "participant": 403,
+    "candidate": "C",
+    "first_mean_correlation": -0.6692310985655406,
+    "second_mean_correlation": 0.7159565319249498,
+    "trials": 120
+  },
+  {
+    "participant": 403,
+    "candidate": "D",
+    "first_mean_correlation": -0.7203758414008448,
+    "second_mean_correlation": 0.7810641474101919,
+    "trials": 120
+  },
+  {
+    "participant": 403,
+    "candidate": "E",
+    "first_mean_correlation": 0.8093800517150088,
+    "second_mean_correlation": -0.8640691852137645,
+    "trials": 120
+  },
+  {
+    "participant": 404,
+    "candidate": "A",
+    "first_mean_correlation": -0.5760489530451468,
+    "second_mean_correlation": 0.6635870078497415,
+    "trials": 120
+  },
+  {
+    "participant": 404,
+    "candidate": "B",
+    "first_mean_correlation": -0.7924420114655145,
+    "second_mean_correlation": 0.768235565655601,
+    "trials": 120
+  },
+  {
+    "participant": 404,
+    "candidate": "C",
+    "first_mean_correlation": -0.7843015359680457,
+    "second_mean_correlation": 0.6555030346408832,
+    "trials": 120
+  },
+  {
+    "participant": 404,
+    "candidate": "D",
+    "first_mean_correlation": -0.8142299483064084,
+    "second_mean_correlation": 0.7234869522955172,
+    "trials": 120
+  },
+  {
+    "participant": 404,
+    "candidate": "E",
+    "first_mean_correlation": 0.8018629542465286,
+    "second_mean_correlation": -0.8308420686613728,
+    "trials": 120
+  },
+  {
+    "participant": 405,
+    "candidate": "A",
+    "first_mean_correlation": -0.5140431351656507,
+    "second_mean_correlation": 0.6885802429394382,
+    "trials": 120
+  },
+  {
+    "participant": 405,
+    "candidate": "B",
+    "first_mean_correlation": -0.6651571673343142,
+    "second_mean_correlation": 0.7793135518613065,
+    "trials": 120
+  },
+  {
+    "participant": 405,
+    "candidate": "C",
+    "first_mean_correlation": -0.6241532422710285,
+    "second_mean_correlation": 0.6478789327719531,
+    "trials": 120
+  },
+  {
+    "participant": 405,
+    "candidate": "D",
+    "first_mean_correlation": -0.6541720313478865,
+    "second_mean_correlation": 0.7289478522717389,
+    "trials": 120
+  },
+  {
+    "participant": 405,
+    "candidate": "E",
+    "first_mean_correlation": 0.6667013800361005,
+    "second_mean_correlation": -0.8561016692204276,
+    "trials": 120
+  },
+  {
+    "participant": 406,
+    "candidate": "A",
+    "first_mean_correlation": -0.7922425584736962,
+    "second_mean_correlation": 0.562892458050013,
+    "trials": 120
+  },
+  {
+    "participant": 406,
+    "candidate": "B",
+    "first_mean_correlation": -0.853910086253584,
+    "second_mean_correlation": 0.7450130405505845,
+    "trials": 120
+  },
+  {
+    "participant": 406,
+    "candidate": "C",
+    "first_mean_correlation": -0.668243219182824,
+    "second_mean_correlation": 0.7374260856136232,
+    "trials": 120
+  },
+  {
+    "participant": 406,
+    "candidate": "D",
+    "first_mean_correlation": -0.735273822044406,
+    "second_mean_correlation": 0.8097575767052454,
+    "trials": 120
+  },
+  {
+    "participant": 406,
+    "candidate": "E",
+    "first_mean_correlation": 0.8440165554418122,
+    "second_mean_correlation": -0.862724123752731,
+    "trials": 120
+  },
+  {
+    "participant": 407,
+    "candidate": "A",
+    "first_mean_correlation": -0.5294523730919444,
+    "second_mean_correlation": 0.5771940157763727,
+    "trials": 120
+  },
+  {
+    "participant": 407,
+    "candidate": "B",
+    "first_mean_correlation": -0.7337181795219188,
+    "second_mean_correlation": 0.6093884268306496,
+    "trials": 120
+  },
+  {
+    "participant": 407,
+    "candidate": "C",
+    "first_mean_correlation": -0.7407536880248304,
+    "second_mean_correlation": 0.4578301192863423,
+    "trials": 120
+  },
+  {
+    "participant": 407,
+    "candidate": "D",
+    "first_mean_correlation": -0.7645936691768151,
+    "second_mean_correlation": 0.5602243644252641,
+    "trials": 120
+  },
+  {
+    "participant": 407,
+    "candidate": "E",
+    "first_mean_correlation": 0.7365034644092205,
+    "second_mean_correlation": -0.7112291415886189,
+    "trials": 120
+  },
+  {
+    "participant": 408,
+    "candidate": "A",
+    "first_mean_correlation": -0.47600713404597095,
+    "second_mean_correlation": 0.6080847506355901,
+    "trials": 120
+  },
+  {
+    "participant": 408,
+    "candidate": "B",
+    "first_mean_correlation": -0.6767714512580595,
+    "second_mean_correlation": 0.672486590969081,
+    "trials": 120
+  },
+  {
+    "participant": 408,
+    "candidate": "C",
+    "first_mean_correlation": -0.6993387591698887,
+    "second_mean_correlation": 0.5395297337342327,
+    "trials": 120
+  },
+  {
+    "participant": 408,
+    "candidate": "D",
+    "first_mean_correlation": -0.7151713669804859,
+    "second_mean_correlation": 0.6305712239062536,
+    "trials": 120
+  },
+  {
+    "participant": 408,
+    "candidate": "E",
+    "first_mean_correlation": 0.6793044913738875,
+    "second_mean_correlation": -0.7583549250078261,
+    "trials": 120
+  },
+  {
+    "participant": 409,
+    "candidate": "A",
+    "first_mean_correlation": -0.6230373794550647,
+    "second_mean_correlation": 0.5358209181648744,
+    "trials": 120
+  },
+  {
+    "participant": 409,
+    "candidate": "B",
+    "first_mean_correlation": -0.6771327637380959,
+    "second_mean_correlation": 0.7011568333362745,
+    "trials": 120
+  },
+  {
+    "participant": 409,
+    "candidate": "C",
+    "first_mean_correlation": -0.5330623158371594,
+    "second_mean_correlation": 0.6852105416842856,
+    "trials": 120
+  },
+  {
+    "participant": 409,
+    "candidate": "D",
+    "first_mean_correlation": -0.5821597337343231,
+    "second_mean_correlation": 0.7501709861864896,
+    "trials": 120
+  },
+  {
+    "participant": 409,
+    "candidate": "E",
+    "first_mean_correlation": 0.664354233538839,
+    "second_mean_correlation": -0.8073783538532727,
+    "trials": 120
+  },
+  {
+    "participant": 410,
+    "candidate": "A",
+    "first_mean_correlation": -0.624139192468525,
+    "second_mean_correlation": 0.39698768987278094,
+    "trials": 120
+  },
+  {
+    "participant": 410,
+    "candidate": "B",
+    "first_mean_correlation": -0.7681450728906822,
+    "second_mean_correlation": 0.4601756521895279,
+    "trials": 120
+  },
+  {
+    "participant": 410,
+    "candidate": "C",
+    "first_mean_correlation": -0.6845316476097014,
+    "second_mean_correlation": 0.3977759275411047,
+    "trials": 120
+  },
+  {
+    "participant": 410,
+    "candidate": "D",
+    "first_mean_correlation": -0.7305757423380247,
+    "second_mean_correlation": 0.4796913420731117,
+    "trials": 120
+  },
+  {
+    "participant": 410,
+    "candidate": "E",
+    "first_mean_correlation": 0.7616973282457344,
+    "second_mean_correlation": -0.5806385764772687,
+    "trials": 120
+  },
+  {
+    "participant": 411,
+    "candidate": "A",
+    "first_mean_correlation": -0.4984010598960215,
+    "second_mean_correlation": 0.6911768582234916,
+    "trials": 120
+  },
+  {
+    "participant": 411,
+    "candidate": "B",
+    "first_mean_correlation": -0.5783852267918952,
+    "second_mean_correlation": 0.8209821474298458,
+    "trials": 120
+  },
+  {
+    "participant": 411,
+    "candidate": "C",
+    "first_mean_correlation": -0.48715550350690673,
+    "second_mean_correlation": 0.7239380082735694,
+    "trials": 120
+  },
+  {
+    "participant": 411,
+    "candidate": "D",
+    "first_mean_correlation": -0.5349819237291916,
+    "second_mean_correlation": 0.8037293954550251,
+    "trials": 120
+  },
+  {
+    "participant": 411,
+    "candidate": "E",
+    "first_mean_correlation": 0.590231588222002,
+    "second_mean_correlation": -0.8970880305367224,
+    "trials": 120
+  },
+  {
+    "participant": 412,
+    "candidate": "A",
+    "first_mean_correlation": -0.5514014945006013,
+    "second_mean_correlation": 0.6344545425803533,
+    "trials": 120
+  },
+  {
+    "participant": 412,
+    "candidate": "B",
+    "first_mean_correlation": -0.6379959501276002,
+    "second_mean_correlation": 0.7349908044567491,
+    "trials": 120
+  },
+  {
+    "participant": 412,
+    "candidate": "C",
+    "first_mean_correlation": -0.533133895395721,
+    "second_mean_correlation": 0.6256166631366766,
+    "trials": 120
+  },
+  {
+    "participant": 412,
+    "candidate": "D",
+    "first_mean_correlation": -0.5785740183671473,
+    "second_mean_correlation": 0.721876159742985,
+    "trials": 120
+  },
+  {
+    "participant": 412,
+    "candidate": "E",
+    "first_mean_correlation": 0.6276663325492647,
+    "second_mean_correlation": -0.8369850985709156,
+    "trials": 120
+  },
+  {
+    "participant": 413,
+    "candidate": "A",
+    "first_mean_correlation": -0.5428048482472957,
+    "second_mean_correlation": 0.6587705546137912,
+    "trials": 120
+  },
+  {
+    "participant": 413,
+    "candidate": "B",
+    "first_mean_correlation": -0.667384069679333,
+    "second_mean_correlation": 0.7396759044548908,
+    "trials": 120
+  },
+  {
+    "participant": 413,
+    "candidate": "C",
+    "first_mean_correlation": -0.5909807934801259,
+    "second_mean_correlation": 0.6094116517545466,
+    "trials": 120
+  },
+  {
+    "participant": 413,
+    "candidate": "D",
+    "first_mean_correlation": -0.6375886375074267,
+    "second_mean_correlation": 0.6905259145830216,
+    "trials": 120
+  },
+  {
+    "participant": 413,
+    "candidate": "E",
+    "first_mean_correlation": 0.6745044553759343,
+    "second_mean_correlation": -0.8149421050596202,
+    "trials": 120
+  },
+  {
+    "participant": 414,
+    "candidate": "A",
+    "first_mean_correlation": -0.5300443062804594,
+    "second_mean_correlation": 0.5761672923900348,
+    "trials": 120
+  },
+  {
+    "participant": 414,
+    "candidate": "B",
+    "first_mean_correlation": -0.7256206790880714,
+    "second_mean_correlation": 0.6676293328980165,
+    "trials": 120
+  },
+  {
+    "participant": 414,
+    "candidate": "C",
+    "first_mean_correlation": -0.7304271578413926,
+    "second_mean_correlation": 0.5701306098149228,
+    "trials": 120
+  },
+  {
+    "participant": 414,
+    "candidate": "D",
+    "first_mean_correlation": -0.7428792397584786,
+    "second_mean_correlation": 0.6580271256518411,
+    "trials": 120
+  },
+  {
+    "participant": 414,
+    "candidate": "E",
+    "first_mean_correlation": 0.7148638049208389,
+    "second_mean_correlation": -0.7716815485756257,
+    "trials": 120
+  },
+  {
+    "participant": 415,
+    "candidate": "A",
+    "first_mean_correlation": -0.5830791419781018,
+    "second_mean_correlation": 0.5409039336620306,
+    "trials": 120
+  },
+  {
+    "participant": 415,
+    "candidate": "B",
+    "first_mean_correlation": -0.8204769225006702,
+    "second_mean_correlation": 0.5901414288129322,
+    "trials": 120
+  },
+  {
+    "participant": 415,
+    "candidate": "C",
+    "first_mean_correlation": -0.8407310655022227,
+    "second_mean_correlation": 0.46484766659716015,
+    "trials": 120
+  },
+  {
+    "participant": 415,
+    "candidate": "D",
+    "first_mean_correlation": -0.8584941029423291,
+    "second_mean_correlation": 0.5393391488362762,
+    "trials": 120
+  },
+  {
+    "participant": 415,
+    "candidate": "E",
+    "first_mean_correlation": 0.8234589427879783,
+    "second_mean_correlation": -0.6633937052074719,
+    "trials": 120
+  },
+  {
+    "participant": 416,
+    "candidate": "A",
+    "first_mean_correlation": -0.5835405703237739,
+    "second_mean_correlation": 0.6566708079057304,
+    "trials": 120
+  },
+  {
+    "participant": 416,
+    "candidate": "B",
+    "first_mean_correlation": -0.7228530496829105,
+    "second_mean_correlation": 0.8009111347331375,
+    "trials": 120
+  },
+  {
+    "participant": 416,
+    "candidate": "C",
+    "first_mean_correlation": -0.6518065989958833,
+    "second_mean_correlation": 0.7267460521940147,
+    "trials": 120
+  },
+  {
+    "participant": 416,
+    "candidate": "D",
+    "first_mean_correlation": -0.6812269829852721,
+    "second_mean_correlation": 0.8066151277299619,
+    "trials": 120
+  },
+  {
+    "participant": 416,
+    "candidate": "E",
+    "first_mean_correlation": 0.7029388148318573,
+    "second_mean_correlation": -0.8955829807772064,
+    "trials": 120
+  },
+  {
+    "participant": 417,
+    "candidate": "A",
+    "first_mean_correlation": -0.5860119564323609,
+    "second_mean_correlation": 0.703481673864736,
+    "trials": 119
+  },
+  {
+    "participant": 417,
+    "candidate": "B",
+    "first_mean_correlation": -0.6757526710370475,
+    "second_mean_correlation": 0.8464535972960898,
+    "trials": 119
+  },
+  {
+    "participant": 417,
+    "candidate": "C",
+    "first_mean_correlation": -0.5647022875329851,
+    "second_mean_correlation": 0.7588532984020215,
+    "trials": 119
+  },
+  {
+    "participant": 417,
+    "candidate": "D",
+    "first_mean_correlation": -0.6138040028598568,
+    "second_mean_correlation": 0.8337926826487748,
+    "trials": 119
+  },
+  {
+    "participant": 417,
+    "candidate": "E",
+    "first_mean_correlation": 0.6730617157538159,
+    "second_mean_correlation": -0.9223226420858243,
+    "trials": 119
+  },
+  {
+    "participant": 418,
+    "candidate": "A",
+    "first_mean_correlation": -0.6596199864533575,
+    "second_mean_correlation": 0.731970458702421,
+    "trials": 120
+  },
+  {
+    "participant": 418,
+    "candidate": "B",
+    "first_mean_correlation": -0.837756131762109,
+    "second_mean_correlation": 0.8975848564066123,
+    "trials": 120
+  },
+  {
+    "participant": 418,
+    "candidate": "C",
+    "first_mean_correlation": -0.7646699342373733,
+    "second_mean_correlation": 0.8216498828744505,
+    "trials": 120
+  },
+  {
+    "participant": 418,
+    "candidate": "D",
+    "first_mean_correlation": -0.8082716824329381,
+    "second_mean_correlation": 0.8821210761473677,
+    "trials": 120
+  },
+  {
+    "participant": 418,
+    "candidate": "E",
+    "first_mean_correlation": 0.835621728637291,
+    "second_mean_correlation": -0.9588021192443354,
+    "trials": 120
+  },
+  {
+    "participant": 419,
+    "candidate": "A",
+    "first_mean_correlation": -0.6063236713058512,
+    "second_mean_correlation": 0.4027405767154891,
+    "trials": 120
+  },
+  {
+    "participant": 419,
+    "candidate": "B",
+    "first_mean_correlation": -0.7764756908788176,
+    "second_mean_correlation": 0.44579963500699404,
+    "trials": 120
+  },
+  {
+    "participant": 419,
+    "candidate": "C",
+    "first_mean_correlation": -0.7401701099979114,
+    "second_mean_correlation": 0.3583727616360281,
+    "trials": 120
+  },
+  {
+    "participant": 419,
+    "candidate": "D",
+    "first_mean_correlation": -0.7657369370180509,
+    "second_mean_correlation": 0.43296947182712503,
+    "trials": 120
+  },
+  {
+    "participant": 419,
+    "candidate": "E",
+    "first_mean_correlation": 0.7691675052840867,
+    "second_mean_correlation": -0.5352715459066324,
+    "trials": 120
+  },
+  {
+    "participant": 420,
+    "candidate": "A",
+    "first_mean_correlation": -0.8216251764832171,
+    "second_mean_correlation": 0.4476719951826109,
+    "trials": 118
+  },
+  {
+    "participant": 420,
+    "candidate": "B",
+    "first_mean_correlation": -0.9341903853155598,
+    "second_mean_correlation": 0.6255336587264086,
+    "trials": 118
+  },
+  {
+    "participant": 420,
+    "candidate": "C",
+    "first_mean_correlation": -0.7878189508136052,
+    "second_mean_correlation": 0.6485749840653833,
+    "trials": 118
+  },
+  {
+    "participant": 420,
+    "candidate": "D",
+    "first_mean_correlation": -0.8383881611542994,
+    "second_mean_correlation": 0.7106274595001661,
+    "trials": 118
+  },
+  {
+    "participant": 420,
+    "candidate": "E",
+    "first_mean_correlation": 0.9191294290945131,
+    "second_mean_correlation": -0.7458162354604131,
+    "trials": 118
+  }
+]

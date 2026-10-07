@@ -1,0 +1,214 @@
+{
+  "contrasts": [
+    {
+      "comparator": "base",
+      "metric": "progress_500ms_m",
+      "invocations": 1951,
+      "episodes": 668,
+      "policy_mean_benefits": {
+        "7": 0.015816876796029864,
+        "101": 0.0024460418526792813,
+        "202": 0.0032126862042184397
+      },
+      "mean_episode_benefit": 0.007479468883685225
+    },
+    {
+      "comparator": "base",
+      "metric": "success",
+      "invocations": 1965,
+      "episodes": 669,
+      "policy_mean_benefits": {
+        "7": 0.09344742063492063,
+        "101": 0.036810776942355884,
+        "202": -0.02474532101397773
+      },
+      "mean_episode_benefit": 0.03863442237881699
+    },
+    {
+      "comparator": "base",
+      "metric": "restricted_completion_s",
+      "invocations": 1965,
+      "episodes": 669,
+      "policy_mean_benefits": {
+        "7": 0.4371420138888889,
+        "101": 0.14436481829573933,
+        "202": -0.019303956408433996
+      },
+      "mean_episode_benefit": 0.20022296960637767
+    },
+    {
+      "comparator": "base",
+      "metric": "targets_completed",
+      "invocations": 1965,
+      "episodes": 669,
+      "policy_mean_benefits": {
+        "7": 0.3347867063492063,
+        "101": 0.0321115288220551,
+        "202": -0.20226249703861646
+      },
+      "mean_episode_benefit": 0.07027724393195245
+    },
+    {
+      "comparator": "mirror",
+      "metric": "progress_500ms_m",
+      "invocations": 1385,
+      "episodes": 555,
+      "policy_mean_benefits": {
+        "7": 0.02686823254864461,
+        "101": 6.692965023090567e-05,
+        "202": 0.00209659131411425
+      },
+      "mean_episode_benefit": 0.011093805825492789
+    },
+    {
+      "comparator": "mirror",
+      "metric": "success",
+      "invocations": 1399,
+      "episodes": 556,
+      "policy_mean_benefits": {
+        "7": 0.05841049382716049,
+        "101": -0.017992424242424244,
+        "202": -0.05731707317073171
+      },
+      "mean_episode_benefit": 8.992805755395811e-05
+    },
+    {
+      "comparator": "mirror",
+      "metric": "restricted_completion_s",
+      "invocations": 1399,
+      "episodes": 556,
+      "policy_mean_benefits": {
+        "7": 0.43819984567901243,
+        "101": -0.020798971861471872,
+        "202": -0.18031300813008128
+      },
+      "mean_episode_benefit": 0.11046621274409052
+    },
+    {
+      "comparator": "mirror",
+      "metric": "targets_completed",
+      "invocations": 1399,
+      "episodes": 556,
+      "policy_mean_benefits": {
+        "7": 0.12366622574955907,
+        "101": -0.003314393939393943,
+        "202": -0.4404471544715447
+      },
+      "mean_episode_benefit": -0.08292223364165813
+    },
+    {
+      "comparator": "other_mean",
+      "metric": "progress_500ms_m",
+      "invocations": 1951,
+      "episodes": 668,
+      "policy_mean_benefits": {
+        "7": 0.017399720268381148,
+        "101": 0.0033872174433810134,
+        "202": -0.0003558989593441346
+      },
+      "mean_episode_benefit": 0.007300956062325627
+    },
+    {
+      "comparator": "other_mean",
+      "metric": "success",
+      "invocations": 1965,
+      "episodes": 669,
+      "policy_mean_benefits": {
+        "7": 0.056399636243386245,
+        "101": 0.05016186299081036,
+        "202": -0.02871851062149569
+      },
+      "mean_episode_benefit": 0.02870014473153486
+    },
+    {
+      "comparator": "other_mean",
+      "metric": "restricted_completion_s",
+      "invocations": 1965,
+      "episodes": 669,
+      "policy_mean_benefits": {
+        "7": 0.34529560598544967,
+        "101": 0.3020682609301031,
+        "202": 0.014117162204848762
+      },
+      "mean_episode_benefit": 0.23106137299214655
+    },
+    {
+      "comparator": "other_mean",
+      "metric": "targets_completed",
+      "invocations": 1965,
+      "episodes": 669,
+      "policy_mean_benefits": {
+        "7": 0.14659184854497356,
+        "101": 0.08984701336675022,
+        "202": -0.22686962015320222
+      },
+      "mean_episode_benefit": 0.015046889458324436
+    }
+  ],
+  "transfer": {
+    "101": {
+      "cases": 240,
+      "base_successes": 165,
+      "ddqn_successes": 202,
+      "paired_success_effect": 0.15416666666666667
+    },
+    "202": {
+      "cases": 240,
+      "base_successes": 65,
+      "ddqn_successes": 66,
+      "paired_success_effect": 0.004166666666666667
+    },
+    "7": {
+      "cases": 240,
+      "base_successes": 154,
+      "ddqn_successes": 208,
+      "paired_success_effect": 0.225
+    }
+  },
+  "protocol": {
+    "version": 2,
+    "pilot": false,
+    "policy_seeds": [
+      7,
+      101,
+      202
+    ],
+    "orders": 24,
+    "contexts": 10,
+    "collection_steps": 800,
+    "physical_dt": 0.01,
+    "branch_horizon_steps": 800,
+    "command_dt": 0.01,
+    "option_cap": 30,
+    "termination_radius_m": 0.02,
+    "shared_reacher_and_selector": true,
+    "retrospective_existing_order_panel": true,
+    "primary_outcome": "Remaining-sequence completion within original 8s episode budget; first average invocations within episodes",
+    "secondary_outcomes": [
+      "restricted remaining completion time, failures capped at remaining budget",
+      "500ms original-target progress, acquisition absorbing",
+      "targets completed"
+    ],
+    "inference": "Exploratory summaries only; full clustered uncertainty required before slide claims",
+    "comparisons": [
+      "chosen-minus-base",
+      "chosen-minus-geometric-mirror",
+      "chosen-minus-mean-other-eligible-landmarks"
+    ],
+    "mirror_matching": "Same initial distance to waypoint and waypoint distance to current goal; pre-intervention IK/target exclusions",
+    "source_hashes": {
+      "checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+      "checkpoints/base_policy_101\\best_model.zip": "bc5b19d4a5476d2ce99f596358c468fc2fd2864d023af23afd64cf989fb7363b",
+      "checkpoints/base_policy_202\\best_model.zip": "3e4d441921cf3240a832235a6f6280c9fe1ae44d155ea58c284877083cee8894",
+      "checkpoints/option_reacher\\best_model.zip": "f73d15f817aff9e30f8539c7cac48d1b6bc2a358e5e72f1c648b7dd4792f50c2",
+      "checkpoints/selector\\accepted.pt": "00f8169b09785bb4974352e5ee501e75fe75b76ad05bbbf8c62e25bde1fadb0e",
+      "data/discovery/options\\off_target_band_options.json": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb",
+      "data/mechanism\\panel.json": "7a055261d93f826531f222528a985a8731883cc340ad04b1596a23cd936eda2c",
+      "scripts\\evaluate_landmark_handoffs.py": "9957daeb9a536f65e826df88dbafc8c27ce18e67a877c3dc45e671c068060ea5",
+      "analysis\\mechanism_experiment.py": "69de28c62b691060915ed4cb7d00e05e76c680fd51e945687ba0215061fd8da7"
+    }
+  },
+  "endpoint_invocations": 1965,
+  "recorded_terminations": 1965,
+  "scope": "Exploratory; invocation effects averaged within episodes; three base policies share one selector/reacher. Positive benefit favors chosen."
+}

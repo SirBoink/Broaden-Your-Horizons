@@ -1,0 +1,189 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "posture": 0,
+      "q": [
+        47.89144523758015,
+        92.89889665693927
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.74,
+      "restricted_completion_s": 3.74,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 42,
+      "posture": 1,
+      "q": [
+        46.19360585505487,
+        90.13829450736458
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.72,
+      "restricted_completion_s": 3.72,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 101,
+      "posture": 0,
+      "q": [
+        47.84644198008258,
+        92.19831308211842
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.74,
+      "restricted_completion_s": 3.74,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 101,
+      "posture": 1,
+      "q": [
+        45.99434581098775,
+        89.93405396862252
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.71,
+      "restricted_completion_s": 3.71,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 202,
+      "posture": 0,
+      "q": [
+        47.889883422394455,
+        92.8298211304043
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.74,
+      "restricted_completion_s": 3.74,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 202,
+      "posture": 1,
+      "q": [
+        45.50989868380086,
+        89.69847534344768
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.71,
+      "restricted_completion_s": 3.71,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 303,
+      "posture": 0,
+      "q": [
+        47.900955035432474,
+        92.70182897958644
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.74,
+      "restricted_completion_s": 3.74,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 303,
+      "posture": 1,
+      "q": [
+        45.53904599803204,
+        90.01291914179126
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.71,
+      "restricted_completion_s": 3.71,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 404,
+      "posture": 0,
+      "q": [
+        47.56931983377703,
+        92.30142957513328
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.73,
+      "restricted_completion_s": 3.73,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    },
+    {
+      "seed": 404,
+      "posture": 1,
+      "q": [
+        45.979974573240725,
+        89.65080673638356
+      ],
+      "order": 10,
+      "success": true,
+      "completion_s": 3.71,
+      "restricted_completion_s": 3.71,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 1,
+      "command_budget": 800,
+      "method": "multiscale",
+      "controller": "base"
+    }
+  ],
+  "selector_hash": null,
+  "library_hash": "7af4fe056005fb51222e66c34fb2e10123851cf128130b1cba2841e9ac0111bb",
+  "physical_dt": 0.001,
+  "historical_discretization": false,
+  "interpretation": "common fixed-rule comparison"
+}

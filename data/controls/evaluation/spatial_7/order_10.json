@@ -1,0 +1,97 @@
+{
+  "order": 10,
+  "sequence": [
+    0,
+    7,
+    1,
+    3,
+    6,
+    2,
+    5,
+    4
+  ],
+  "contexts": [
+    {
+      "q": [
+        48.26964706580329,
+        92.67883605640024
+      ],
+      "context": 0,
+      "rng_seed": 20261017
+    },
+    {
+      "q": [
+        46.23442557275672,
+        90.3778788210905
+      ],
+      "context": 1,
+      "rng_seed": 20261017
+    },
+    {
+      "q": [
+        47.98938678389483,
+        92.84849736651142
+      ],
+      "context": 2,
+      "rng_seed": 20261017
+    },
+    {
+      "q": [
+        45.64079608384315,
+        89.99429996998107
+      ],
+      "context": 3,
+      "rng_seed": 20261017
+    }
+  ],
+  "method": "learned",
+  "library": "spatial",
+  "selector_seed": 7,
+  "results": [
+    {
+      "success": true,
+      "completion_s": 4.0600000000000005,
+      "restricted_completion_s": 4.0600000000000005,
+      "targets_completed": 8,
+      "option_steps": 36,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 4.45,
+      "restricted_completion_s": 4.45,
+      "targets_completed": 8,
+      "option_steps": 15,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": true,
+      "completion_s": 3.5300000000000002,
+      "restricted_completion_s": 3.5300000000000002,
+      "targets_completed": 8,
+      "option_steps": 19,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    },
+    {
+      "success": false,
+      "completion_s": null,
+      "restricted_completion_s": 8.0,
+      "targets_completed": 5,
+      "option_steps": 203,
+      "stall_count": 0,
+      "command_budget": 800,
+      "method": "learned",
+      "controller": "base"
+    }
+  ],
+  "final_checkpoint_sha256": "1ea62f4bf5a6e6062c7946678b86e7fbc7ceaca8a2d3368fb2d3c1e9a49abd82"
+}

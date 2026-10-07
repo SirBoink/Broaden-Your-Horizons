@@ -1,0 +1,55 @@
+{
+  "authors": "Darío Cuevas Rivera and Stefan J. Kiebel",
+  "article_doi": "10.1038/s44271-026-00436-5",
+  "code_doi": "10.6084/m9.figshare.31169632",
+  "metadata_url": "https://api.figshare.com/v2/articles/31169632",
+  "license": "CC BY 4.0 (Figshare metadata)",
+  "downloaded": "2026-10-03",
+  "files": {
+    "single.py": {
+      "url": "https://ndownloader.figshare.com/files/61433101",
+      "sha256": "eb65737efb9524ef2719f41f7ce0c12bacd2427b30743fa3e0aa840fbf7cbc48"
+    },
+    "hierarchical.py": {
+      "url": "https://ndownloader.figshare.com/files/61433095",
+      "sha256": "d98984c1fc9774ddc7718054b60f56b2cacf76ac099b3c769a1250b481276c18"
+    },
+    "simulations.py": {
+      "url": "https://ndownloader.figshare.com/files/61433110",
+      "sha256": "0f558a07fa2ef7fcfe3a89a29020bf19b97553a5d5f4c3abf3f0797d32dcd9c3"
+    },
+    "utils.py": {
+      "url": "https://ndownloader.figshare.com/files/61433113",
+      "sha256": "a2e7ee9683dbb658ef95d699073ce18a48928a2a8443fcb56c8a041a70837e4d"
+    },
+    "paper_conf.py": {
+      "url": "https://ndownloader.figshare.com/files/61433116",
+      "sha256": "e94119be99f792a1034a0f4eb68c8d3f107bf27a7fcf0e3d2d982fb3f4a74c63"
+    },
+    "parameters.py": {
+      "url": "https://ndownloader.figshare.com/files/61433212",
+      "sha256": "cc3788384109290cf8ac375df72622b84cd36e93ed2fd96c4f970b8531f5cd3c"
+    },
+    "README.md": {
+      "url": "https://ndownloader.figshare.com/files/61433221",
+      "sha256": "bb24c04466b7d31608b0156da4231d206f031140e18e1706ba6419a69c43effe"
+    },
+    "pyproject.toml": {
+      "url": "https://ndownloader.figshare.com/files/61433236",
+      "sha256": "390695ce16649674b8256a4c8b304cf08355c0572925ece7d26ab7c1ff3e9e5f"
+    },
+    "hiseq_chalf.csv": {
+      "url": "https://ndownloader.figshare.com/files/61433239",
+      "sha256": "4fe1e38698203e6d2709bcf2a463da30a69bec2641cc41f187fd0d62d8ea3ad1"
+    },
+    "vpsoc_chalf.csv": {
+      "url": "https://ndownloader.figshare.com/files/61433227",
+      "sha256": "7448973d04c10e2ae99bef66fb0d2487f3aef6627962954b42cd54a7a03f6ab7"
+    },
+    "data_chalf.csv": {
+      "url": "https://ndownloader.figshare.com/files/61433230",
+      "sha256": "3ca2e32e3bb6c4f91f4ceb09ad87f6ca535244250c7d3570bd3760b7d5045a57"
+    }
+  },
+  "changes": "Model files are unmodified. The local loader supplies SVG location, isolates class defaults, passes the required per-primitive h_scaling array, and derives timestamps from physical advances."
+}

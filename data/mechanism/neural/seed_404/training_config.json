@@ -1,0 +1,69 @@
+{
+  "seed": 404,
+  "device": "cuda",
+  "protocol": {
+    "version": 3,
+    "seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "command_dt": 0.01,
+    "sample_dt": 0.01,
+    "record_steps": 1530,
+    "analysis_steps": 180,
+    "transfer_steps": 800,
+    "trial_count": 8,
+    "option_steps": 30,
+    "option_radius_m": 0.02,
+    "probe_excitation": 0.05,
+    "probe_steps": 5,
+    "probe_horizons": [
+      5,
+      15,
+      30
+    ],
+    "stall_steps": 10,
+    "stall_progress_m": 0.001,
+    "stall_distance_m": 0.04,
+    "association_m": 0.02,
+    "association_steps": 10,
+    "match_distance_m": 0.02,
+    "match_speed_mps": 0.01,
+    "match_phase": 0.15,
+    "convergence_position_m": 0.001,
+    "convergence_activation": 0.01,
+    "convergence_score": 0.005,
+    "meaningful_change": 0.01,
+    "integration_method": "classical RK4; force and geometry evaluated at each stage",
+    "integration_dtype": "float64",
+    "integration_grids": [
+      0.002,
+      0.001,
+      0.0005,
+      0.00025
+    ],
+    "historical_integration": "unmodified MotorNet Euler, 10ms, float32",
+    "norm_floor": "float64 epsilon; weak raw changes retained and reported",
+    "missing_mass": 0.005,
+    "single_candidate_count": 5,
+    "single_selection": "mean 500ms progress on calibration branches; ties lower gamma",
+    "training_seeds": [
+      42,
+      101,
+      202,
+      303,
+      404
+    ],
+    "sf_epochs": 100,
+    "sf_min_epochs": 20,
+    "sf_patience": 15,
+    "sf_batch": 1024,
+    "sf_lr": 0.0003,
+    "sf_bellman_weight": 0.1
+  },
+  "architecture": "30 -> 256 -> 3 residual blocks (256 -> 512 -> 256) -> 23 x 10",
+  "initialization": "Independent random parameters; reused original normalization buffers only"
+}

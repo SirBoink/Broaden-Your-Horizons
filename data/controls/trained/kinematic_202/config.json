@@ -1,0 +1,53 @@
+{
+  "state_dim": 30,
+  "option_count": 5,
+  "action_count": 6,
+  "hidden_units": [
+    128,
+    128
+  ],
+  "timesteps": 60000,
+  "seed": 202,
+  "device": "cpu",
+  "base_checkpoint": ".\\checkpoints/base_policy\\best_model.zip",
+  "reacher_checkpoint": ".\\checkpoints/option_reacher\\best_model.zip",
+  "options_path": ".\\data/controls\\libraries\\kinematic.json",
+  "sequence": [
+    0,
+    3,
+    7,
+    5,
+    6,
+    1,
+    2,
+    4
+  ],
+  "discount": 0.99,
+  "deliberation_cost": 0.1,
+  "replay_capacity": 100000,
+  "warmup": 1000,
+  "batch_size": 64,
+  "optimizer": "Adam 3e-4",
+  "target_sync_updates": 1000,
+  "initialization": "PyTorch Linear defaults; target copied from online",
+  "acceptance": "all eight targets completed; accepted.pt only saved on success",
+  "epsilon": {
+    "start": 1.0,
+    "end": 0.05,
+    "fraction": 0.5,
+    "exploration_family_balance": "all_available_uniform"
+  },
+  "transfer_training": false,
+  "heldout_sequences": [],
+  "environment": {
+    "max_episode_steps": 800,
+    "option_timeout_steps": 30,
+    "termination_radius_m": 0.02,
+    "unrestricted_options": true
+  },
+  "artifact_hashes": {
+    ".\\checkpoints/base_policy\\best_model.zip": "e547221be8025872a2cce217799aced40ad39ed633acea6c7c040249ae7701ea",
+    ".\\checkpoints/option_reacher\\best_model.zip": "f73d15f817aff9e30f8539c7cac48d1b6bc2a358e5e72f1c648b7dd4792f50c2",
+    ".\\data/controls\\libraries\\kinematic.json": "c25f220681bb2a5e7e34234a212bda37d82711062b98b4556eb09bb1fa8323f5"
+  }
+}
