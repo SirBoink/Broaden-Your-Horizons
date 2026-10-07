@@ -72,8 +72,8 @@ For option duration $D$, deliberation cost $c$ and terminal indicator $z$,
 
 $$
 R_k=\sum_{j=0}^{D-1}\gamma^j r_{t+j}-c,
-\quad o^{*}=\arg\max_{o\in\mathcal A(s')}Q_\theta(s',o),
-\quad y=R_k+(1-z)\gamma^D Q_{\bar\theta}(s',o^{*}).
+\quad o^{\star}=\arg\max_{o\in\mathcal A(s')}Q_\theta(s',o),
+\quad y=R_k+(1-z)\gamma^D Q_{\bar\theta}(s',o^{\star}).
 $$
 
 Masks exclude unavailable options. Discounted command rewards and Double DQN targets are implemented in `formulas.py`; state transitions and option termination remain in the environments.
